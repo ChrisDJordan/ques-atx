@@ -592,32 +592,34 @@ footer {
   margin-bottom: 82px; }
 
 .skew {
-  -webkit-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  backface-visibility: hidden;
-  outline: 1px solid transparent;
   -webkit-transform: skewY(-5deg);
   -moz-transform: skewY(-5deg);
   -o-transform: skewY(-5deg);
   -ms-transform: skewY(-5deg);
   transform: skewY(-5deg);
+  -webkit-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  outline: 1px solid transparent;
+  padding: 2px;
   /* IE8+ */
   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand')";
   /* IE6 and 7 */
   filter: progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand'); }
 
 .skew-fix {
-  -webkit-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  backface-visibility: hidden;
-  outline: 1px solid transparent;
   -webkit-transform: skewY(5deg);
   -moz-transform: skewY(5deg);
   -o-transform: skewY(5deg);
   -ms-transform: skewY(5deg);
   transform: skewY(5deg);
+  -webkit-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  outline: 1px solid transparent;
+  padding: 2px;
   /* IE8+ */
   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand')";
   /* IE6 and 7 */
@@ -654,7 +656,8 @@ footer {
 ===================================*/
 .prices-section {
   margin-top: -18px;
-  background: #334d69; }
+  background: #334d69;
+  border: 1px solid #334d69; }
   .prices-section h2 {
     padding-bottom: 80px; }
 
@@ -703,7 +706,8 @@ footer {
 
 .rental-section {
   background: #3fa6ad;
-  margin-top: 100px; }
+  margin-top: 0px;
+  border: 1px solid #3fa6ad; }
 
 .main-rental-contain {
   margin-left: 15px;
