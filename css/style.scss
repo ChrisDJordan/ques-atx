@@ -144,11 +144,11 @@ footer {
 
 .skew {
    
-    -webkit-transform: skewY(-5deg);
-    -moz-transform: skewY(-5deg);
-    -o-transform: skewY(-5deg);
-    -ms-transform: skewY(-5deg);
-    transform: skewY(-5deg);
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -o-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+    transform: skewY(-3deg);
      -webkit-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
@@ -163,11 +163,11 @@ footer {
 
 .skew-fix {
     
-    -webkit-transform: skewY(5deg);
-    -moz-transform: skewY(5deg);
-    -o-transform: skewY(5deg);
-    -ms-transform: skewY(5deg);
-    transform: skewY(5deg);
+    -webkit-transform: skewY(3deg);
+    -moz-transform: skewY(3deg);
+    -o-transform: skewY(3deg);
+    -ms-transform: skewY(3deg);
+    transform: skewY(3deg);
     -webkit-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
@@ -189,7 +189,9 @@ footer {
 
 .about-section {
     background-color: #373235;
-    padding-bottom: 180px;
+    margin-top:-80px;
+
+
     h2 {
         padding-bottom: 30px;
     }
@@ -211,7 +213,10 @@ footer {
     margin-bottom: 180px;
 }
 
-.learn-btn {}
+.learn-btn {
+
+    margin-bottom:180px;
+}
 
 /* About us section ends
 ===================================*/
@@ -220,7 +225,7 @@ footer {
 ===================================*/
 
 .prices-section {
-    margin-top: -18px;
+    margin-top: -100px;
     background: #334d69;
        border: 1px solid #334d69;
     h2 {
@@ -331,7 +336,7 @@ footer {
 
 .map-section {
     background: #4c4c4c;
-    margin-top: -18px;
+    margin-top: -100px;
     padding-bottom: 180px;
     a {
         color: white;
@@ -344,7 +349,7 @@ footer {
 
 .hours-section {
     background: #96d59e;
-    margin-top: 120px;
+   
     padding-bottom: 180px;
     h2 {
         text-align: center;
@@ -402,14 +407,14 @@ footer {
 
 /* Helpers for top position on internal page links
 ====================================================*/
-#spytop:before,
+// #spytop:before,
 .all-padding:before {
     display: block;
     content: " ";
     margin-top: -100px;
     min-height: 100px;
     visibility: hidden;
-    padding-top: 140px;
+    margin-top: 80px;
 }
 
 /* jQuery Styles
