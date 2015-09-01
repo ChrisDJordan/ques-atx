@@ -574,8 +574,7 @@ footer {
 .dropdown-menu {
   padding: 48px;
   box-shadow: none;
-  border: none;
-  background: white; }
+  border: none; }
 
 .dropdown-menu li a {
   padding: 4px 8px;
@@ -631,11 +630,13 @@ footer {
 /* About us section
 ===================================*/
 .img-fix {
-  width: 100%; }
+  width: 100%;
+  outline: 1px solid transparent; }
 
 .about-section {
   background-color: #373235;
-  margin-top: -80px; }
+  margin-top: -50px;
+  padding-bottom: 120px; }
   .about-section h2 {
     padding-bottom: 30px; }
 
@@ -651,10 +652,7 @@ footer {
   color: black; }
 
 .read-btn {
-  margin-bottom: 180px; }
-
-.learn-btn {
-  margin-bottom: 180px; }
+  margin-bottom: 120px; }
 
 /* About us section ends
 ===================================*/
@@ -663,32 +661,31 @@ footer {
 .prices-section {
   margin-top: -100px;
   background: #334d69;
-  border: 1px solid #334d69; }
+  border: 1px solid #334d69;
+  padding-bottom: 120px; }
   .prices-section h2 {
-    padding-bottom: 80px; }
+    padding-bottom: 90px; }
 
 .prices-container {
-  margin-bottom: 120px; }
+  margin-bottom: 165px; }
   .prices-container .prices-bar, .prices-container .rental-bar {
     background: #1e2e41;
     height: 30px; }
   .prices-container .prices-circle {
     margin: 0 auto;
     position: relative;
-    bottom: 50px;
+    bottom: 60px;
     width: 80px;
     height: 80px;
     background-color: #faba56;
-    background-image: url("../images/ticket1.png");
+    background-image: url("../images/ticket2.png");
     background-repeat: no-repeat;
-    background-position: 8px 10px;
+    background-position: 16px 16px;
     border-radius: 40px; }
   .prices-container li {
     text-align: center;
     background: #ebebeb;
-    margin-top: 4px; }
-  .prices-container .cable-color {
-    background: #9fa9b2; }
+    margin-bottom: 4px; }
 
 /* Prices section ends
 ===================================*/
@@ -699,7 +696,6 @@ footer {
   font-size: 20px;
   font-weight: bold;
   margin-top: -80px;
-  margin-bottom: 180px;
   border-radius: 5px; }
 
 /* rentals section
@@ -716,47 +712,66 @@ footer {
   border: 1px solid #3fa6ad;
   padding-bottom: 120px; }
 
-.main-rental-contain {
-  padding-bottom: 180px; }
-  .main-rental-contain h2 {
-    text-align: center;
-    padding-bottom: 80px; }
-  .main-rental-contain .rental-bar {
-    background: #1e2e41;
-    height: 30px; }
-    .main-rental-contain .rental-bar .rental-circle {
-      width: 80px;
-      height: 80px;
-      background: #faba56;
-      border-radius: 50px;
-      position: relative;
-      bottom: 55px;
-      margin: 0 auto; }
-  .main-rental-contain .rental-prices {
-    background: #F1F1F1;
-    text-align: center;
-    margin-bottom: 4px; }
+.main-rental-contain h2 {
+  text-align: center;
+  padding-bottom: 90px; }
+.main-rental-contain .rental-bar {
+  background: #1e2e41;
+  height: 30px; }
+  .main-rental-contain .rental-bar .rental-circle {
+    width: 80px;
+    height: 80px;
+    background: #faba56;
+    border-radius: 50px;
+    position: relative;
+    bottom: 60px;
+    margin: 0 auto;
+    background-image: url("../images/helmet.png");
+    background-repeat: no-repeat;
+    background-position: 16px 16px; }
+.main-rental-contain .rental-prices {
+  background: #F1F1F1;
+  text-align: center;
+  margin-bottom: 4px; }
 
 /* map
 ===================================*
 */
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
 .map-contain {
   width: 100%; }
 
 .contact-section {
   background: #4c4c4c;
   margin-top: -100px;
-  padding-bottom: 180px; }
+  padding-bottom: 120px; }
+  .contact-section h2 {
+    padding-bottom: 30px; }
   .contact-section a {
     color: white;
     font-size: 20px;
     text-align: center;
     display: block;
     text-decoration: underline; }
+    .contact-section a:last-of-type {
+      margin-bottom: 10px; }
 
 .hours-section {
   background: #96d59e;
-  padding-bottom: 180px; }
+  padding-bottom: 120px; }
   .hours-section h2 {
     text-align: center;
     padding-bottom: 80px; }
@@ -770,7 +785,10 @@ footer {
       border-radius: 50px;
       position: relative;
       bottom: 55px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      background-image: url("../images/clock.png");
+      background-repeat: no-repeat;
+      background-position: 16px 16px; }
   .hours-section .hours-prices {
     background: #F1F1F1;
     text-align: center;
@@ -778,10 +796,10 @@ footer {
 
 .top {
   display: none;
-  background-color: #fd4950;
+  background-color: #faba56;
   bottom: 2em;
   color: #FFF;
-  opacity: 0.8;
+  opacity: 0.9;
   padding: 1.2em;
   position: fixed;
   right: 1.5em;
