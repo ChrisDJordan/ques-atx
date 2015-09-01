@@ -6,12 +6,16 @@ h2,
   margin-bottom: 0px;
 }
 
-
+.col-md-4{
+    padding:0;
+}
 
 
 .container {
-    max-width: 1400px;
-    margin: 0 15px 0 15px;
+max-width:90%;
+  
+    overflow:hidden;
+ 
 
 }
 
@@ -42,7 +46,6 @@ li {
 }
 
 @media (min-width: 768px) {
-    
 
 
 

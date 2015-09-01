@@ -5,9 +5,12 @@ h2,
   margin-top: 0px;
   margin-bottom: 0px; }
 
+.col-md-4 {
+  padding: 0; }
+
 .container {
-  max-width: 1400px;
-  margin: 0 15px 0 15px; }
+  max-width: 90%;
+  overflow: hidden; }
 
 .item {
   background-size: cover;
@@ -714,9 +717,7 @@ footer {
   padding-bottom: 120px; }
 
 .main-rental-contain {
-  padding-bottom: 180px;
-  padding: 0;
-  margin: 0 15px 0 15px; }
+  padding-bottom: 180px; }
   .main-rental-contain h2 {
     text-align: center;
     padding-bottom: 80px; }
@@ -742,11 +743,11 @@ footer {
 .map-contain {
   width: 100%; }
 
-.map-section {
+.contact-section {
   background: #4c4c4c;
   margin-top: -100px;
   padding-bottom: 180px; }
-  .map-section a {
+  .contact-section a {
     color: white;
     font-size: 20px;
     text-align: center;
@@ -756,9 +757,6 @@ footer {
 .hours-section {
   background: #96d59e;
   padding-bottom: 180px; }
-  .hours-section .main-hours-contain {
-    padding: 0;
-    margin: 0 15px 0 15px; }
   .hours-section h2 {
     text-align: center;
     padding-bottom: 80px; }
@@ -818,12 +816,13 @@ footer {
   padding: 0;
   transition-duration: 0.6s; }
 
+@media screen and (min-width: 500px) {
+  max-width: 350px;
+  overflow: hidden; }
 @media screen and (min-width: 992px) {
   .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
     position: relative;
-    min-height: 1px;
-    padding-right: 0px;
-    padding-left: 0px; }
+    min-height: 1px; }
 
   .lefty {
     padding-right: 40px; }

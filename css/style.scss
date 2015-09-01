@@ -134,6 +134,7 @@ footer {
 
 .all-container {
     margin-top: 60px;
+
 }
 
 .section-img {
@@ -162,7 +163,7 @@ footer {
 }
 
 .skew-fix {
-    
+
     -webkit-transform: skewY(3deg);
     -moz-transform: skewY(3deg);
     -o-transform: skewY(3deg);
@@ -190,6 +191,7 @@ footer {
 .about-section {
     background-color: #373235;
     margin-top:-80px;
+
 
 
     h2 {
@@ -225,6 +227,7 @@ footer {
 ===================================*/
 
 .prices-section {
+
     margin-top: -100px;
     background: #334d69;
        border: 1px solid #334d69;
@@ -233,8 +236,10 @@ footer {
     }
 }
 
+
 .prices-container {
     margin-bottom: 120px;
+     
     .prices-bar, .rental-bar {
         background: #1e2e41;
         height: 30px;
@@ -297,8 +302,7 @@ footer {
 
 .main-rental-contain {
         padding-bottom: 180px;
-        padding:0;
-        margin:0 15px 0 15px;
+      
     h2 {
         text-align: center;
         padding-bottom: 80px;
@@ -335,7 +339,7 @@ footer {
     width: 100%;
 }
 
-.map-section {
+.contact-section {
     background: #4c4c4c;
     margin-top: -100px;
     padding-bottom: 180px;
@@ -352,10 +356,7 @@ footer {
     background: #96d59e;
    
     padding-bottom: 180px;
-    .main-hours-contain{
-        padding:0;
-        margin:0 15px 0 15px;
-    }
+ 
     h2 {
         text-align: center;
         padding-bottom: 80px;
