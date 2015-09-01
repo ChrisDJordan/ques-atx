@@ -651,6 +651,16 @@ footer {
   border-radius: 0.3em;
   color: black; }
 
+.read-btn:hover {
+  background-color: #69956F;
+  color: white;
+  text-decoration: none; }
+
+.learn-btn:hover {
+  background-color: #69956F;
+  color: white;
+  text-decoration: none; }
+
 .read-btn {
   margin-bottom: 120px; }
 
@@ -667,7 +677,7 @@ footer {
     padding-bottom: 90px; }
 
 .prices-container {
-  margin-bottom: 165px; }
+  margin-bottom: 180px; }
   .prices-container .prices-bar, .prices-container .rental-bar {
     background: #1e2e41;
     height: 30px; }
@@ -696,7 +706,8 @@ footer {
   font-size: 20px;
   font-weight: bold;
   margin-top: -80px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  border-bottom: 4px solid black; }
 
 /* rentals section
 ===================================*/
@@ -753,6 +764,9 @@ footer {
 
 .map-contain {
   width: 100%; }
+
+.directions-marg {
+  margin-bottom: 120px; }
 
 .contact-section {
   background: #4c4c4c;
