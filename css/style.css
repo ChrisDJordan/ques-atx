@@ -6,7 +6,8 @@ h2,
   margin-bottom: 0px; }
 
 .col-md-4 {
-  padding: 0; }
+  padding-right: 0;
+  padding-left: 0; }
 
 .container {
   max-width: 90%;
@@ -593,6 +594,9 @@ footer {
   margin-top: -18px;
   margin-bottom: 82px; }
 
+li:last-of-type {
+  box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5); }
+
 .skew {
   -webkit-transform: skewY(-3deg);
   -moz-transform: skewY(-3deg);
@@ -649,7 +653,8 @@ footer {
   padding: 10px;
   text-align: center;
   border-radius: 0.3em;
-  color: black; }
+  color: black;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.5); }
 
 .read-btn:hover {
   background-color: #69956F;
@@ -678,6 +683,8 @@ footer {
 
 .prices-container {
   margin-bottom: 180px; }
+  .prices-container li:first-of-type {
+    background: #9fa9b2; }
   .prices-container .prices-bar, .prices-container .rental-bar {
     background: #1e2e41;
     height: 30px; }
@@ -707,7 +714,12 @@ footer {
   font-weight: bold;
   margin-top: -80px;
   border-radius: 5px;
-  border-bottom: 4px solid black; }
+  border-bottom: 4px solid rgba(0, 0, 0, 0.5); }
+
+.camp-btn:hover {
+  background-color: #69956F;
+  color: white;
+  text-decoration: none; }
 
 /* rentals section
 ===================================*/
@@ -860,7 +872,11 @@ footer {
     padding-right: 40px; }
 
   .righty {
-    padding-left: 40px; } }
+    padding-left: 40px; }
+
+  .prices-container {
+    margin-right: 4px;
+    width: 32.9%; } }
 @media screen and (min-width: 1200px) {
   .rental-prices {
     margin-right: .45%;
