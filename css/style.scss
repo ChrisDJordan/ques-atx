@@ -291,7 +291,7 @@ footer {
     background: #3fa6ad;
     margin-top: 0px;
     border: 1px solid #3fa6ad;
-      padding-bottom: 180px;
+      padding-bottom: 120px;
 
 }
 
@@ -416,10 +416,9 @@ footer {
 .all-padding:before {
     display: block;
     content: " ";
-    margin-top: -100px;
-    min-height: 100px;
+  
     visibility: hidden;
-    margin-top: 80px;
+    margin-top: 120px;
 }
 
 /* jQuery Styles
