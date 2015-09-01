@@ -291,13 +291,14 @@ footer {
     background: #3fa6ad;
     margin-top: 0px;
     border: 1px solid #3fa6ad;
+      padding-bottom: 180px;
 
 }
 
 .main-rental-contain {
-    margin-left: 15px;
-    margin-right: 15px;
-    padding-bottom: 180px;
+        padding-bottom: 180px;
+        padding:0;
+        margin:0 15px 0 15px;
     h2 {
         text-align: center;
         padding-bottom: 80px;
@@ -351,6 +352,10 @@ footer {
     background: #96d59e;
    
     padding-bottom: 180px;
+    .main-hours-contain{
+        padding:0;
+        margin:0 15px 0 15px;
+    }
     h2 {
         text-align: center;
         padding-bottom: 80px;

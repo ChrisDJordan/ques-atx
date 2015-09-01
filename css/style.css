@@ -710,12 +710,13 @@ footer {
 .rental-section {
   background: #3fa6ad;
   margin-top: 0px;
-  border: 1px solid #3fa6ad; }
+  border: 1px solid #3fa6ad;
+  padding-bottom: 180px; }
 
 .main-rental-contain {
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 180px; }
+  padding-bottom: 180px;
+  padding: 0;
+  margin: 0 15px 0 15px; }
   .main-rental-contain h2 {
     text-align: center;
     padding-bottom: 80px; }
@@ -755,6 +756,9 @@ footer {
 .hours-section {
   background: #96d59e;
   padding-bottom: 180px; }
+  .hours-section .main-hours-contain {
+    padding: 0;
+    margin: 0 15px 0 15px; }
   .hours-section h2 {
     text-align: center;
     padding-bottom: 80px; }
