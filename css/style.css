@@ -518,6 +518,9 @@ h3 {
   font-weight: 800;
   font-size: 26px; }
 
+li {
+  font-weight: 800; }
+
 .carousel-control.left, .carousel-control.right {
   background: none; }
 
@@ -569,8 +572,8 @@ footer {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background: #34495e;
-  color: #fd4950; }
+  background: #373235;
+  color: #faba56; }
 
 .dropdown-menu {
   padding: 48px;
@@ -643,6 +646,9 @@ li:last-of-type {
   padding-bottom: 120px; }
   .about-section h2 {
     padding-bottom: 30px; }
+
+.about-main-contain {
+  clear: both; }
 
 .read-btn, .learn-btn {
   margin-top: 30px;
@@ -777,9 +783,6 @@ li:last-of-type {
 .map-contain {
   width: 100%; }
 
-.directions-marg {
-  margin-bottom: 120px; }
-
 .contact-section {
   background: #4c4c4c;
   margin-top: -100px;
@@ -819,6 +822,9 @@ li:last-of-type {
     background: #F1F1F1;
     text-align: center;
     margin-bottom: 4px; }
+
+.events-section {
+  background: #faba56; }
 
 .top {
   display: none;

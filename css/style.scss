@@ -26,6 +26,10 @@ h3 {
     font-size: 26px;
 }
 
+li {
+    font-weight: 800;
+}
+
 .carousel-control.left, .carousel-control.right {
     background: none;
 }
@@ -104,8 +108,8 @@ footer {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-    background: $mainblue;
-    color: $iconred;
+    background: #373235;
+    color: #faba56;
 }
 
 .dropdown-menu {
@@ -141,12 +145,14 @@ footer {
     margin-bottom: 82px;
 }
 
-li{
-    &:last-of-type{
-            box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
- // 0px 5px 0px 0px 
-        }
+li {
+    &:last-of-type {
+        box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
+        // 0px 5px 0px 0px
+   
+    }
 }
+
 .skew {
     -webkit-transform: skewY(-3deg);
     -moz-transform: skewY(-3deg);
@@ -189,6 +195,7 @@ li{
 .img-fix {
     width: 100%;
     outline: 1px solid transparent;
+    
 }
 
 .about-section {
@@ -198,6 +205,10 @@ li{
     h2 {
         padding-bottom: 30px;
     }
+}
+
+.about-main-contain{
+    clear:both;
 }
 
 .read-btn, .learn-btn {
@@ -210,7 +221,7 @@ li{
     text-align: center;
     border-radius: 0.3em;
     color: black;
-        border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.5);
 }
 
 // .read-btn {
@@ -254,15 +265,10 @@ li{
 
 .prices-container {
     margin-bottom: 180px;
- 
-  
-     
-
     li {
         &:first-of-type {
             background: #9fa9b2;
         }
-        
     }
     .prices-bar, .rental-bar {
         background: #1e2e41;
@@ -305,7 +311,6 @@ li{
     margin-top: -80px;
     border-radius: 5px;
     border-bottom: 4px solid rgba(0, 0, 0, 0.5);
-
 }
 
 .camp-btn:hover {
@@ -386,10 +391,6 @@ li{
     width: 100%;
 }
 
-.directions-marg {
-    margin-bottom: 120px;
-}
-
 .contact-section {
     background: #4c4c4c;
     margin-top: -100px;
@@ -437,6 +438,13 @@ li{
         text-align: center;
         margin-bottom: 4px;
     }
+}
+
+// /* Events Section
+// ===================================*/
+
+.events-section {
+    background: #faba56;
 }
 
 // /* To Top Button Styles
