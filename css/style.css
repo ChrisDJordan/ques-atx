@@ -521,6 +521,9 @@ h3 {
 li {
   font-weight: 800; }
 
+li:last-of-type {
+  box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5); }
+
 .carousel-control.left, .carousel-control.right {
   background: none; }
 
@@ -597,9 +600,6 @@ footer {
   margin-top: -18px;
   margin-bottom: 82px; }
 
-li:last-of-type {
-  box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5); }
-
 .skew {
   -webkit-transform: skewY(-3deg);
   -moz-transform: skewY(-3deg);
@@ -647,7 +647,7 @@ li:last-of-type {
   .about-section h2 {
     padding-bottom: 30px; }
 
-.about-main-contain {
+.clear {
   clear: both; }
 
 .read-btn, .learn-btn {
@@ -783,6 +783,9 @@ li:last-of-type {
 .map-contain {
   width: 100%; }
 
+.directions-marg {
+  margin-bottom: 100px; }
+
 .contact-section {
   background: #4c4c4c;
   margin-top: -100px;
@@ -823,8 +826,19 @@ li:last-of-type {
     text-align: center;
     margin-bottom: 4px; }
 
+.programs-section {
+  background: #373235;
+  padding-bottom: 120px; }
+  .programs-section h2 {
+    margin-bottom: 30px; }
+  .programs-section .program-marg {
+    margin-bottom: 160px; }
+
 .events-section {
-  background: #faba56; }
+  background: #334d69;
+  border: 1px solid #334d69; }
+  .events-section h2 {
+    margin-bottom: 30px; }
 
 .top {
   display: none;
@@ -866,6 +880,9 @@ footer {
   padding: 0;
   transition-duration: 0.6s; }
 
+@media (min-width: 480px) {
+  body {
+    font-size: 18px; } }
 @media screen and (min-width: 500px) {
   max-width: 350px;
   overflow: hidden; }
@@ -873,6 +890,9 @@ footer {
   .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
     position: relative;
     min-height: 1px; }
+
+  .program-marg-large {
+    margin-bottom: 160px; }
 
   .lefty {
     padding-right: 40px; }

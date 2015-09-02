@@ -30,6 +30,14 @@ li {
     font-weight: 800;
 }
 
+li {
+    &:last-of-type {
+        box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
+        // 0px 5px 0px 0px
+   
+    }
+}
+
 .carousel-control.left, .carousel-control.right {
     background: none;
 }
@@ -38,9 +46,7 @@ li {
     border-color: white;
 }
 
-// .all-padding{
-//     padding:140px 0 140px 0;
-// }
+
 // .carousel-caption1 {
 //     text-align: left;
 //     font-size: 25px;
@@ -94,6 +100,7 @@ footer {
 
 .navbar-default .navbar-nav > li {
     margin-right: 8px;
+
 }
 
 .navbar-default .navbar-nav > li:last-of-type {
@@ -145,13 +152,7 @@ footer {
     margin-bottom: 82px;
 }
 
-li {
-    &:last-of-type {
-        box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
-        // 0px 5px 0px 0px
-   
-    }
-}
+
 
 .skew {
     -webkit-transform: skewY(-3deg);
@@ -207,7 +208,7 @@ li {
     }
 }
 
-.about-main-contain{
+.clear{
     clear:both;
 }
 
@@ -391,6 +392,10 @@ li {
     width: 100%;
 }
 
+.directions-marg{
+    margin-bottom:100px;
+}
+
 .contact-section {
     background: #4c4c4c;
     margin-top: -100px;
@@ -440,11 +445,35 @@ li {
     }
 }
 
+// /* Programs Section
+// ===================================*/
+.programs-section {
+    background: #373235;
+    padding-bottom:120px;
+    h2{
+        margin-bottom:30px;
+    }
+    // h3{
+    //     margin-top:0px;
+    // }
+    .program-marg{
+       margin-bottom:160px;
+     
+    }
+
+}
+
+
+
 // /* Events Section
 // ===================================*/
 
 .events-section {
-    background: #faba56;
+    background: #334d69;
+     border: 1px solid #334d69;
+     h2{
+        margin-bottom:30px;
+     }
 }
 
 // /* To Top Button Styles
@@ -496,10 +525,6 @@ footer {
     transition-duration: 0.6s;
 }
 
-// @media (min-width: 480px) {
-//     body {
-//         font-size: 18px;
-//     }
-// }
+
 
 @import "mediaqueries";
