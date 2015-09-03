@@ -1,5 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@media (min-width: 992px) {
+  .navbar-toggle {
+    display: none; } }
 h2,
 .h2 {
   margin-top: 0px;
@@ -571,7 +574,8 @@ footer {
   margin-right: 8px; }
 
 .navbar-default .navbar-nav > li:last-of-type {
-  margin-right: 0; }
+  margin-right: 0;
+  box-shadow: none; }
 
 .dropdown-menu,
 .navbar-default .navbar-nav > li > a:hover,
@@ -656,7 +660,7 @@ footer {
 .clear {
   clear: both; }
 
-.read-btn, .learn-btn {
+.btn {
   margin-top: 30px;
   background: #96d59e;
   font-weight: 800;
@@ -668,12 +672,7 @@ footer {
   color: black;
   border-bottom: 4px solid rgba(0, 0, 0, 0.5); }
 
-.read-btn:hover {
-  background-color: #69956F;
-  color: white;
-  text-decoration: none; }
-
-.learn-btn:hover {
+.btn:hover {
   background-color: #69956F;
   color: white;
   text-decoration: none; }
@@ -689,12 +688,15 @@ footer {
   margin-top: -100px;
   background: #334d69;
   border: 1px solid #334d69;
-  padding-bottom: 120px; }
+  padding-bottom: 120px;
+  width: 100%; }
   .prices-section h2 {
     padding-bottom: 90px; }
 
 .prices-container {
   margin-bottom: 180px; }
+  .prices-container:last-child {
+    margin-bottom: 0; }
   .prices-container li:first-of-type {
     background: #9fa9b2; }
   .prices-container .prices-bar, .prices-container .rental-bar {
@@ -716,30 +718,18 @@ footer {
     background: #ebebeb;
     margin-bottom: 4px; }
 
-/* Prices section ends
-===================================*/
-.camp-btn {
-  background: #96d59e;
-  text-align: center;
-  padding: 15px;
-  font-size: 20px;
-  font-weight: bold;
-  margin-top: -80px;
-  border-radius: 5px;
-  border-bottom: 4px solid rgba(0, 0, 0, 0.5); }
-
-.camp-btn:hover {
-  background-color: #69956F;
-  color: white;
-  text-decoration: none; }
-
 /* rentals section
 ===================================*/
 .small-ul {
-  font-size: 20px; }
+  font-size: 20px;
+  display: inline-block;
+  padding-top: 12px; }
 
 .big-ul {
-  font-size: 40px; }
+  font-size: 40px;
+  margin-top: -55px;
+  display: inline-block;
+  margin-top: -5px; }
 
 .rental-section {
   background: #3fa6ad;
@@ -774,8 +764,7 @@ footer {
 */
 .embed-container {
   position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
+  min-height: 200px;
   overflow: hidden;
   max-width: 100%; }
 
@@ -783,8 +772,7 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%; }
+  width: 100%; }
 
 .map-contain {
   width: 100%; }
@@ -792,18 +780,18 @@ footer {
 .directions-marg {
   margin-bottom: 100px; }
 
-.contact-section {
+.location-section {
   background: #4c4c4c;
   margin-top: -100px;
   padding-bottom: 120px; }
-  .contact-section h2 {
+  .location-section h2 {
     padding-bottom: 30px; }
-  .contact-section a {
+  .location-section a {
     color: white;
     font-size: 20px;
     text-align: center;
     display: block; }
-    .contact-section a:last-of-type {
+    .location-section a:last-of-type {
       margin-bottom: 40px;
       text-decoration: underline; }
 
@@ -822,7 +810,7 @@ footer {
       background: #faba56;
       border-radius: 50px;
       position: relative;
-      bottom: 55px;
+      bottom: 60px;
       margin: 0 auto;
       background-image: url("../images/clock.png");
       background-repeat: no-repeat;
@@ -836,7 +824,7 @@ footer {
   background: #373235;
   padding-bottom: 120px; }
   .programs-section h2 {
-    margin-bottom: 30px; }
+    margin-bottom: 50px; }
   .programs-section .program-marg {
     margin-bottom: 160px; }
 
@@ -845,13 +833,15 @@ footer {
   border: 1px solid #334d69;
   padding-bottom: 120px; }
   .events-section h2 {
-    margin-bottom: 30px; }
+    margin-bottom: 40px; }
   .events-section li {
     color: white;
     list-style-type: circle;
     font-weight: 300; }
     .events-section li:last-of-type {
       box-shadow: none; }
+  .events-section .calender-btn {
+    min-width: 60%; }
 
 .top {
   display: none;
@@ -897,14 +887,38 @@ footer {
 
 @media (min-width: 480px) {
   p {
-    font-size: 18px; } }
-@media screen and (min-width: 500px) {
-  max-width: 350px;
-  overflow: hidden; }
+    font-size: 18px; }
+
+  .embed-container {
+    min-height: 300px; }
+
+  .section-img {
+    margin-top: -50px; }
+
+  .prices-section {
+    margin-top: -120px; } }
+@media screen and (min-width: 768px) {
+  .prices-section {
+    margin-top: -180px; } }
 @media screen and (min-width: 992px) {
-  .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
-    position: relative;
-    min-height: 1px; }
+  .container {
+    max-width: 80%; }
+
+  .prices-container, .rental-prices {
+    margin-right: .45%;
+    width: 33%; }
+    .prices-container:last-of-type, .rental-prices:last-of-type {
+      margin-right: 0%; }
+
+  .prices-section {
+    margin-top: -200px; }
+    .prices-section .prices-container {
+      margin-bottom: 0; }
+    .prices-section .member-btn {
+      margin: 30px auto; }
+
+  h2 {
+    font-size: 80px; }
 
   .program-marg-large {
     margin-bottom: 160px; }
@@ -915,14 +929,25 @@ footer {
   .righty {
     padding-left: 40px; }
 
-  .prices-container {
-    margin-right: 4px;
-    width: 32.9%; } }
+  .embed-container {
+    min-height: 400px; }
+
+  .btn {
+    width: 50%; }
+
+  .calender-btn {
+    width: 70%; }
+
+  .programs-section h3 {
+    margin-top: 0; } }
 @media screen and (min-width: 1200px) {
-  .rental-prices {
+  .prices-container, .rental-prices {
     margin-right: .45%;
     width: 33%; }
-    .rental-prices:last-of-type {
-      margin-right: 0%; } }
+    .prices-container:last-of-type, .rental-prices:last-of-type {
+      margin-right: 0%; }
+
+  .prices-section, .location-section {
+    margin-top: -380px; } }
 
 /*# sourceMappingURL=style.css.map */
