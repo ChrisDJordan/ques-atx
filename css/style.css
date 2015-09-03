@@ -503,7 +503,8 @@ li {
   .col-lg-offset-0 {
     margin-left: 0; } }
 * {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; }
 
 h2 {
   font-family: 'Pacifico', cursive;
@@ -516,7 +517,11 @@ h3, p {
 
 h3 {
   font-weight: 800;
-  font-size: 26px; }
+  font-size: 28px; }
+
+h4 {
+  color: white;
+  font-weight: bold; }
 
 li {
   font-weight: 800; }
@@ -559,7 +564,8 @@ footer {
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
-  color: #183532; }
+  color: #183532;
+  font-weight: 800; }
 
 .navbar-default .navbar-nav > li {
   margin-right: 8px; }
@@ -763,7 +769,7 @@ footer {
   text-align: center;
   margin-bottom: 4px; }
 
-/* map
+/* Location Section
 ===================================*
 */
 .embed-container {
@@ -796,10 +802,10 @@ footer {
     color: white;
     font-size: 20px;
     text-align: center;
-    display: block;
-    text-decoration: underline; }
+    display: block; }
     .contact-section a:last-of-type {
-      margin-bottom: 10px; }
+      margin-bottom: 40px;
+      text-decoration: underline; }
 
 .hours-section {
   background: #96d59e;
@@ -836,9 +842,16 @@ footer {
 
 .events-section {
   background: #334d69;
-  border: 1px solid #334d69; }
+  border: 1px solid #334d69;
+  padding-bottom: 120px; }
   .events-section h2 {
     margin-bottom: 30px; }
+  .events-section li {
+    color: white;
+    list-style-type: circle;
+    font-weight: 300; }
+    .events-section li:last-of-type {
+      box-shadow: none; }
 
 .top {
   display: none;
@@ -864,6 +877,8 @@ footer {
   height: 200px;
   width: 100%;
   background: #283332; }
+  footer .footer-section {
+    margin-top: -150px; }
 
 /* Helpers for top position on internal page links
 ====================================================*/
@@ -881,7 +896,7 @@ footer {
   transition-duration: 0.6s; }
 
 @media (min-width: 480px) {
-  body {
+  p {
     font-size: 18px; } }
 @media screen and (min-width: 500px) {
   max-width: 350px;
