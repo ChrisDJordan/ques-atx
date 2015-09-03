@@ -699,7 +699,7 @@ footer {
     margin-bottom: 0; }
   .prices-container li:first-of-type {
     background: #9fa9b2; }
-  .prices-container .prices-bar, .prices-container .rental-bar {
+  .prices-container .prices-bar {
     background: #1e2e41;
     height: 30px; }
   .prices-container .prices-circle {
@@ -737,24 +737,31 @@ footer {
   border: 1px solid #3fa6ad;
   padding-bottom: 120px; }
 
-.main-rental-contain h2 {
+h2 {
   text-align: center;
   padding-bottom: 90px; }
-.main-rental-contain .rental-bar {
+
+.rental-bar {
   background: #1e2e41;
-  height: 30px; }
-  .main-rental-contain .rental-bar .rental-circle {
-    width: 80px;
-    height: 80px;
-    background: #faba56;
-    border-radius: 50px;
-    position: relative;
-    bottom: 60px;
-    margin: 0 auto;
-    background-image: url("../images/helmet.png");
-    background-repeat: no-repeat;
-    background-position: 16px 16px; }
-.main-rental-contain .rental-prices {
+  height: 30px;
+  display: block; }
+
+.rental-bar-large .none {
+  display: none; }
+
+.rental-circle {
+  width: 80px;
+  height: 80px;
+  background: #faba56;
+  border-radius: 50px;
+  position: relative;
+  bottom: 60px;
+  margin: 0 auto;
+  background-image: url("../images/helmet.png");
+  background-repeat: no-repeat;
+  background-position: 16px 16px; }
+
+.rental-prices {
   background: #F1F1F1;
   text-align: center;
   margin-bottom: 4px; }
@@ -804,17 +811,21 @@ footer {
   .hours-section .hours-bar {
     background: #1e2e41;
     height: 30px; }
-    .hours-section .hours-bar .hours-circle {
-      width: 80px;
-      height: 80px;
-      background: #faba56;
-      border-radius: 50px;
-      position: relative;
-      bottom: 60px;
-      margin: 0 auto;
-      background-image: url("../images/clock.png");
-      background-repeat: no-repeat;
-      background-position: 16px 16px; }
+  .hours-section .hours-bar-large .none {
+    display: none; }
+  .hours-section .hours-circle {
+    width: 80px;
+    height: 80px;
+    background: #faba56;
+    border-radius: 50px;
+    position: relative;
+    bottom: 60px;
+    margin: 0 auto;
+    background-image: url("../images/clock.png");
+    background-repeat: no-repeat;
+    background-position: 16px 16px; }
+    .hours-section .hours-circle .none {
+      display: none; }
   .hours-section .hours-prices {
     background: #F1F1F1;
     text-align: center;
@@ -904,10 +915,16 @@ footer {
   .container {
     max-width: 80%; }
 
-  .prices-container, .rental-prices {
+  .read-btn {
+    margin-bottom: 0; }
+
+  li {
+    box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5); }
+
+  .prices-container, .rental-prices, .hours-prices {
     margin-right: .45%;
     width: 33%; }
-    .prices-container:last-of-type, .rental-prices:last-of-type {
+    .prices-container:last-of-type, .rental-prices:last-of-type, .hours-prices:last-of-type {
       margin-right: 0%; }
 
   .prices-section {
@@ -915,7 +932,8 @@ footer {
     .prices-section .prices-container {
       margin-bottom: 0; }
     .prices-section .member-btn {
-      margin: 30px auto; }
+      margin: 30px auto;
+      width: 50%; }
 
   h2 {
     font-size: 80px; }
@@ -939,7 +957,29 @@ footer {
     width: 70%; }
 
   .programs-section h3 {
-    margin-top: 0; } }
+    margin-top: 0; }
+
+  .location-section h3 {
+    margin-top: 50px; }
+
+  .rental-bar, .hours-bar {
+    display: none; }
+
+  .rental-bar-large {
+    height: 30px;
+    background: #1e2e41; }
+    .rental-bar-large .none {
+      display: block;
+      margin-bottom: 0; }
+
+  .hours-section .hours-bar-large {
+    height: 30px;
+    background: #1e2e41; }
+    .hours-section .hours-bar-large .none {
+      display: block; }
+
+  .events-section li {
+    box-shadow: none; } }
 @media screen and (min-width: 1200px) {
   .prices-container, .rental-prices {
     margin-right: .45%;

@@ -110,7 +110,7 @@ footer {
 
 .navbar-default .navbar-nav > li:last-of-type {
     margin-right: 0;
-    box-shadow:none;
+    box-shadow: none;
 }
 
 .dropdown-menu,
@@ -239,8 +239,6 @@ footer {
     text-decoration: none;
 }
 
-
-
 .read-btn {
     margin-bottom: 120px;
 }
@@ -258,7 +256,7 @@ footer {
     background: #334d69;
     border: 1px solid #334d69;
     padding-bottom: 120px;
-    width:100%;
+    width: 100%;
     h2 {
         padding-bottom: 90px;
     }
@@ -266,16 +264,15 @@ footer {
 
 .prices-container {
     margin-bottom: 180px;
-    &:last-child{
-        margin-bottom:0;
+    &:last-child {
+        margin-bottom: 0;
     }
-    
     li {
         &:first-of-type {
             background: #9fa9b2;
         }
     }
-    .prices-bar, .rental-bar {
+    .prices-bar {
         background: #1e2e41;
         height: 30px;
     }
@@ -304,12 +301,6 @@ footer {
     // }
 }
 
-
-
-
-
-
-
 /* rentals section
 ===================================*/
 
@@ -333,32 +324,40 @@ footer {
     padding-bottom: 120px;
 }
 
-.main-rental-contain {
-    h2 {
-        text-align: center;
-        padding-bottom: 90px;
+h2 {
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.rental-bar {
+    background: #1e2e41;
+    height: 30px;
+    display: block;
+}
+
+.rental-bar-large {
+    .none {
+        display: none;
     }
-    .rental-bar {
-        background: #1e2e41;
-        height: 30px;
-        .rental-circle {
-            width: 80px;
-            height: 80px;
-            background: #faba56;
-            border-radius: 50px;
-            position: relative;
-            bottom: 60px;
-            margin: 0 auto;
-            background-image: url("../images/helmet.png");
-            background-repeat: no-repeat;
-            background-position: 16px 16px;
-        }
-    }
-    .rental-prices {
-        background: #F1F1F1;
-        text-align: center;
-        margin-bottom: 4px;
-    }
+}
+
+.rental-circle {
+    width: 80px;
+    height: 80px;
+    background: #faba56;
+    border-radius: 50px;
+    position: relative;
+    bottom: 60px;
+    margin: 0 auto;
+    background-image: url("../images/helmet.png");
+    background-repeat: no-repeat;
+    background-position: 16px 16px;
+}
+
+.rental-prices {
+    background: #F1F1F1;
+    text-align: center;
+    margin-bottom: 4px;
 }
 
 /* Location Section
@@ -415,17 +414,25 @@ footer {
     .hours-bar {
         background: #1e2e41;
         height: 30px;
-        .hours-circle {
-            width: 80px;
-            height: 80px;
-            background: #faba56;
-            border-radius: 50px;
-            position: relative;
-            bottom: 60px;
-            margin: 0 auto;
-            background-image: url("../images/clock.png");
-            background-repeat: no-repeat;
-            background-position: 16px 16px;
+    }
+    .hours-bar-large {
+        .none {
+            display: none;
+        }
+    }
+    .hours-circle {
+        width: 80px;
+        height: 80px;
+        background: #faba56;
+        border-radius: 50px;
+        position: relative;
+        bottom: 60px;
+        margin: 0 auto;
+        background-image: url("../images/clock.png");
+        background-repeat: no-repeat;
+        background-position: 16px 16px;
+        .none {
+            display: none;
         }
     }
     .hours-prices {
@@ -469,8 +476,8 @@ footer {
             box-shadow: none;
         }
     }
-    .calender-btn{
-        min-width:60%;
+    .calender-btn {
+        min-width: 60%;
     }
 }
 
