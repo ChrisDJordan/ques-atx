@@ -841,7 +841,6 @@ h2 {
 
 .events-section {
   background: #334d69;
-  border: 1px solid #334d69;
   padding-bottom: 120px; }
   .events-section h2 {
     margin-bottom: 40px; }
@@ -883,11 +882,8 @@ footer {
 
 /* Helpers for top position on internal page links
 ====================================================*/
-.all-padding:before {
-  display: block;
-  content: " ";
-  visibility: hidden;
-  margin-top: 120px; }
+.all-padding {
+  padding-top: 120px; }
 
 /* jQuery Styles
 ===================================*/
