@@ -6,15 +6,22 @@
 
 @import "bootchange";
 
+
+@font-face{
+    font-family: "SignPainter";
+    src: url('SignPainter.eot') format('embedded-opentype'),
+    url('SignPainter.otf') format('opentype');
+}
 * {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
 
 h2 {
-    font-family: 'Pacifico', cursive;
+    font-family: SignPainter;
+
     text-align: center;
-    font-size: 75px;
+    font-size: 90px;
     color: white;
 }
 
@@ -154,7 +161,7 @@ footer {
 
 .section-img {
     width: 100%;
-    margin-top: -18px;
+    margin-top: -11px;
     margin-bottom: 82px;
     outline:1px solid transparent;
 }
@@ -320,7 +327,7 @@ footer {
 
 .rental-section {
     background: #3fa6ad;
-    margin-top: 0px;
+
     border: 1px solid #3fa6ad;
     padding-bottom: 120px;
 
@@ -360,6 +367,14 @@ h2 {
     text-align: center;
     margin-bottom: 4px;
 }
+
+
+.inside-img{
+    background:url(../images/inside.jpg);
+}
+
+
+
 
 /* Location Section
 ===================================*
@@ -467,7 +482,7 @@ h2 {
     
     padding-bottom: 120px;
     h2 {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
     li {
         color: white;

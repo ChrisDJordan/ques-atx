@@ -8,21 +8,30 @@
     .section-img {
         margin-top: -50px;
     }
-    .prices-section {
+    .prices-section,.location-section {
         margin-top: -120px;
+    }
+      h2 {
+        font-size: 100px;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .prices-section {
+    .prices-section, .location-section {
         margin-top: -180px;
     }
+  
+
+   
+
 }
 
 @media screen and (min-width: 992px) {
     .container {
         max-width: 80%;
     }
+
+
     .read-btn {
     margin-bottom:0;
 }
@@ -30,6 +39,8 @@
     li{
         box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
     }
+
+
     .prices-container, .rental-prices, .hours-prices {
         margin-right: .45%;
         width: 33%;
@@ -37,19 +48,37 @@
             margin-right: 0%;
         }
     }
-    .prices-section {
+
+  
+
+
+
+
+
+    .prices-section, {
         margin-top: -200px;
         .prices-container {
             margin-bottom: 0;
         }
+
+.location-section{
+    margin-top:-200px;
+}
+
+
+
+
+
+
+
+
+
         .member-btn {
             margin: 30px auto;
             width:50%;
         }
     }
-    h2 {
-        font-size: 80px;
-    }
+  
     .program-marg-large {
         margin-bottom: 160px;
     }
@@ -100,6 +129,7 @@
            
         }
     }
+    
 }
   
 
