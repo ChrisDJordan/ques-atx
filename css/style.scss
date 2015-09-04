@@ -98,7 +98,8 @@ footer {
 /* Nav / Navbar Styles
 ===================================*/
 .navbar {
-    background: white;
+    background:rgba(235,235,235,0.5);
+
     border-bottom: none;
     padding: 10px 0 10px 0;
     transition-duration: 0.6s;
@@ -107,7 +108,7 @@ footer {
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
-    color: #183532;
+  color:black;
     font-weight: 800;
 }
 
@@ -461,6 +462,7 @@ h2 {
 // /* Programs Section
 // ===================================*/
 .programs-section {
+        margin-top: -100px;
     background: #373235;
     padding-bottom: 120px;
     h2 {

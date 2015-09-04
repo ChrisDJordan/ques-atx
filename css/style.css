@@ -21,14 +21,14 @@ h2,
   min-height: 500px; }
 
 .first {
-  background-image: url(http://mccormicks.kangamarketing.com/wp-content/uploads/2014/12/slide-2.jpg);
+  background-image: url(../images/air.jpg);
   background-size: cover;
-  background-position: center center;
+  background-position: 70%;
   background-repeat: no-repeat; }
 
 .second {
-  background-image: url(../images/chill-dock.jpg);
-  background-position: 70% 0%; }
+  background-image: url(http://skimccormick.com/wp-content/uploads/2014/12/slide4.jpg);
+  background-position: 50% 50%; }
 
 ul {
   padding-left: 0;
@@ -562,7 +562,7 @@ footer {
 /* Nav / Navbar Styles
 ===================================*/
 .navbar {
-  background: white;
+  background: rgba(235, 235, 235, 0.5);
   border-bottom: none;
   padding: 10px 0 10px 0;
   transition-duration: 0.6s;
@@ -570,7 +570,7 @@ footer {
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
-  color: #183532;
+  color: black;
   font-weight: 800; }
 
 .navbar-default .navbar-nav > li {
@@ -837,6 +837,7 @@ footer {
     margin-bottom: 4px; }
 
 .programs-section {
+  margin-top: -100px;
   background: #373235;
   padding-bottom: 120px; }
   .programs-section h2 {
@@ -907,13 +908,13 @@ footer {
   .section-img {
     margin-top: -50px; }
 
-  .prices-section, .location-section {
+  .prices-section, .location-section, .programs-section {
     margin-top: -120px; }
 
   h2 {
     font-size: 100px; } }
 @media screen and (min-width: 768px) {
-  .prices-section, .location-section {
+  .prices-section, .location-section, .programs-section {
     margin-top: -180px; } }
 @media screen and (min-width: 992px) {
   .container {
@@ -990,7 +991,7 @@ footer {
     .prices-container:last-of-type, .rental-prices:last-of-type {
       margin-right: 0%; }
 
-  .prices-section, .location-section {
+  .prices-section, .location-section, .programs-section {
     margin-top: -380px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -8,7 +8,7 @@
     .section-img {
         margin-top: -50px;
     }
-    .prices-section,.location-section {
+    .prices-section,.location-section,.programs-section {
         margin-top: -120px;
     }
       h2 {
@@ -17,7 +17,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .prices-section, .location-section {
+    .prices-section, .location-section,.programs-section {
         margin-top: -180px;
     }
   
@@ -151,7 +151,7 @@
             margin-right: 0%;
         }
     }
-    .prices-section, .location-section {
+    .prices-section, .location-section,.programs-section {
         margin-top: -380px;
     }
 }
