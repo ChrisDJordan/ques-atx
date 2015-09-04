@@ -17,11 +17,35 @@
     font-weight: 300;
 }
 
+       .container {
+    max-width: 90%;
+   
+}
+.logo{
+h1{
+    font-size:115px;
+    font-family: 'Pacifico', cursive;
+    display:inline-block;
+    margin:0;
+    transform:rotate(-8deg);
+    margin-top:30px;
+     margin-bottom:30px;
+     color:black;
+}
+p{
+    text-align:right;
+    margin-top:-60px;
+    color:black;
+    font-weight:800;
+}
+}
 h2 {
-    font-family: SignPainter;
+     font-family: 'Pacifico', cursive;
+
+
 
     text-align: center;
-    font-size: 90px;
+    font-size: 70px;
     color: white;
 }
 
@@ -59,15 +83,17 @@ li {
     border-color: white;
 }
 
-// .carousel-caption1 {
-//     text-align: left;
-//     font-size: 25px;
-//     color: white;
-//     margin-left: 12%;
+.carousel-caption {
+    h1{
+    text-align: left;
+    font-size: 65px;
+    color: white;
+    margin-left: 12%;
 
-//     font-style: normal;
-//     font-weight: 700;
-// }
+    font-style: normal;
+    font-weight: 700;
+}
+}
 
 /* colors
 ===================================*/
@@ -86,19 +112,20 @@ body {
     line-height: 1.8;
 }
 
-.section-three,
-.main-price-contain,
-.whatis-section,
-.section-one-content,
-.main-rental-contain,
-footer {
-    margin-top: 0px;
-}
+// .section-three,
+// .main-price-contain,
+// .whatis-section,
+// .section-one-content,
+// .main-rental-contain,
+// footer {
+//     margin-top: 0px;
+// }
 
 /* Nav / Navbar Styles
 ===================================*/
 .navbar {
-    background:rgba(235,235,235,0.5);
+    // background:rgba(235,235,235,0.5);
+    background:none;
 
     border-bottom: none;
     padding: 10px 0 10px 0;
@@ -256,6 +283,23 @@ footer {
 
 /* About us section ends
 ===================================*/
+
+.wavier-section{
+    background:#5eadcb;
+    padding-bottom:120px;
+    p{
+        text-align:center;
+    }
+  
+}
+
+
+
+
+
+
+
+
 
 /* Prices section 
 ===================================*/
@@ -544,9 +588,22 @@ footer {
 ===================================*/
 .navbar-scroll {
     background: white;
-    padding: 0;
+    padding: 10px 0 10px 0;
     // box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
     transition-duration: 0.6s;
+
+    .logo{
+    h1{
+        font-size:33px;
+        margin-top:0;
+        margin-bottom:0;
+    }
+    p{
+     margin-top: -5px;
+     margin-bottom:0;
+     font-size:14px;
+    }
+}
 }
 
 @import "mediaqueries";

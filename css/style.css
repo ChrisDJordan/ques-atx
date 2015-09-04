@@ -12,13 +12,9 @@ h2,
   padding-right: 0;
   padding-left: 0; }
 
-.container {
-  max-width: 90%;
-  overflow: hidden; }
-
 .item {
   background-size: cover;
-  min-height: 500px; }
+  min-height: 550px; }
 
 .first {
   background-image: url(../images/air.jpg);
@@ -27,8 +23,8 @@ h2,
   background-repeat: no-repeat; }
 
 .second {
-  background-image: url(http://skimccormick.com/wp-content/uploads/2014/12/slide4.jpg);
-  background-position: 50% 50%; }
+  background-image: url(http://www.alliancewake.com/wp-content/uploads/2011/03/1600x1000fooshee.jpg);
+  background-position: 50% 0; }
 
 ul {
   padding-left: 0;
@@ -512,10 +508,28 @@ li {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300; }
 
+.container {
+  max-width: 90%; }
+
+.logo h1 {
+  font-size: 115px;
+  font-family: 'Pacifico', cursive;
+  display: inline-block;
+  margin: 0;
+  transform: rotate(-8deg);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: black; }
+.logo p {
+  text-align: right;
+  margin-top: -60px;
+  color: black;
+  font-weight: 800; }
+
 h2 {
-  font-family: SignPainter;
+  font-family: 'Pacifico', cursive;
   text-align: center;
-  font-size: 90px;
+  font-size: 70px;
   color: white; }
 
 h3, p {
@@ -541,6 +555,14 @@ li:last-of-type {
 .navbar-default .navbar-toggle {
   border-color: white; }
 
+.carousel-caption h1 {
+  text-align: left;
+  font-size: 65px;
+  color: white;
+  margin-left: 12%;
+  font-style: normal;
+  font-weight: 700; }
+
 /* colors
 ===================================*/
 /* Base Styles
@@ -551,18 +573,10 @@ body {
   font-weight: 400;
   line-height: 1.8; }
 
-.section-three,
-.main-price-contain,
-.whatis-section,
-.section-one-content,
-.main-rental-contain,
-footer {
-  margin-top: 0px; }
-
 /* Nav / Navbar Styles
 ===================================*/
 .navbar {
-  background: rgba(235, 235, 235, 0.5);
+  background: none;
   border-bottom: none;
   padding: 10px 0 10px 0;
   transition-duration: 0.6s;
@@ -686,6 +700,12 @@ footer {
 
 /* About us section ends
 ===================================*/
+.wavier-section {
+  background: #5eadcb;
+  padding-bottom: 120px; }
+  .wavier-section p {
+    text-align: center; }
+
 /* Prices section 
 ===================================*/
 .prices-section {
@@ -895,8 +915,16 @@ footer {
 ===================================*/
 .navbar-scroll {
   background: white;
-  padding: 0;
+  padding: 10px 0 10px 0;
   transition-duration: 0.6s; }
+  .navbar-scroll .logo h1 {
+    font-size: 33px;
+    margin-top: 0;
+    margin-bottom: 0; }
+  .navbar-scroll .logo p {
+    margin-top: -5px;
+    margin-bottom: 0;
+    font-size: 14px; }
 
 @media (min-width: 480px) {
   p {
@@ -912,13 +940,16 @@ footer {
     margin-top: -120px; }
 
   h2 {
-    font-size: 100px; } }
+    font-size: 80px; } }
 @media screen and (min-width: 768px) {
   .prices-section, .location-section, .programs-section {
     margin-top: -180px; } }
 @media screen and (min-width: 992px) {
   .container {
-    max-width: 80%; }
+    max-width: 90%; }
+
+  .navbar-collapse li {
+    box-shadow: none; }
 
   .read-btn {
     margin-bottom: 0; }
@@ -940,7 +971,7 @@ footer {
       margin-top: -200px; }
     .prices-section .member-btn {
       margin: 30px auto;
-      width: 50%; }
+      width: 33%; }
 
   .program-marg-large {
     margin-bottom: 160px; }
@@ -983,7 +1014,11 @@ footer {
       display: block; }
 
   .events-section li {
-    box-shadow: none; } }
+    box-shadow: none; }
+
+  .wavier-btn {
+    width: 25%;
+    margin: 30px auto; } }
 @media screen and (min-width: 1200px) {
   .prices-container, .rental-prices {
     margin-right: .45%;
