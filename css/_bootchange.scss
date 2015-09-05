@@ -1,5 +1,4 @@
 @media (min-width: 992px) {
-
     .navbar-toggle {
         display: none;
     }
@@ -9,7 +8,6 @@ h2,
 .h2 {
     margin-top: 0px;
     margin-bottom: 0px;
-
 }
 
 .col-md-4 {
@@ -17,18 +15,17 @@ h2,
     padding-left: 0;
 }
 
-
-
 .item {
     background-size: cover;
-    min-height: 550px;
+    height: 550px;
 }
 
 .first {
-    background-image: url(../images/air.jpg);
+    background-image: url(../images/air3.jpg);
     background-size: cover;
-    background-position: 70% ;
+    background-position: 70%;
     background-repeat: no-repeat;
+
 }
 
 .second {
@@ -36,13 +33,11 @@ h2,
     background-position: 50% 0;
 }
 
-
 // .third{
 //     background-image: url(../images/ramp-air.jpg);
 //     background-position: 0 0;
 //         background-repeat: no-repeat;
 // }
-
 
 ul {
     padding-left: 0;

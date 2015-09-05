@@ -14,10 +14,10 @@ h2,
 
 .item {
   background-size: cover;
-  min-height: 550px; }
+  height: 550px; }
 
 .first {
-  background-image: url(../images/air.jpg);
+  background-image: url(../images/air3.jpg);
   background-size: cover;
   background-position: 70%;
   background-repeat: no-repeat; }
@@ -511,20 +511,20 @@ li {
 .container {
   max-width: 90%; }
 
-.logo h1 {
-  font-size: 115px;
-  font-family: 'Pacifico', cursive;
-  display: inline-block;
-  margin: 0;
-  transform: rotate(-8deg);
-  margin-top: 30px;
-  margin-bottom: 30px;
-  color: black; }
-.logo p {
-  text-align: right;
-  margin-top: -60px;
-  color: black;
-  font-weight: 800; }
+.logo {
+  display: inline-block; }
+  .logo h1 {
+    font-size: 45px;
+    font-family: 'Pacifico', cursive;
+    display: inline-block;
+    margin: 0;
+    transform: rotate(-8deg);
+    color: #faba56; }
+  .logo p {
+    text-align: right;
+    margin-top: -60px;
+    color: black;
+    font-weight: 800; }
 
 h2 {
   font-family: 'Pacifico', cursive;
@@ -548,6 +548,10 @@ li {
 
 li:last-of-type {
   box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5); }
+
+.main-contain {
+  width: 97.5%;
+  margin: 0 auto; }
 
 .carousel-control.left, .carousel-control.right {
   background: none; }
@@ -705,6 +709,9 @@ body {
   padding-bottom: 120px; }
   .wavier-section p {
     text-align: center; }
+  .wavier-section .wavier-btn {
+    width: 90%;
+    margin: 30px auto; }
 
 /* Prices section 
 ===================================*/
@@ -712,8 +719,7 @@ body {
   margin-top: -100px;
   background: #334d69;
   border: 1px solid #334d69;
-  padding-bottom: 120px;
-  width: 100%; }
+  padding-bottom: 120px; }
   .prices-section h2 {
     padding-bottom: 90px; }
 
@@ -945,8 +951,26 @@ footer {
   .prices-section, .location-section, .programs-section {
     margin-top: -180px; } }
 @media screen and (min-width: 992px) {
+  .item {
+    background-size: cover;
+    height: 800px; }
+
   .container {
     max-width: 90%; }
+
+  .logo {
+    display: inline-block; }
+    .logo h1 {
+      font-size: 115px;
+      font-family: 'Pacifico', cursive;
+      display: inline-block;
+      margin: 0;
+      transform: rotate(-8deg);
+      margin-top: 60px;
+      color: #faba56; }
+
+  nav .container {
+    padding-left: 0; }
 
   .navbar-collapse li {
     box-shadow: none; }

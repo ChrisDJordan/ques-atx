@@ -6,44 +6,44 @@
 
 @import "bootchange";
 
-
-@font-face{
+@font-face {
     font-family: "SignPainter";
-    src: url('SignPainter.eot') format('embedded-opentype'),
-    url('SignPainter.otf') format('opentype');
+    src: url("SignPainter.eot") format("embedded-opentype"), url("SignPainter.otf") format("opentype");
 }
+
+
 * {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
 
-       .container {
+.container {
     max-width: 90%;
-   
+
+    // overflow:hidden;
 }
-.logo{
-h1{
-    font-size:115px;
-    font-family: 'Pacifico', cursive;
+
+.logo {
     display:inline-block;
-    margin:0;
-    transform:rotate(-8deg);
-    margin-top:30px;
-     margin-bottom:30px;
-     color:black;
+    h1 {
+        font-size: 45px;
+        font-family: 'Pacifico', cursive;
+        display: inline-block;
+        margin: 0;
+        transform: rotate(-8deg);
+      
+        color: #faba56;
+    }
+    p {
+        text-align: right;
+        margin-top: -60px;
+        color: black;
+        font-weight: 800;
+    }
 }
-p{
-    text-align:right;
-    margin-top:-60px;
-    color:black;
-    font-weight:800;
-}
-}
+
 h2 {
-     font-family: 'Pacifico', cursive;
-
-
-
+    font-family: 'Pacifico', cursive;
     text-align: center;
     font-size: 70px;
     color: white;
@@ -74,7 +74,10 @@ li {
    
     }
 }
-
+.main-contain{
+    width:97.5%;
+    margin:0 auto;
+}
 .carousel-control.left, .carousel-control.right {
     background: none;
 }
@@ -84,15 +87,14 @@ li {
 }
 
 .carousel-caption {
-    h1{
-    text-align: left;
-    font-size: 65px;
-    color: white;
-    margin-left: 12%;
-
-    font-style: normal;
-    font-weight: 700;
-}
+    h1 {
+        text-align: left;
+        font-size: 65px;
+        color: white;
+        margin-left: 12%;
+        font-style: normal;
+        font-weight: 700;
+    }
 }
 
 /* colors
@@ -125,8 +127,7 @@ body {
 ===================================*/
 .navbar {
     // background:rgba(235,235,235,0.5);
-    background:none;
-
+    background: none;
     border-bottom: none;
     padding: 10px 0 10px 0;
     transition-duration: 0.6s;
@@ -135,7 +136,7 @@ body {
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
-  color:black;
+    color: black;
     font-weight: 800;
 }
 
@@ -191,7 +192,7 @@ body {
     width: 100%;
     margin-top: -11px;
     margin-bottom: 82px;
-    outline:1px solid transparent;
+    outline: 1px solid transparent;
 }
 
 .skew {
@@ -284,22 +285,17 @@ body {
 /* About us section ends
 ===================================*/
 
-.wavier-section{
-    background:#5eadcb;
-    padding-bottom:120px;
-    p{
-        text-align:center;
+.wavier-section {
+    background: #5eadcb;
+    padding-bottom: 120px;
+    p {
+        text-align: center;
     }
-  
+    .wavier-btn {
+        width: 90%;
+        margin: 30px auto;
+    }
 }
-
-
-
-
-
-
-
-
 
 /* Prices section 
 ===================================*/
@@ -309,11 +305,12 @@ body {
     background: #334d69;
     border: 1px solid #334d69;
     padding-bottom: 120px;
-    width: 100%;
+  
     h2 {
         padding-bottom: 90px;
     }
 }
+
 
 .prices-container {
     margin-bottom: 180px;
@@ -325,6 +322,8 @@ body {
             background: #9fa9b2;
         }
     }
+
+   
     .prices-bar {
         background: #1e2e41;
         height: 30px;
@@ -372,16 +371,14 @@ body {
 
 .rental-section {
     background: #3fa6ad;
-
     border: 1px solid #3fa6ad;
     padding-bottom: 120px;
-
-
-h2 {
-    text-align: center;
-    padding-bottom: 90px;
+    h2 {
+        text-align: center;
+        padding-bottom: 90px;
+    }
 }
-}
+
 .rental-bar {
     background: #1e2e41;
     height: 30px;
@@ -413,13 +410,9 @@ h2 {
     margin-bottom: 4px;
 }
 
-
-.inside-img{
-    background:url(../images/inside.jpg);
+.inside-img {
+    background: url(../images/inside.jpg);
 }
-
-
-
 
 /* Location Section
 ===================================*
@@ -506,7 +499,7 @@ h2 {
 // /* Programs Section
 // ===================================*/
 .programs-section {
-        margin-top: -100px;
+    margin-top: -100px;
     background: #373235;
     padding-bottom: 120px;
     h2 {
@@ -525,7 +518,6 @@ h2 {
 
 .events-section {
     background: #3fa6ad;
-    
     padding-bottom: 120px;
     h2 {
         margin-bottom: 30px;
@@ -580,7 +572,6 @@ footer {
 ====================================================*/
 // #spytop:before,
 .all-padding {
-   
     padding-top: 120px;
 }
 
@@ -591,19 +582,18 @@ footer {
     padding: 10px 0 10px 0;
     // box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
     transition-duration: 0.6s;
-
-    .logo{
-    h1{
-        font-size:33px;
-        margin-top:0;
-        margin-bottom:0;
+    .logo {
+        h1 {
+            font-size: 33px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        p {
+            margin-top: -5px;
+            margin-bottom: 0;
+            font-size: 14px;
+        }
     }
-    p{
-     margin-top: -5px;
-     margin-bottom:0;
-     font-size:14px;
-    }
-}
 }
 
 @import "mediaqueries";
