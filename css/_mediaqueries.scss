@@ -40,19 +40,19 @@
     display:inline-block;
     h1 {
         font-size: 115px;
-        font-family: 'Pacifico', cursive;
-        display: inline-block;
-        margin: 0;
-        transform: rotate(-8deg);
-        margin-top:60px;
       
-        color: #faba56;
+        margin-top:20px;
+     
     }
 }
+.wavier-section{
+ .wavier-btn {
+        width: 30%;
+        margin: 30px auto;
 
+    }
 
-
-
+}
 
     nav {
         .container {
@@ -143,10 +143,7 @@
             box-shadow: none;
         }
     }
-    .wavier-btn {
-        width: 25%;
-        margin: 30px auto;
-    }
+   
 }
 
 @media screen and (min-width: 1200px) {
