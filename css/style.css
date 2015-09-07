@@ -484,6 +484,28 @@ footer {
     margin-bottom: 0;
     font-size: 14px; }
 
+.black {
+  color: black; }
+
+.q1-section {
+  background: #373235; }
+
+.q2-section {
+  background: #3fa6ad; }
+
+.q3-section {
+  background: #4c4c4c; }
+
+.q4-section {
+  background: #5eadcb; }
+
+.q5-section {
+  background: black; }
+
+@media (min-width: 992px) {
+  .q1-contain {
+    width: 80%;
+    margin: 0 auto 120px auto; } }
 @media (min-width: 480px) {
   p {
     font-size: 18px; }

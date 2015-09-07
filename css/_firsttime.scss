@@ -1,0 +1,43 @@
+@import "color";
+
+.black{
+	color:black;
+}
+
+
+
+.q1-section {
+	background:$section-black;
+
+}
+
+.q2-section {
+	background:$section-teal;
+
+}
+
+
+.q3-section {
+	background:$section-darkgrey;
+
+}
+
+.q4-section {
+	background:$section-lightblue;
+
+}
+
+
+.q5-section {
+	background:black;
+
+}
+
+
+
+@media (min-width: 992px) {
+.q1-contain{
+	width:80%;
+	margin:0 auto 120px auto ;
+}
+}
