@@ -6,125 +6,143 @@
 
 @import "bootchange";
 
-@font-face {
-    font-family: "SignPainter";
-    src: url("SignPainter.eot") format("embedded-opentype"), url("SignPainter.otf") format("opentype");
-}
+@import "typography";
 
-
-* {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-}
+/* Main Styling
+===================================*/
 
 .container {
     max-width: 90%;
-
-    // overflow:hidden;
 }
 
-.logo {
-    display:inline-block;
-    h1 {
-        font-size: 45px;
-        font-family: 'Pacifico', cursive;
-        display: inline-block;
-        margin-top: 10px;
-        transform: rotate(-10deg);
-      
-        color: #faba56;
-    }
-    p {
-        text-align: right;
-        margin-top: -60px;
-        color: black;
-        font-weight: 800;
-    }
+.main-contain {
+    width: 93%;
+    margin: 0 auto;
 }
 
-h2 {
-    font-family: 'Pacifico', cursive;
-    text-align: center;
-    font-size: 70px;
-    color: white;
-}
 
-h3, p {
-    color: white;
-}
 
-h3 {
-    font-weight: 800;
-    font-size: 28px;
-}
 
-h4 {
-    color: white;
-    font-weight: bold;
-}
-
-li {
-    font-weight: 800;
-}
 
 li {
     &:last-of-type {
         box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
-        // 0px 5px 0px 0px
+      
    
     }
 }
-.main-contain{
-    width:97.5%;
-    margin:0 auto;
+
+.clear {
+    clear: both;
 }
+
+.section-img {
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: 82px;
+    outline: 1px solid transparent;
+}
+
+.skew {
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -o-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+    transform: skewY(-3deg);
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    outline: 1px solid transparent;
+    padding: 2px;
+    /* IE8+ */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand')";
+    /* IE6 and 7 */
+    filter: progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand');
+}
+
+.skew-fix {
+    -webkit-transform: skewY(3deg);
+    -moz-transform: skewY(3deg);
+    -o-transform: skewY(3deg);
+    -ms-transform: skewY(3deg);
+    transform: skewY(3deg);
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    outline: 1px solid transparent;
+    padding: 2px;
+    /* IE8+ */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand')";
+    /* IE6 and 7 */
+    filter: progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand');
+}
+
+
+
+.btn {
+    margin-top: 30px;
+    background: #96d59e;
+    font-weight: 800;
+    font-size: 22px;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0.3em;
+    color: black;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover {
+    background-color: #69956F;
+    color: white;
+    text-decoration: none;
+}
+
+.small-ul {
+    font-size: 20px;
+    display: inline-block;
+    padding-top: 12px;
+}
+
+.big-ul {
+    font-size: 40px;
+    margin-top: -55px;
+    display: inline-block;
+    margin-top: -5px;
+}
+
+
+/* Helpers for top position on internal page links
+====================================================*/
+
+.all-padding {
+    padding-top: 120px;
+}
+
+
+/* Carousel Styling
+===================================*/
 .carousel-control.left, .carousel-control.right {
     background: none;
 }
 
-.navbar-default .navbar-toggle {
-    border-color: white;
-}
 
-.carousel-caption {
-    h1 {
-        text-align: left;
-        font-size: 65px;
-        color: white;
-        margin-left: 12%;
-        font-style: normal;
-        font-weight: 700;
-    }
-}
 
-/* colors
-===================================*/
 
-$iconred: #fd4950;
-$mainblue: #34495e;
-$lightblue: #9fa9b2;
-$buttongreen: #96d59e;
 
-/* Base Styles
-===================================*/
-body {
-    color: #183532;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    line-height: 1.8;
-}
 
-// .section-three,
-// .main-price-contain,
-// .whatis-section,
-// .section-one-content,
-// .main-rental-contain,
-// footer {
-//     margin-top: 0px;
-// }
+
+
+
+
 
 /* Nav / Navbar Styles
 ===================================*/
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
 .navbar {
     // background:rgba(235,235,235,0.5);
     background: none;
@@ -181,55 +199,28 @@ body {
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {}
 
+.logo {
+    display: inline-block;
+    h1 {
+        font-size: 45px;
+        font-family: 'Pacifico', cursive;
+        display: inline-block;
+        margin-top: 10px;
+        transform: rotate(-10deg);
+        color: #faba56;
+    }
+    p {
+        text-align: right;
+        margin-top: -60px;
+        color: black;
+        font-weight: 800;
+    }
+}
+
 /* Nav / Navbar Styles end
 ===================================*/
 
-.all-container {
-    margin-top: 60px;
-}
 
-.section-img {
-    width: 100%;
-    margin-top: -11px;
-    margin-bottom: 82px;
-    outline: 1px solid transparent;
-}
-
-.skew {
-    -webkit-transform: skewY(-3deg);
-    -moz-transform: skewY(-3deg);
-    -o-transform: skewY(-3deg);
-    -ms-transform: skewY(-3deg);
-    transform: skewY(-3deg);
-    -webkit-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    backface-visibility: hidden;
-    outline: 1px solid transparent;
-    padding: 2px;
-    /* IE8+ */
-    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand')";
-    /* IE6 and 7 */
-    filter: progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand');
-}
-
-.skew-fix {
-    -webkit-transform: skewY(3deg);
-    -moz-transform: skewY(3deg);
-    -o-transform: skewY(3deg);
-    -ms-transform: skewY(3deg);
-    transform: skewY(3deg);
-    -webkit-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    backface-visibility: hidden;
-    outline: 1px solid transparent;
-    padding: 2px;
-    /* IE8+ */
-    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand')";
-    /* IE6 and 7 */
-    filter: progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand');
-}
 
 /* About us section
 ===================================*/
@@ -248,39 +239,11 @@ body {
     }
 }
 
-.clear {
-    clear: both;
-}
-
-.btn {
-    margin-top: 30px;
-    background: #96d59e;
-    font-weight: 800;
-    font-size: 22px;
-    display: block;
-    padding: 10px;
-    text-align: center;
-    border-radius: 0.3em;
-    color: black;
-    border-bottom: 4px solid rgba(0, 0, 0, 0.5);
-}
-
-// .read-btn {
-
-//   box-shadow: 0px 5px 0px 0px #84BB8B;
-// }
-
-.btn:hover {
-    background-color: #69956F;
-    color: white;
-    text-decoration: none;
-}
-
 .read-btn {
     margin-bottom: 120px;
 }
 
-.learn-btn {}
+
 
 /* About us section ends
 ===================================*/
@@ -305,12 +268,10 @@ body {
     background: #334d69;
     border: 1px solid #334d69;
     padding-bottom: 120px;
-  
     h2 {
         padding-bottom: 90px;
     }
 }
-
 
 .prices-container {
     margin-bottom: 180px;
@@ -322,8 +283,6 @@ body {
             background: #9fa9b2;
         }
     }
-
-   
     .prices-bar {
         background: #1e2e41;
         height: 30px;
@@ -340,34 +299,19 @@ body {
         background-position: 16px 16px;
         border-radius: 40px;
     }
-    // ul {
-    //     width:100%;
-    // }
+
     li {
         text-align: center;
         background: #ebebeb;
         margin-bottom: 4px;
     }
-    // .cable-color {
-    //     background: $lightblue;
-    // }
+ 
 }
 
 /* rentals section
 ===================================*/
 
-.small-ul {
-    font-size: 20px;
-    display: inline-block;
-    padding-top: 12px;
-}
 
-.big-ul {
-    font-size: 40px;
-    margin-top: -55px;
-    display: inline-block;
-    margin-top: -5px;
-}
 
 .rental-section {
     background: #3fa6ad;
@@ -409,7 +353,9 @@ body {
     text-align: center;
     margin-bottom: 4px;
 }
-
+/* Inside Image
+===================================*
+*/
 .inside-img {
     background: url(../images/inside.jpg);
 }
@@ -458,6 +404,12 @@ body {
     }
 }
 
+
+
+
+/* Hours Section
+===================================*
+*/
 .hours-section {
     background: #96d59e;
     padding-bottom: 120px;
@@ -535,6 +487,18 @@ body {
     }
 }
 
+
+/* Footer Styles
+===================================*/
+footer {
+    height: 200px;
+    width: 100%;
+    background: #283332;
+    .footer-section {
+        margin-top: -150px;
+    }
+}
+
 // /* To Top Button Styles
 // ===================================*/
 .top {
@@ -555,24 +519,6 @@ body {
     transition: 1s;
     text-decoration: none;
     color: #fff;
-}
-
-/* Footer Styles
-===================================*/
-footer {
-    height: 200px;
-    width: 100%;
-    background: #283332;
-    .footer-section {
-        margin-top: -150px;
-    }
-}
-
-/* Helpers for top position on internal page links
-====================================================*/
-// #spytop:before,
-.all-padding {
-    padding-top: 120px;
 }
 
 /* jQuery Styles

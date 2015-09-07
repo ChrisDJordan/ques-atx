@@ -5,12 +5,6 @@
     .embed-container {
         min-height: 300px;
     }
-    .section-img {
-        margin-top: -50px;
-    }
-    .prices-section, .location-section, .programs-section {
-        margin-top: -120px;
-    }
     h2 {
         font-size: 80px;
     }
@@ -20,52 +14,55 @@
     .prices-section, .location-section, .programs-section {
         margin-top: -180px;
     }
-}
-
-@media screen and (min-width: 992px) {
-
-    .item {
-    background-size: cover;
-    height: 800px;
-}
-
-
-
-    .container {
-        max-width: 90%;
-    }
-
-
-    .logo {
-    display:inline-block;
-    h1 {
-        font-size: 115px;
-      
-        margin-top:20px;
-     
-    }
-}
-.wavier-section{
- .wavier-btn {
-        width: 30%;
-        margin: 30px auto;
-
-    }
-
-}
-
     nav {
         .container {
             padding-left: 0;
+            padding-right: 0;
         }
+    }
+    .main-contain {
+        width: 97.5%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 90%;
+    }
+    .btn {
+        width: 50%;
     }
     .navbar-collapse {
         li {
             box-shadow: none;
         }
     }
+    .logo {
+        display: inline-block;
+        h1 {
+            font-size: 115px;
+            margin-top: 20px;
+        }
+    }
+    .item {
+        background-size: cover;
+        height: 800px;
+    }
+    .lefty {
+        padding-right: 40px;
+    }
+    .righty {
+        padding-left: 40px;
+    }
     .read-btn {
         margin-bottom: 0;
+    }
+    .wavier-section {
+        .wavier-btn {
+            width: 30%;
+            margin: 30px auto;
+        }
     }
     li {
         box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
@@ -90,33 +87,8 @@
             width: 33%;
         }
     }
-    .program-marg-large {
-        margin-bottom: 160px;
-    }
-    .lefty {
-        padding-right: 40px;
-    }
-    .righty {
-        padding-left: 40px;
-    }
     .embed-container {
         min-height: 400px;
-    }
-    .btn {
-        width: 50%;
-    }
-    .calender-btn {
-        width: 70%;
-    }
-    .programs-section {
-        h3 {
-            margin-top: 0;
-        }
-    }
-    .location-section {
-        h3 {
-            margin-top: 50px;
-        }
     }
     .rental-bar, .hours-bar {
         display: none;
@@ -129,6 +101,11 @@
             margin-bottom: 0;
         }
     }
+    .location-section {
+        h3 {
+            margin-top: 50px;
+        }
+    }
     .hours-section {
         .hours-bar-large {
             height: 30px;
@@ -138,19 +115,28 @@
             }
         }
     }
+    .programs-section {
+        h3 {
+            margin-top: 0;
+        }
+    }
+    .program-marg-large {
+        margin-bottom: 160px;
+    }
     .events-section {
         li {
             box-shadow: none;
         }
     }
-   
+    .calender-btn {
+        width: 70%;
+    }
 }
 
 @media screen and (min-width: 1200px) {
     .prices-container, .rental-prices {
         margin-right: .45%;
         width: 33%;
-
         &:last-of-type {
             margin-right: 0%;
         }
