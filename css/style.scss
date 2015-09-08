@@ -497,11 +497,16 @@ li {
 /* Footer Styles
 ===================================*/
 footer {
-    height: 200px;
+    height: 500px;
     width: 100%;
     background: #283332;
     .footer-section {
-        margin-top: -150px;
+        
+    }
+    .twitter-icon{
+        background:url(../images/twitter.png);
+        
+        min-height:30px;
     }
 }
 
@@ -551,4 +556,5 @@ footer {
 
 
 @import "firsttime";
+@import "info";
 @import "mediaqueries";

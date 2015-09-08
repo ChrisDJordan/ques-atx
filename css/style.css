@@ -440,11 +440,12 @@ li:last-of-type {
 /* Footer Styles
 ===================================*/
 footer {
-  height: 200px;
+  height: 500px;
   width: 100%;
   background: #283332; }
-  footer .footer-section {
-    margin-top: -150px; }
+  footer .twitter-icon {
+    background: url(../images/twitter.png);
+    min-height: 30px; }
 
 .top {
   display: none;
@@ -506,6 +507,10 @@ footer {
 @media (min-width: 992px) {
   .questions-contain h3 {
     margin-top: 0; } }
+.info-hero {
+  background-image: url(../images/two-dudes.jpg);
+  background-position: 50%; }
+
 @media (min-width: 480px) {
   p {
     font-size: 18px; }
@@ -545,6 +550,10 @@ footer {
   .item {
     background-size: cover;
     height: 800px; }
+
+  .first {
+    background-image: url(../images/girl-air.jpg);
+    background-position: 50% 0; }
 
   .second {
     background-image: url(../images/tom.jpg);
