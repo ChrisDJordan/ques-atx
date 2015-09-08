@@ -14,14 +14,14 @@ h2,
   height: 550px; }
 
 .first {
-  background-image: url(../images/air3.jpg);
+  background-image: url(../images/girl-air.jpg);
   background-size: cover;
-  background-position: 70%;
+  background-position: 0%;
   background-repeat: no-repeat; }
 
 .second {
-  background-image: url(http://www.alliancewake.com/wp-content/uploads/2011/03/1600x1000fooshee.jpg);
-  background-position: 50% 0; }
+  background-image: url(../images/tom.jpg);
+  background-position: 80%; }
 
 ul {
   padding-left: 0;
@@ -177,7 +177,8 @@ li:last-of-type {
 /* Helpers for top position on internal page links
 ====================================================*/
 .all-padding {
-  padding-top: 120px; }
+  padding-top: 140px;
+  padding-bottom: 140px; }
 
 /* Carousel Styling
 ===================================*/
@@ -242,9 +243,11 @@ li:last-of-type {
     color: #faba56; }
   .logo p {
     text-align: right;
-    margin-top: -60px;
+    margin-top: -10px;
     color: black;
-    font-weight: 800; }
+    font-weight: 800;
+    transform: rotate(-10deg);
+    font-size: 30px; }
 
 /* Nav / Navbar Styles end
 ===================================*/
@@ -256,8 +259,7 @@ li:last-of-type {
 
 .about-section {
   background-color: #373235;
-  margin-top: -50px;
-  padding-bottom: 120px; }
+  margin-top: -50px; }
   .about-section h2 {
     padding-bottom: 30px; }
 
@@ -267,8 +269,7 @@ li:last-of-type {
 /* About us section ends
 ===================================*/
 .wavier-section {
-  background: #5eadcb;
-  padding-bottom: 120px; }
+  background: #5eadcb; }
   .wavier-section p {
     text-align: center; }
   .wavier-section .wavier-btn {
@@ -280,8 +281,7 @@ li:last-of-type {
 .prices-section {
   margin-top: -100px;
   background: #334d69;
-  border: 1px solid #334d69;
-  padding-bottom: 120px; }
+  border: 1px solid #334d69; }
   .prices-section h2 {
     padding-bottom: 90px; }
 
@@ -314,8 +314,7 @@ li:last-of-type {
 ===================================*/
 .rental-section {
   background: #3fa6ad;
-  border: 1px solid #3fa6ad;
-  padding-bottom: 120px; }
+  border: 1px solid #3fa6ad; }
   .rental-section h2 {
     text-align: center;
     padding-bottom: 90px; }
@@ -374,8 +373,7 @@ li:last-of-type {
 
 .location-section {
   background: #4c4c4c;
-  margin-top: -100px;
-  padding-bottom: 120px; }
+  margin-top: -100px; }
   .location-section h2 {
     padding-bottom: 30px; }
   .location-section a {
@@ -391,8 +389,7 @@ li:last-of-type {
 ===================================*
 */
 .hours-section {
-  background: #96d59e;
-  padding-bottom: 120px; }
+  background: #96d59e; }
   .hours-section h2 {
     text-align: center;
     padding-bottom: 80px; }
@@ -421,16 +418,14 @@ li:last-of-type {
 
 .programs-section {
   margin-top: -100px;
-  background: #373235;
-  padding-bottom: 120px; }
+  background: #373235; }
   .programs-section h2 {
     margin-bottom: 50px; }
   .programs-section .program-marg {
     margin-bottom: 160px; }
 
 .events-section {
-  background: #3fa6ad;
-  padding-bottom: 120px; }
+  background: #3fa6ad; }
   .events-section h2 {
     margin-bottom: 30px; }
   .events-section li {
@@ -484,8 +479,14 @@ footer {
     margin-bottom: 0;
     font-size: 14px; }
 
-.black {
-  color: black; }
+.questions-hero {
+  background-image: url(../images/boots-change2.jpg);
+  background-position: top left; }
+
+.questions-contain {
+  margin-top: -40px; }
+  .questions-contain h2 {
+    margin-bottom: 40px; }
 
 .q1-section {
   background: #373235; }
@@ -500,12 +501,11 @@ footer {
   background: #5eadcb; }
 
 .q5-section {
-  background: black; }
+  background: #373235; }
 
 @media (min-width: 992px) {
-  .q1-contain {
-    width: 80%;
-    margin: 0 auto 120px auto; } }
+  .questions-contain h3 {
+    margin-top: 0; } }
 @media (min-width: 480px) {
   p {
     font-size: 18px; }
@@ -528,7 +528,7 @@ footer {
     margin: 0 auto; } }
 @media screen and (min-width: 992px) {
   .container {
-    max-width: 90%; }
+    max-width: 80%; }
 
   .btn {
     width: 50%; }
@@ -540,11 +540,15 @@ footer {
     display: inline-block; }
     .logo h1 {
       font-size: 115px;
-      margin-top: 20px; }
+      margin-top: 35px; }
 
   .item {
     background-size: cover;
     height: 800px; }
+
+  .second {
+    background-image: url(../images/tom.jpg);
+    background-position: 50% 0; }
 
   .lefty {
     padding-right: 40px; }

@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 992px) {
     .container {
-        max-width: 90%;
+        max-width: 80%;
     }
     .btn {
         width: 50%;
@@ -42,13 +42,18 @@
         display: inline-block;
         h1 {
             font-size: 115px;
-            margin-top: 20px;
-         
+            margin-top: 35px;
+
         }
     }
     .item {
         background-size: cover;
         height: 800px;
+    }
+
+     .second {
+        background-image: url(../images/tom.jpg);
+        background-position: 50% 0;
     }
     .lefty {
         padding-right: 40px;
