@@ -12,7 +12,7 @@
 
 @media screen and (min-width: 768px) {
     .prices-section, .location-section, .programs-section {
-        margin-top: -180px;
+        margin-top: 0px;
     }
     nav {
         .container {
@@ -85,7 +85,7 @@
         }
     }
     .prices-section {
-        margin-top: -200px;
+        margin-top: 0px;
         .prices-container {
             margin-bottom: 0;
         }
@@ -152,6 +152,6 @@
         }
     }
     .prices-section, .location-section, .programs-section {
-        margin-top: -380px;
+        margin-top: 0px;
     }
 }

@@ -20,28 +20,14 @@
     margin: 0 auto;
 }
 
-
-
-
-
 li {
     &:last-of-type {
         box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
-      
-   
     }
 }
 
 .clear {
     clear: both;
-}
-
-.section-img {
-    width: 100%;
-    margin-top: -10px;
-    margin-bottom: 82px;
-    outline: 1px solid transparent;
-
 }
 
 .skew {
@@ -79,8 +65,6 @@ li {
     /* IE6 and 7 */
     filter: progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand');
 }
-
-
 
 .btn {
     margin-top: 30px;
@@ -120,9 +104,8 @@ li {
 
 .all-padding {
     padding-top: 140px;
-    padding-bottom:140px;
+    padding-bottom: 140px;
 }
-
 
 /* Carousel Styling
 ===================================*/
@@ -130,21 +113,12 @@ li {
     background: none;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* Nav / Navbar Styles
 ===================================*/
 .navbar-default .navbar-toggle {
     border-color: white;
 }
+
 .navbar {
     // background:rgba(235,235,235,0.5);
     background: none;
@@ -216,14 +190,47 @@ li {
         margin-top: -10px;
         color: black;
         font-weight: 800;
-          
-            transform: rotate(-10deg);
-            font-size:30px;
+        transform: rotate(-10deg);
+        font-size: 30px;
     }
 }
 
 /* Nav / Navbar Styles end
 ===================================*/
+
+/* Section Images
+===================================*/
+.prices-section,.location-section {
+    margin-top: -70px;
+}
+
+.section-img {
+    margin-top: -10px;
+    min-height: 300px;
+
+}
+
+
+.park-img {
+    background: url(../images/park.jpg);
+    background-size: cover;
+    background-position: 55%;
+
+}
+
+.store-img{
+    background: url(../images/inside.jpg);
+    background-size: cover;
+    background-position:  35% -60px;
+}
+
+.outside-img{
+      background: url(../images/mountains.jpg);
+       background-size: cover;
+    background-position:  35% -60px;
+
+}
+
 
 
 
@@ -233,13 +240,11 @@ li {
 .img-fix {
     width: 100%;
     outline: 1px solid transparent;
-    
 }
 
 .about-section {
     background-color: #373235;
     margin-top: -50px;
-   
     h2 {
         padding-bottom: 30px;
     }
@@ -249,14 +254,11 @@ li {
     margin-bottom: 120px;
 }
 
-
-
 /* About us section ends
 ===================================*/
 
 .wavier-section {
     background: #5eadcb;
-   
     p {
         text-align: center;
     }
@@ -270,10 +272,8 @@ li {
 ===================================*/
 
 .prices-section {
-    margin-top: -100px;
     background: #334d69;
     border: 1px solid #334d69;
-
     h2 {
         padding-bottom: 90px;
     }
@@ -305,24 +305,19 @@ li {
         background-position: 16px 16px;
         border-radius: 40px;
     }
-
     li {
         text-align: center;
         background: #ebebeb;
         margin-bottom: 4px;
     }
- 
 }
 
 /* rentals section
 ===================================*/
 
-
-
 .rental-section {
     background: #3fa6ad;
     border: 1px solid #3fa6ad;
-    
     h2 {
         text-align: center;
         padding-bottom: 90px;
@@ -359,6 +354,7 @@ li {
     text-align: center;
     margin-bottom: 4px;
 }
+
 /* Inside Image
 ===================================*
 */
@@ -393,8 +389,7 @@ li {
 
 .location-section {
     background: #4c4c4c;
-    margin-top: -100px;
-  
+    
     h2 {
         padding-bottom: 30px;
     }
@@ -410,15 +405,11 @@ li {
     }
 }
 
-
-
-
 /* Hours Section
 ===================================*
 */
 .hours-section {
     background: #96d59e;
- 
     h2 {
         text-align: center;
         padding-bottom: 80px;
@@ -459,7 +450,6 @@ li {
 .programs-section {
     margin-top: -100px;
     background: #373235;
-
     h2 {
         margin-bottom: 50px;
     }
@@ -476,7 +466,6 @@ li {
 
 .events-section {
     background: #3fa6ad;
-
     h2 {
         margin-bottom: 30px;
     }
@@ -493,20 +482,16 @@ li {
     }
 }
 
-
 /* Footer Styles
 ===================================*/
 footer {
     height: 500px;
     width: 100%;
     background: #283332;
-    .footer-section {
-        
-    }
-    .twitter-icon{
-        background:url(../images/twitter.png);
-        
-        min-height:30px;
+    .footer-section {}
+    .twitter-icon {
+        background: url(../images/twitter.png);
+        min-height: 30px;
     }
 }
 
@@ -544,7 +529,6 @@ footer {
             font-size: 33px;
             margin-top: 0;
             margin-bottom: 0;
-             
         }
         p {
             margin-top: -5px;
@@ -553,7 +537,6 @@ footer {
         }
     }
 }
-
 
 @import "firsttime";
 @import "info";
