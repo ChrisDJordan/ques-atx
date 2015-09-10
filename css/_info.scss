@@ -2,3 +2,37 @@
 	background-image: url(../images/two-dudes.jpg);
 	background-position:50%;
 }
+
+
+.info-section{
+	margin-top:-50px;
+	background:white;
+	color:black;
+h2{
+	margin-bottom:80px;
+}
+	p,h2,h3{
+		color:black;
+	}
+	h3{
+		margin-top:0;
+	}
+	.history-section{
+		margin-top:80px;
+	}
+}
+
+.rails-section{
+	background:$section-teal;
+	h2{
+		margin-bottom:80px;
+	}
+
+	
+	img{
+		margin-bottom:80px;
+	}
+
+}
+
+

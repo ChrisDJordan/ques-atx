@@ -20,7 +20,12 @@ h2,
   background-repeat: no-repeat; }
 
 .second {
-  background-image: url(../images/tom.jpg);
+  background-image: url(../images/philip.jpg);
+  background-position: 80%; }
+
+.third {
+  background-image: url(../images/float.jpg);
+  background-size: cover;
   background-position: 80%; }
 
 ul {
@@ -30,7 +35,7 @@ ul {
 li {
   list-style-type: none; }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .navbar-header {
     float: none; }
 
@@ -95,6 +100,12 @@ li {
 ===================================*/
 .container {
   max-width: 90%; }
+
+#navbar li a {
+  color: white; }
+
+p {
+  font-size: 17px; }
 
 .main-contain {
   width: 93%;
@@ -211,17 +222,12 @@ li:last-of-type {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background: #373235;
-  color: #faba56; }
+  background: #faba56; }
 
 .dropdown-menu {
   padding: 48px;
   box-shadow: none;
   border: none; }
-
-.dropdown-menu li a {
-  padding: 4px 8px;
-  border-radius: 6px; }
 
 .nav-dropdown-scroll {
   background: #e7eaea; }
@@ -234,20 +240,22 @@ li:last-of-type {
     display: inline-block;
     margin-top: 10px;
     transform: rotate(-10deg);
-    color: #faba56; }
+    color: #faba56;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5); }
   .logo p {
     text-align: right;
     margin-top: -10px;
-    color: black;
+    color: white;
     font-weight: 800;
     transform: rotate(-10deg);
-    font-size: 30px; }
+    font-size: 30px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5); }
 
 /* Nav / Navbar Styles end
 ===================================*/
 /* Section Images
 ===================================*/
-.prices-section, .location-section {
+.prices-section, .location-section, .programs-section {
   margin-top: -70px; }
 
 .section-img {
@@ -267,7 +275,7 @@ li:last-of-type {
 .outside-img {
   background: url(../images/mountains.jpg);
   background-size: cover;
-  background-position: 35% -60px; }
+  background-position: 55%; }
 
 /* About us section
 ===================================*/
@@ -288,6 +296,8 @@ li:last-of-type {
 ===================================*/
 .wavier-section {
   background: #5eadcb; }
+  .wavier-section h2 {
+    margin-bottom: 30px; }
   .wavier-section p {
     text-align: center; }
   .wavier-section .wavier-btn {
@@ -364,9 +374,6 @@ li:last-of-type {
 /* Inside Image
 ===================================*
 */
-.inside-img {
-  background: url(../images/inside.jpg); }
-
 /* Location Section
 ===================================*
 */
@@ -433,7 +440,6 @@ li:last-of-type {
     margin-bottom: 4px; }
 
 .programs-section {
-  margin-top: -100px;
   background: #373235; }
   .programs-section h2 {
     margin-bottom: 50px; }
@@ -485,16 +491,21 @@ footer {
 ===================================*/
 .navbar-scroll {
   background: white;
-  padding: 10px 0 10px 0;
-  transition-duration: 0.6s; }
+  padding: 20px 0 10px 0;
+  transition-duration: 0.9s; }
+  .navbar-scroll #navbar li a {
+    color: black; }
   .navbar-scroll .logo h1 {
     font-size: 33px;
     margin-top: 0;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    text-shadow: none; }
   .navbar-scroll .logo p {
     margin-top: -5px;
     margin-bottom: 0;
-    font-size: 14px; }
+    font-size: 14px;
+    color: black;
+    text-shadow: none; }
 
 .questions-hero {
   background-image: url(../images/boots-change2.jpg);
@@ -527,9 +538,33 @@ footer {
   background-image: url(../images/two-dudes.jpg);
   background-position: 50%; }
 
+.info-section {
+  margin-top: -50px;
+  background: white;
+  color: black; }
+  .info-section h2 {
+    margin-bottom: 80px; }
+  .info-section p, .info-section h2, .info-section h3 {
+    color: black; }
+  .info-section h3 {
+    margin-top: 0; }
+  .info-section .history-section {
+    margin-top: 80px; }
+
+.rails-section {
+  background: #3fa6ad; }
+  .rails-section h2 {
+    margin-bottom: 80px; }
+  .rails-section img {
+    margin-bottom: 80px; }
+
 @media (min-width: 480px) {
-  p {
-    font-size: 18px; }
+  .prices-section, .location-section, .programs-section {
+    margin-top: -90px; }
+
+  .section-img {
+    margin-top: -20px;
+    min-height: 500px; }
 
   .embed-container {
     min-height: 300px; }
@@ -537,8 +572,9 @@ footer {
   h2 {
     font-size: 80px; } }
 @media screen and (min-width: 768px) {
-  .prices-section, .location-section, .programs-section {
-    margin-top: 0px; }
+  .section-img {
+    margin-top: -30px;
+    min-height: 600px; }
 
   nav .container {
     padding-left: 0;
@@ -548,6 +584,9 @@ footer {
     width: 97.5%;
     margin: 0 auto; } }
 @media screen and (min-width: 992px) {
+  .section-img {
+    margin-top: -30px; }
+
   .container {
     max-width: 80%; }
 
@@ -565,14 +604,14 @@ footer {
 
   .item {
     background-size: cover;
-    height: 800px; }
+    height: 825px; }
 
   .first {
     background-image: url(../images/girl-air.jpg);
     background-position: 50% 0; }
 
   .second {
-    background-image: url(../images/tom.jpg);
+    background-image: url(../images/philip.jpg);
     background-position: 50% 0; }
 
   .lefty {
@@ -597,15 +636,13 @@ footer {
     .prices-container:last-of-type, .rental-prices:last-of-type, .hours-prices:last-of-type {
       margin-right: 0%; }
 
-  .prices-section {
-    margin-top: 0px; }
-    .prices-section .prices-container {
-      margin-bottom: 0; }
-    .prices-section .location-section {
-      margin-top: -200px; }
-    .prices-section .member-btn {
-      margin: 30px auto;
-      width: 33%; }
+  .prices-section .prices-container {
+    margin-bottom: 0; }
+  .prices-section .location-section {
+    margin-top: -200px; }
+  .prices-section .member-btn {
+    margin: 30px auto;
+    width: 33%; }
 
   .embed-container {
     min-height: 400px; }
@@ -648,6 +685,10 @@ footer {
       margin-right: 0%; }
 
   .prices-section, .location-section, .programs-section {
-    margin-top: 0px; } }
+    margin-top: -190px; }
+
+  .section-img {
+    margin-top: -40px;
+    min-height: 700px; } }
 
 /*# sourceMappingURL=style.css.map */

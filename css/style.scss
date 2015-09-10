@@ -11,10 +11,21 @@
 /* Main Styling
 ===================================*/
 
+
 .container {
     max-width: 90%;
-}
 
+}
+#navbar{
+    li{
+        a{
+            color:white;
+        }
+    }
+}
+p{
+    font-size:17px;
+}
 .main-contain {
     width: 93%;
     margin: 0 auto;
@@ -151,8 +162,8 @@ li {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-    background: #373235;
-    color: #faba56;
+    background: #faba56;
+       
 }
 
 .dropdown-menu {
@@ -161,19 +172,24 @@ li {
     border: none;
 }
 
-.dropdown-menu li a {
-    padding: 4px 8px;
-    border-radius: 6px;
-}
+// .dropdown-menu li a {
+//     padding: 4px 8px;
+//     border-radius: 6px;
+//     color:red;
+// }
 
 .nav-dropdown-scroll {
     background: #e7eaea;
+
     // box-shadow: 0px 10px 9px rgba(0, 0, 0, 0.4);
 }
 
 .navbar-toggle,
 .navbar-default .navbar-toggle:focus,
-.navbar-default .navbar-toggle:hover {}
+.navbar-default .navbar-toggle:hover {
+
+
+}
 
 .logo {
     display: inline-block;
@@ -184,14 +200,16 @@ li {
         margin-top: 10px;
         transform: rotate(-10deg);
         color: #faba56;
+        text-shadow: 2px 2px rgba(0,0,0,0.5);
     }
     p {
         text-align: right;
         margin-top: -10px;
-        color: black;
+        color: white;
         font-weight: 800;
         transform: rotate(-10deg);
         font-size: 30px;
+        text-shadow: 2px 2px rgba(0,0,0,0.5);
     }
 }
 
@@ -200,7 +218,7 @@ li {
 
 /* Section Images
 ===================================*/
-.prices-section,.location-section {
+.prices-section,.location-section,.programs-section  {
     margin-top: -70px;
 }
 
@@ -227,7 +245,7 @@ li {
 .outside-img{
       background: url(../images/mountains.jpg);
        background-size: cover;
-    background-position:  35% -60px;
+       background-position: 55%;
 
 }
 
@@ -259,6 +277,9 @@ li {
 
 .wavier-section {
     background: #5eadcb;
+    h2{
+        margin-bottom:30px;
+    }
     p {
         text-align: center;
     }
@@ -358,9 +379,7 @@ li {
 /* Inside Image
 ===================================*
 */
-.inside-img {
-    background: url(../images/inside.jpg);
-}
+
 
 /* Location Section
 ===================================*
@@ -448,7 +467,7 @@ li {
 // /* Programs Section
 // ===================================*/
 .programs-section {
-    margin-top: -100px;
+
     background: #373235;
     h2 {
         margin-bottom: 50px;
@@ -521,21 +540,36 @@ footer {
 ===================================*/
 .navbar-scroll {
     background: white;
-    padding: 10px 0 10px 0;
+    padding: 20px 0 10px 0;
     // box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-    transition-duration: 0.6s;
+    transition-duration: 0.9s;
+#navbar{
+    li{
+        a{
+            color:black;
+        }
+    }
+}
+
     .logo {
         h1 {
             font-size: 33px;
             margin-top: 0;
             margin-bottom: 0;
+            text-shadow:none;
         }
         p {
             margin-top: -5px;
             margin-bottom: 0;
             font-size: 14px;
+            color:black;
+             text-shadow:none;
         }
+
+
+
     }
+
 }
 
 @import "firsttime";
