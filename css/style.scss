@@ -11,6 +11,9 @@
 /* Main Styling
 ===================================*/
 
+html {
+  -webkit-font-smoothing: antialiased;
+}
 
 .container {
     max-width: 90%;
@@ -85,7 +88,7 @@ li {
     display: block;
     padding: 10px;
     text-align: center;
-    border-radius: 0.3em;
+    // border-radius: 0.3em;
     color: black;
     border-bottom: 4px solid rgba(0, 0, 0, 0.5);
 }
@@ -264,7 +267,7 @@ li {
     background-color: #373235;
     margin-top: -50px;
     h2 {
-        padding-bottom: 30px;
+        margin-bottom: 50px;
     }
 }
 
@@ -296,7 +299,7 @@ li {
     background: #334d69;
     border: 1px solid #334d69;
     h2 {
-        padding-bottom: 90px;
+        margin-bottom: 110px;
     }
 }
 
@@ -341,7 +344,7 @@ li {
     border: 1px solid #3fa6ad;
     h2 {
         text-align: center;
-        padding-bottom: 90px;
+        margin-bottom: 110px;
     }
 }
 
@@ -410,16 +413,25 @@ li {
     background: #4c4c4c;
     
     h2 {
-        padding-bottom: 30px;
+        margin-bottom: 50px;
     }
+
+        h3 {
+       
+            &:first-of-type{
+                margin-top:40px;;
+            }
+        }
+    
     a {
         color: white;
-        font-size: 20px;
+        font-size: 22px;
         text-align: center;
         display: block;
+        text-decoration: underline;
         &:last-of-type {
             margin-bottom: 40px;
-            text-decoration: underline;
+            
         }
     }
 }
@@ -431,7 +443,7 @@ li {
     background: #96d59e;
     h2 {
         text-align: center;
-        padding-bottom: 80px;
+        margin-bottom: 110px;
     }
     .hours-bar {
         background: #1e2e41;
@@ -476,7 +488,7 @@ li {
     //     margin-top:0px;
     // }
     .program-marg {
-        margin-bottom: 160px;
+        margin-bottom: 120px;
     }
 }
 
@@ -486,7 +498,10 @@ li {
 .events-section {
     background: #3fa6ad;
     h2 {
-        margin-bottom: 30px;
+        margin-bottom: 50px;
+    }
+    h3{
+        margin-top:0;
     }
     li {
         color: white;
@@ -574,4 +589,5 @@ footer {
 
 @import "firsttime";
 @import "info";
+@import "lessons";
 @import "mediaqueries";
