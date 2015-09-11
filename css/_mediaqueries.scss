@@ -15,9 +15,21 @@
     input {
         width: 80%;
     }
+        .menu{
+    font-size:22px;
+    
+   
+}
 }
 
 @media screen and (min-width: 768px) {
+    .menu{
+    font-size:26px;
+    margin-top:80px;
+    
+   
+}
+
     .section-img {
         margin-top: -30px;
         min-height: 600px;
@@ -46,6 +58,11 @@
     // .prices-section, .location-section, .programs-section {
     //     margin-top: -190px;
     // }
+
+
+    .navbar-toggle{
+        margin-top:30px;
+    }
     .top-img {
         img {
             margin-bottom: 120px;

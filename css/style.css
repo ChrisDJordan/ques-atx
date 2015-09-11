@@ -5,13 +5,16 @@ h2,
   margin-top: 0px;
   margin-bottom: 0px; }
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: none; }
+
 .prices-section .col-md-4, .prices-section .col-md-6, .hours-section .col-md-4, .hours-section .col-md-6, .rental-section .col-md-4, .rental-section .col-md-6 {
   padding-right: 0;
   padding-left: 0; }
 
 .item {
   background-size: cover;
-  height: 568px; }
+  height: 668px; }
 
 .first {
   background-image: url(../images/girl-air.jpg);
@@ -112,6 +115,11 @@ body {
 p, a {
   line-height: 1.8; }
 
+.menu {
+  font-size: 20px;
+  font-weight: bold;
+  background: transparent; }
+
 .container {
   max-width: 90%; }
 
@@ -206,7 +214,9 @@ li:last-of-type {
 /* Nav / Navbar Styles
 ===================================*/
 .navbar-default .navbar-toggle {
-  border-color: white; }
+  border: 2px solid white;
+  margin-right: 0;
+  background: none; }
 
 .navbar {
   background: none;
@@ -244,6 +254,12 @@ li:last-of-type {
 
 .nav-dropdown-scroll {
   background: #e7eaea; }
+
+.navbar-toggle,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background: transparent;
+  color: white; }
 
 .logo {
   display: inline-block; }
@@ -516,6 +532,8 @@ footer {
   padding: 20px 0 10px 0;
   box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
   transition-duration: 0.1s; }
+  .navbar-scroll .navbar-toggle {
+    border-color: black; }
   .navbar-scroll #navbar li a {
     color: black; }
   .navbar-scroll .logo h1 {
@@ -529,6 +547,8 @@ footer {
     font-size: 14px;
     color: black;
     text-shadow: none; }
+  .navbar-scroll .menu {
+    color: black; }
 
 .questions-hero {
   background-image: url(../images/boots-change2.jpg);
@@ -667,8 +687,15 @@ input {
     font-size: 80px; }
 
   input {
-    width: 80%; } }
+    width: 80%; }
+
+  .menu {
+    font-size: 22px; } }
 @media screen and (min-width: 768px) {
+  .menu {
+    font-size: 26px;
+    margin-top: 80px; }
+
   .section-img {
     margin-top: -30px;
     min-height: 600px; }
@@ -687,6 +714,9 @@ input {
   .cable-section h3 {
     margin-top: -4px; } }
 @media screen and (min-width: 992px) {
+  .navbar-toggle {
+    margin-top: 30px; }
+
   .top-img img {
     margin-bottom: 120px; }
 
