@@ -503,7 +503,7 @@ footer {
 .navbar-scroll {
   background: white;
   padding: 20px 0 10px 0;
-  transition-duration: 0.9s; }
+  transition-duration: 0.1s; }
   .navbar-scroll #navbar li a {
     color: black; }
   .navbar-scroll .logo h1 {
