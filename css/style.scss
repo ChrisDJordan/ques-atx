@@ -223,7 +223,11 @@ li {
         font-family: 'Pacifico', cursive;
         display: inline-block;
         margin-top: 10px;
-        transform: rotate(-10deg);
+      
+         -webkit-transform: rotate(-10deg); /* Ch <36, Saf 5.1+, iOS, An =<4.4.4 */
+      -ms-transform: rotate(-10deg); /* IE 9 */
+          transform: rotate(-10deg); /* IE 10, Fx 16+, Op 12.1+ */
+
         color: #faba56;
         text-shadow: 2px 2px rgba(0,0,0,0.5);
     }
@@ -512,9 +516,7 @@ li {
     h2 {
         margin-bottom: 50px;
     }
-    // h3{
-    //     margin-top:0px;
-    // }
+ 
     .program-marg {
         margin-bottom: 120px;
     }
@@ -528,9 +530,7 @@ li {
     h2 {
         margin-bottom: 50px;
     }
-    h3{
-        margin-top:0;
-    }
+  
     li {
         color: white;
         list-style-type: circle;
@@ -586,7 +586,7 @@ footer {
 .navbar-scroll {
     background: white;
     padding: 20px 0 10px 0;
-       box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
     // box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
     transition-duration: 0.1s;
 #navbar{
