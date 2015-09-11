@@ -4,7 +4,7 @@
         margin-top: 0px;
         margin-bottom: 0px;
     }
-    .col-md-4 {
+    .col-md-4,.col-md-6 {
         padding-right: 0;
         padding-left: 0;
     }
@@ -25,7 +25,8 @@
     .third{
           
         background-image: url(../images/philip.jpg);
-             background-position: 80% ;
+             background-position: 40% 0px ;
+               background-size: cover;
     }
     ul {
         padding-left: 0;

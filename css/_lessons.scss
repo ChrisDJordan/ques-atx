@@ -1,3 +1,67 @@
 .lessons-hero{
 	background:url(../images/red-air.jpg);
+	background-size:cover;
+	background-position:40% 0px;
+}
+
+.lessons-info-section{
+	
+	margin-top:-50px;
+background:white;
+	color:black;
+h2{
+	margin-bottom:80px;
+}
+	p,h2,h3{
+		color:black;
+	}
+	h3{
+		margin-top:0;
+	}
+	.history-section{
+		margin-top:80px;
+	}
+}
+
+
+.lessons-section {
+	margin-top:0;
+    background: #334d69;
+    border: 1px solid #334d69;
+    h2 {
+        margin-bottom: 110px;
+    }
+}
+
+.lessons-container {
+    margin-bottom: 180px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+    li {
+        &:first-of-type {
+            background: #9fa9b2;
+        }
+    }
+    .prices-bar {
+        background: #1e2e41;
+        height: 30px;
+    }
+    .prices-circle {
+        margin: 0 auto;
+        position: relative;
+        bottom: 60px;
+        width: 80px;
+        height: 80px;
+        background-color: #faba56;
+        background-image: url("../images/ticket2.png");
+        background-repeat: no-repeat;
+        background-position: 16px 16px;
+        border-radius: 40px;
+    }
+    li {
+        text-align: center;
+        background: #ebebeb;
+        margin-bottom: 4px;
+    }
 }

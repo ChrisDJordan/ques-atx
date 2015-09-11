@@ -5,7 +5,7 @@ h2,
   margin-top: 0px;
   margin-bottom: 0px; }
 
-.col-md-4 {
+.col-md-4, .col-md-6 {
   padding-right: 0;
   padding-left: 0; }
 
@@ -25,7 +25,8 @@ h2,
 
 .third {
   background-image: url(../images/philip.jpg);
-  background-position: 80%; }
+  background-position: 40% 0px;
+  background-size: cover; }
 
 ul {
   padding-left: 0;
@@ -596,7 +597,54 @@ input {
   background: #ffffff; }
 
 .lessons-hero {
-  background: url(../images/red-air.jpg); }
+  background: url(../images/red-air.jpg);
+  background-size: cover;
+  background-position: 40% 0px; }
+
+.lessons-info-section {
+  margin-top: -50px;
+  background: white;
+  color: black; }
+  .lessons-info-section h2 {
+    margin-bottom: 80px; }
+  .lessons-info-section p, .lessons-info-section h2, .lessons-info-section h3 {
+    color: black; }
+  .lessons-info-section h3 {
+    margin-top: 0; }
+  .lessons-info-section .history-section {
+    margin-top: 80px; }
+
+.lessons-section {
+  margin-top: 0;
+  background: #334d69;
+  border: 1px solid #334d69; }
+  .lessons-section h2 {
+    margin-bottom: 110px; }
+
+.lessons-container {
+  margin-bottom: 180px; }
+  .lessons-container:last-child {
+    margin-bottom: 0; }
+  .lessons-container li:first-of-type {
+    background: #9fa9b2; }
+  .lessons-container .prices-bar {
+    background: #1e2e41;
+    height: 30px; }
+  .lessons-container .prices-circle {
+    margin: 0 auto;
+    position: relative;
+    bottom: 60px;
+    width: 80px;
+    height: 80px;
+    background-color: #faba56;
+    background-image: url("../images/ticket2.png");
+    background-repeat: no-repeat;
+    background-position: 16px 16px;
+    border-radius: 40px; }
+  .lessons-container li {
+    text-align: center;
+    background: #ebebeb;
+    margin-bottom: 4px; }
 
 @media (min-width: 480px) {
   .prices-section, .location-section, .programs-section {
@@ -624,6 +672,10 @@ input {
     width: 97.5%;
     margin: 0 auto; } }
 @media screen and (min-width: 992px) {
+  .lessons-contain {
+    width: 80%;
+    margin: 0 auto; }
+
   .section-img {
     margin-top: -30px; }
 
@@ -717,7 +769,11 @@ input {
     box-shadow: none; }
 
   .calender-btn {
-    width: 70%; } }
+    width: 70%; }
+
+  .lessons-section .col-md-6 {
+    padding-right: 15px;
+    padding-left: 15px; } }
 @media screen and (min-width: 1200px) {
   .prices-container, .rental-prices {
     margin-right: .45%;
