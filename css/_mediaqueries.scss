@@ -6,15 +6,15 @@
         margin-top: -20px;
         min-height: 500px;
     }
-
-  
     .embed-container {
         min-height: 300px;
     }
     h2 {
         font-size: 80px;
     }
-   
+    input {
+        width: 80%;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -32,19 +32,40 @@
         width: 97.5%;
         margin: 0 auto;
     }
-   
+    input {
+        width: 60%;
+    }
+    .cable-section {
+        h3 {
+            margin-top: -4px;
+        }
+    }
 }
 
 @media screen and (min-width: 992px) {
     // .prices-section, .location-section, .programs-section {
     //     margin-top: -190px;
-     
     // }
-
-.lessons-contain{
-    width:80%;
-    margin:0 auto;
-}
+    .top-img {
+        img {
+            margin-bottom: 120px;
+        }
+    }
+    .directions-marg {
+        margin-bottom: 0;
+    }
+    .lessons-contain {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .lessons-info-section {
+        h2 {
+            margin-bottom: 80px;
+        }
+        h3 {
+            margin-top: 0;
+        }
+    }
     .section-img {
         margin-top: -30px;
     }
@@ -76,7 +97,7 @@
     }
     .second {
         background-image: url(../images/teen-rider.jpg);
-        background-position: 80% ;
+        background-position: 80%;
         background-position: 50% 0;
     }
     .lefty {
@@ -160,12 +181,14 @@
     .calender-btn {
         width: 70%;
     }
-      .lessons-section{
-        
-        .col-md-6{
-            padding-right:15px;
-            padding-left:15px;
+    .lessons-section {
+        .col-md-6 {
+            padding-right: 15px;
+            padding-left: 15px;
         }
+    }
+    input {
+        width: 50%;
     }
 }
 
@@ -179,21 +202,22 @@
     }
     .prices-section, .location-section, .programs-section {
         margin-top: -190px;
-       
     }
     .section-img {
         margin-top: -40px;
-        min-height:700px;
+        min-height: 700px;
     }
-   
+    input {
+        width: 40%;
+    }
+    .form-btn {
+        width: 40%;
+    }
 }
-
-
 
 @media screen and (min-width: 1800px) {
     //   .prices-section, .location-section, .programs-section {
     //     margin-top: -190px;
     //     background:gold;
-       
     // }
-    }
+}

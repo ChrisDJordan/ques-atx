@@ -1,41 +1,53 @@
+h2,
+.h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
-  h2,
-    .h2 {
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    .col-md-4,.col-md-6 {
+.prices-section, .hours-section, .rental-section {
+    .col-md-4, .col-md-6 {
         padding-right: 0;
         padding-left: 0;
     }
-    .item {
-        background-size: cover;
-        height: 568px;
-    }
-    .first {
-        background-image: url(../images/girl-air.jpg);
-        background-size: cover;
-        background-position: 0%;
-        background-repeat: no-repeat;
-    }
-    .second {
-        background-image: url(../images/teen-rider.jpg);
-        background-position: 50% ;
-    }
-    .third{
-          
-        background-image: url(../images/philip.jpg);
-             background-position: 40% 0px ;
-               background-size: cover;
-    }
-    ul {
-        padding-left: 0;
-        margin-right: 0;
-    }
-    li {
-        list-style-type: none;
-    }
+}
 
+.item {
+    background-size: cover;
+    height: 568px;
+}
+
+.first {
+    background-image: url(../images/girl-air.jpg);
+    background-size: cover;
+    background-position: 0%;
+    background-repeat: no-repeat;
+}
+
+.second {
+    background-image: url(../images/teen-rider.jpg);
+    background-position: 50%;
+}
+
+.third {
+    background-image: url(../images/sesitec.jpg);
+    background-position: 40% 0px;
+    background-size: cover;
+}
+
+.fourth {
+    background-image: url(../images/philip.jpg);
+    background-position: 40% 0px;
+    background-size: cover;
+}
+
+ul {
+    padding-left: 0;
+    margin-right: 0;
+}
+
+li {
+    list-style-type: none;
+}
 
 @media (max-width: 1200px) {
     .navbar-header {

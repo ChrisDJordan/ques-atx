@@ -5,7 +5,7 @@ h2,
   margin-top: 0px;
   margin-bottom: 0px; }
 
-.col-md-4, .col-md-6 {
+.prices-section .col-md-4, .prices-section .col-md-6, .hours-section .col-md-4, .hours-section .col-md-6, .rental-section .col-md-4, .rental-section .col-md-6 {
   padding-right: 0;
   padding-left: 0; }
 
@@ -24,6 +24,11 @@ h2,
   background-position: 50%; }
 
 .third {
+  background-image: url(../images/sesitec.jpg);
+  background-position: 40% 0px;
+  background-size: cover; }
+
+.fourth {
   background-image: url(../images/philip.jpg);
   background-position: 40% 0px;
   background-size: cover; }
@@ -101,11 +106,11 @@ li {
 html {
   -webkit-font-smoothing: antialiased; }
 
-.col-sm-4 {
-  width: 32%;
-  margin-right: 1%; }
-  .col-sm-4:last-of-type {
-    margin-right: 0; }
+body {
+  line-height: 1; }
+
+p, a {
+  line-height: 1.8; }
 
 .container {
   max-width: 90%; }
@@ -178,20 +183,20 @@ li:last-of-type {
 
 .small-ul {
   font-size: 20px;
+  font-weight: bold;
   display: inline-block;
-  padding-top: 12px; }
+  padding: 20px 0 15px 0; }
 
 .big-ul {
   font-size: 40px;
-  margin-top: -55px;
-  display: inline-block;
-  margin-top: -5px; }
+  padding-bottom: 20px;
+  display: inline-block; }
 
 /* Helpers for top position on internal page links
 ====================================================*/
 .all-padding {
-  padding-top: 140px;
-  padding-bottom: 140px; }
+  padding-top: 160px;
+  padding-bottom: 160px; }
 
 /* Carousel Styling
 ===================================*/
@@ -342,7 +347,7 @@ li:last-of-type {
     border-radius: 40px; }
   .prices-container li {
     text-align: center;
-    background: #ebebeb;
+    background-color: #eee;
     margin-bottom: 4px; }
 
 /* rentals section
@@ -375,7 +380,7 @@ li:last-of-type {
   background-position: 16px 16px; }
 
 .rental-prices {
-  background: #F1F1F1;
+  background-color: #eee;
   text-align: center;
   margin-bottom: 4px; }
 
@@ -445,7 +450,7 @@ li:last-of-type {
     .hours-section .hours-circle .none {
       display: none; }
   .hours-section .hours-prices {
-    background: #F1F1F1;
+    background-color: #eee;
     text-align: center;
     margin-bottom: 4px; }
 
@@ -465,7 +470,9 @@ li:last-of-type {
   .events-section li {
     color: white;
     list-style-type: circle;
-    font-weight: 300; }
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.6; }
     .events-section li:last-of-type {
       box-shadow: none; }
   .events-section .calender-btn {
@@ -504,6 +511,7 @@ footer {
 .navbar-scroll {
   background: white;
   padding: 20px 0 10px 0;
+  box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.2);
   transition-duration: 0.1s; }
   .navbar-scroll #navbar li a {
     color: black; }
@@ -563,15 +571,12 @@ footer {
   .info-section .history-section {
     margin-top: 80px; }
 
-.rails-section {
+.cable-section {
   background: #3fa6ad; }
-  .rails-section h2 {
+  .cable-section h2 {
     margin-bottom: 80px; }
-  .rails-section img {
-    margin-bottom: 80px; }
-
-form {
-  margin: 0 auto; }
+  .cable-section .top-img:first-of-type p {
+    margin-bottom: 120px; }
 
 input {
   font-size: 21px;
@@ -582,7 +587,7 @@ input {
   border: 0;
   padding: 10px 10px;
   font-size: 13px;
-  width: 400px;
+  width: 100%;
   box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5); }
 
 .button:hover {
@@ -597,7 +602,7 @@ input {
   background: #ffffff; }
 
 .lessons-hero {
-  background: url(../images/red-air.jpg);
+  background: url(../images/sesitec.jpg);
   background-size: cover;
   background-position: 40% 0px; }
 
@@ -606,31 +611,31 @@ input {
   background: white;
   color: black; }
   .lessons-info-section h2 {
-    margin-bottom: 80px; }
+    margin-bottom: 50px; }
   .lessons-info-section p, .lessons-info-section h2, .lessons-info-section h3 {
     color: black; }
-  .lessons-info-section h3 {
-    margin-top: 0; }
   .lessons-info-section .history-section {
     margin-top: 80px; }
 
-.lessons-section {
+.lessons-price-section {
   margin-top: 0;
   background: #334d69;
   border: 1px solid #334d69; }
-  .lessons-section h2 {
+  .lessons-price-section h2 {
     margin-bottom: 110px; }
+  .lessons-price-section li:first-of-type {
+    padding-top: 50px; }
 
-.lessons-container {
+.lessons-price-container {
   margin-bottom: 180px; }
-  .lessons-container:last-child {
+  .lessons-price-container:last-child {
     margin-bottom: 0; }
-  .lessons-container li:first-of-type {
+  .lessons-price-container li:first-of-type {
     background: #9fa9b2; }
-  .lessons-container .prices-bar {
+  .lessons-price-container .prices-bar {
     background: #1e2e41;
     height: 30px; }
-  .lessons-container .prices-circle {
+  .lessons-price-container .prices-circle {
     margin: 0 auto;
     position: relative;
     bottom: 60px;
@@ -641,7 +646,7 @@ input {
     background-repeat: no-repeat;
     background-position: 16px 16px;
     border-radius: 40px; }
-  .lessons-container li {
+  .lessons-price-container li {
     text-align: center;
     background: #ebebeb;
     margin-bottom: 4px; }
@@ -658,7 +663,10 @@ input {
     min-height: 300px; }
 
   h2 {
-    font-size: 80px; } }
+    font-size: 80px; }
+
+  input {
+    width: 80%; } }
 @media screen and (min-width: 768px) {
   .section-img {
     margin-top: -30px;
@@ -670,11 +678,28 @@ input {
 
   .main-contain {
     width: 97.5%;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  input {
+    width: 60%; }
+
+  .cable-section h3 {
+    margin-top: -4px; } }
 @media screen and (min-width: 992px) {
+  .top-img img {
+    margin-bottom: 120px; }
+
+  .directions-marg {
+    margin-bottom: 0; }
+
   .lessons-contain {
     width: 80%;
     margin: 0 auto; }
+
+  .lessons-info-section h2 {
+    margin-bottom: 80px; }
+  .lessons-info-section h3 {
+    margin-top: 0; }
 
   .section-img {
     margin-top: -30px; }
@@ -773,7 +798,10 @@ input {
 
   .lessons-section .col-md-6 {
     padding-right: 15px;
-    padding-left: 15px; } }
+    padding-left: 15px; }
+
+  input {
+    width: 50%; } }
 @media screen and (min-width: 1200px) {
   .prices-container, .rental-prices {
     margin-right: .45%;
@@ -786,6 +814,12 @@ input {
 
   .section-img {
     margin-top: -40px;
-    min-height: 700px; } }
+    min-height: 700px; }
+
+  input {
+    width: 40%; }
+
+  .form-btn {
+    width: 40%; } }
 
 /*# sourceMappingURL=style.css.map */

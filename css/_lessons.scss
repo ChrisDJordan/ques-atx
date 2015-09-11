@@ -1,39 +1,41 @@
-.lessons-hero{
-	background:url(../images/red-air.jpg);
-	background-size:cover;
-	background-position:40% 0px;
+.lessons-hero {
+    background: url(../images/sesitec.jpg);
+    background-size: cover;
+    background-position: 40% 0px;
 }
 
-.lessons-info-section{
-	
-	margin-top:-50px;
-background:white;
-	color:black;
-h2{
-	margin-bottom:80px;
-}
-	p,h2,h3{
-		color:black;
-	}
-	h3{
-		margin-top:0;
-	}
-	.history-section{
-		margin-top:80px;
-	}
+.lessons-info-section {
+    margin-top: -50px;
+    background: white;
+    color: black;
+    h2 {
+        margin-bottom: 50px;
+    }
+    p, h2, h3 {
+        color: black;
+    }
+ 
+    .history-section {
+        margin-top: 80px;
+    }
 }
 
+.lessons-price-section {
 
-.lessons-section {
-	margin-top:0;
+    margin-top: 0;
     background: #334d69;
     border: 1px solid #334d69;
     h2 {
         margin-bottom: 110px;
     }
+    li{
+        &:first-of-type{
+            padding-top:50px;
+        }
+    }
 }
 
-.lessons-container {
+.lessons-price-container {
     margin-bottom: 180px;
     &:last-child {
         margin-bottom: 0;
