@@ -33,7 +33,7 @@ h2,
 
 .fourth {
   background-image: url(../images/philip.jpg);
-  background-position: 40% 0px;
+  background-position: 80% 0px;
   background-size: cover; }
 
 ul {
@@ -328,11 +328,14 @@ li:last-of-type {
 
 /* About us section ends
 ===================================*/
+/* Wavier Section
+===================================*/
 .wavier-section {
   background: #5eadcb; }
   .wavier-section h2 {
     margin-bottom: 30px; }
   .wavier-section p {
+    font-size: 15px;
     text-align: center; }
   .wavier-section .wavier-btn {
     width: 90%;
@@ -437,7 +440,7 @@ li:last-of-type {
     margin-top: 40px; }
   .location-section a {
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
     display: block;
     text-decoration: underline; }
@@ -806,6 +809,8 @@ input {
 
   .location-section h3 {
     margin-top: 50px; }
+  .location-section a {
+    font-size: 25px; }
 
   .hours-section .hours-bar-large {
     height: 30px;

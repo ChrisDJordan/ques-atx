@@ -298,12 +298,17 @@ li {
 /* About us section ends
 ===================================*/
 
+
+/* Wavier Section
+===================================*/
+
 .wavier-section {
     background: #5eadcb;
     h2 {
         margin-bottom: 30px;
     }
     p {
+        font-size:15px;
         text-align: center;
     }
     .wavier-btn {
@@ -440,7 +445,7 @@ li {
     }
     a {
         color: white;
-        font-size: 22px;
+        font-size: 20px;
         text-align: center;
         display: block;
         text-decoration: underline;
