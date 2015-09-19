@@ -332,8 +332,16 @@ li:last-of-type {
     font-size: 15px;
     text-align: center; }
   .wavier-section .wavier-btn {
+    margin: 30px auto;
     width: 90%;
-    margin: 30px auto; }
+    background: #96d59e;
+    font-weight: 800;
+    font-size: 22px;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.5); }
 
 /* Prices section 
 ===================================*/
@@ -693,7 +701,10 @@ nav .logo-fix {
     width: 80%; }
 
   .menu {
-    font-size: 22px; } }
+    font-size: 22px; }
+
+  .wavier-section .wavier-btn {
+    width: 55%; } }
 @media screen and (min-width: 768px) {
   .menu {
     font-size: 26px;
@@ -727,10 +738,7 @@ nav .logo-fix {
       padding-top: 15px; }
 
   .lessons-price-container {
-    margin-top: 0; }
-
-  .wavier-section .wavier-btn {
-    width: 40%; } }
+    margin-top: 0; } }
 @media screen and (min-width: 992px) {
   .logo p {
     font-size: 30px;

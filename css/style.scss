@@ -312,8 +312,18 @@ li {
         text-align: center;
     }
     .wavier-btn {
-        width: 90%;
+     
         margin: 30px auto;
+width:90%;
+    background: #96d59e;
+    font-weight: 800;
+    font-size: 22px;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    // border-radius: 0.3em;
+    color: black;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.5);
     }
 }
 
