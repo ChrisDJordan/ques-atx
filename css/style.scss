@@ -11,26 +11,22 @@
 /* Main Styling
 ===================================*/
 
-
-
 html {
-  -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
 }
 
-body{
+body {
     line-height: 1;
 }
 
-
-p,a{
-   line-height: 1.8;  
+p, a {
+    line-height: 1.8;
 }
 
-.menu{
-    font-size:20px;
-    
-    font-weight:bold;
-    background:transparent;
+.menu {
+    font-size: 20px;
+    font-weight: bold;
+    background: transparent;
 }
 
 // .col-sm-4{
@@ -42,18 +38,20 @@ p,a{
 // }
 .container {
     max-width: 90%;
-
 }
-#navbar{
-    li{
-        a{
-            color:white;
+
+#navbar {
+    li {
+        a {
+            color: white;
         }
     }
 }
-p{
-    font-size:17px;
+
+p {
+    font-size: 17px;
 }
+
 .main-contain {
     width: 93%;
     margin: 0 auto;
@@ -62,7 +60,6 @@ p{
 li {
     &:last-of-type {
         box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
-            
     }
 }
 
@@ -127,19 +124,16 @@ li {
 
 .small-ul {
     font-size: 20px;
-    font-weight:bold;
+    font-weight: bold;
     display: inline-block;
-    padding:20px 0 15px 0;
-  
+    padding: 20px 0 15px 0;
 }
 
 .big-ul {
     font-size: 40px;
-   padding-bottom:20px;
+    padding-bottom: 20px;
     display: inline-block;
-    
 }
-
 
 /* Helpers for top position on internal page links
 ====================================================*/
@@ -158,10 +152,9 @@ li {
 /* Nav / Navbar Styles
 ===================================*/
 .navbar-default .navbar-toggle {
-    border:2px solid white;
-    margin-right:0;
-    
-background:none;
+    border: 2px solid white;
+    margin-right: 0;
+    background: none;
 }
 
 .navbar {
@@ -197,7 +190,6 @@ background:none;
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
     background: #faba56;
-       
 }
 
 .dropdown-menu {
@@ -214,17 +206,14 @@ background:none;
 
 .nav-dropdown-scroll {
     background: #e7eaea;
-
     // box-shadow: 0px 10px 9px rgba(0, 0, 0, 0.4);
 }
 
 .navbar-toggle,
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-    background:transparent;
-    color:white;
-
-
+    background: transparent;
+    color: white;
 }
 
 .logo {
@@ -234,13 +223,14 @@ background:none;
         font-family: 'Pacifico', cursive;
         display: inline-block;
         margin-top: 10px;
-      
-         -webkit-transform: rotate(-10deg); /* Ch <36, Saf 5.1+, iOS, An =<4.4.4 */
-      -ms-transform: rotate(-10deg); /* IE 9 */
-          transform: rotate(-10deg); /* IE 10, Fx 16+, Op 12.1+ */
-
+        -webkit-transform: rotate(-10deg);
+        /* Ch <36, Saf 5.1+, iOS, An =<4.4.4 */
+        -ms-transform: rotate(-10deg);
+        /* IE 9 */
+        transform: rotate(-10deg);
+        /* IE 10, Fx 16+, Op 12.1+ */
         color: #faba56;
-        text-shadow: 2px 2px rgba(0,0,0,0.5);
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
     }
     p {
         text-align: right;
@@ -249,7 +239,7 @@ background:none;
         font-weight: 800;
         transform: rotate(-10deg);
         font-size: 30px;
-        text-shadow: 2px 2px rgba(0,0,0,0.5);
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -258,39 +248,32 @@ background:none;
 
 /* Section Images
 ===================================*/
-.prices-section,.location-section,.programs-section  {
+.prices-section, .location-section, .programs-section {
     margin-top: -70px;
 }
 
 .section-img {
     margin-top: -10px;
     min-height: 300px;
-
 }
-
 
 .park-img {
     background: url(../images/park.jpg);
     background-size: cover;
     background-position: 55%;
-
 }
 
-.store-img{
+.store-img {
     background: url(../images/inside.jpg);
     background-size: cover;
-    background-position:  35% -60px;
+    background-position: 35% -60px;
 }
 
-.outside-img{
-      background: url(../images/mountains.jpg);
-       background-size: cover;
-       background-position: 55%;
-
+.outside-img {
+    background: url(../images/mountains.jpg);
+    background-size: cover;
+    background-position: 55%;
 }
-
-
-
 
 /* About us section
 ===================================*/
@@ -312,16 +295,13 @@ background:none;
     margin-bottom: 120px;
 }
 
-
-
-
 /* About us section ends
 ===================================*/
 
 .wavier-section {
     background: #5eadcb;
-    h2{
-        margin-bottom:30px;
+    h2 {
+        margin-bottom: 30px;
     }
     p {
         text-align: center;
@@ -414,10 +394,7 @@ background:none;
 }
 
 .rental-prices {
-            background-color: #eee;
-   
-
-    
+    background-color: #eee;
     text-align: center;
     margin-bottom: 4px;
 }
@@ -425,7 +402,6 @@ background:none;
 /* Inside Image
 ===================================*
 */
-
 
 /* Location Section
 ===================================*
@@ -454,18 +430,14 @@ background:none;
 
 .location-section {
     background: #4c4c4c;
-    
     h2 {
         margin-bottom: 50px;
     }
-
-        h3 {
-       
-            &:first-of-type{
-                margin-top:40px;;
-            }
+    h3 {
+        &:first-of-type {
+            margin-top: 40px;
         }
-    
+    }
     a {
         color: white;
         font-size: 22px;
@@ -474,7 +446,6 @@ background:none;
         text-decoration: underline;
         &:last-of-type {
             margin-bottom: 40px;
-            
         }
     }
 }
@@ -513,7 +484,7 @@ background:none;
         }
     }
     .hours-prices {
-       background-color: #eee;
+        background-color: #eee;
         text-align: center;
         margin-bottom: 4px;
     }
@@ -522,12 +493,10 @@ background:none;
 // /* Programs Section
 // ===================================*/
 .programs-section {
-
     background: #373235;
     h2 {
         margin-bottom: 50px;
     }
- 
     .program-marg {
         margin-bottom: 120px;
     }
@@ -541,13 +510,12 @@ background:none;
     h2 {
         margin-bottom: 50px;
     }
-  
     li {
         color: white;
         list-style-type: circle;
         font-weight: 300;
-        font-size:17px;
-        line-height:1.6;
+        font-size: 17px;
+        line-height: 1.6;
         &:last-of-type {
             box-shadow: none;
         }
@@ -560,14 +528,13 @@ background:none;
 /* Footer Styles
 ===================================*/
 footer {
-    height: 500px;
+    height: 400px;
     width: 100%;
-    background: #283332;
-    .footer-section {}
-    .twitter-icon {
-        background: url(../images/twitter.png);
-        min-height: 30px;
-    }
+    background:#373235;
+    margin-top:-50px;
+    
+
+ 
 }
 
 // /* To Top Button Styles
@@ -595,59 +562,40 @@ footer {
 /* jQuery Styles
 ===================================*/
 .navbar-scroll {
-
     background: white;
     padding: 20px 0 10px 0;
-        box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
     // box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
     transition-duration: 0.1s;
- .navbar-toggle {
-    border-color:black;
-
+    .navbar-toggle {
+        border-color: black;
     }
-#navbar{
-    li{
-        a{
-            color:black;
+    #navbar {
+        li {
+            a {
+                color: black;
+            }
         }
     }
-}
-
     .logo {
         h1 {
             font-size: 33px;
             margin-top: 0;
             margin-bottom: 0;
-            text-shadow:none;
+            text-shadow: none;
         }
         p {
             margin-top: -5px;
             margin-bottom: 0;
             font-size: 14px;
-            color:black;
-             text-shadow:none;
+            color: black;
+            text-shadow: none;
         }
-
-
-
-
     }
-
-
-    .menu{
-    
-    color:black;
-
-
-  
- 
+    .menu {
+        color: black;
+    }
 }
-
-
-}
-
-
-
 
 @import "firsttime";
 @import "info";

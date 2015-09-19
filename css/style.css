@@ -500,12 +500,10 @@ li:last-of-type {
 /* Footer Styles
 ===================================*/
 footer {
-  height: 500px;
+  height: 400px;
   width: 100%;
-  background: #283332; }
-  footer .twitter-icon {
-    background: url(../images/twitter.png);
-    min-height: 30px; }
+  background: #373235;
+  margin-top: -50px; }
 
 .top {
   display: none;
@@ -821,6 +819,8 @@ input {
   .program-marg-large {
     margin-bottom: 160px; }
 
+  .events-section h3 {
+    margin-top: -4px; }
   .events-section li {
     box-shadow: none; }
 
