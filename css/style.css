@@ -281,7 +281,7 @@ li:last-of-type {
     margin-top: -15px;
     color: white;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 16px;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.5); }
 
 /* Nav / Navbar Styles end
@@ -590,7 +590,7 @@ footer {
   .info-section p, .info-section h2, .info-section h3 {
     color: black; }
   .info-section h3 {
-    margin-top: 0; }
+    margin-top: 30px; }
   .info-section .history-section {
     margin-top: 80px; }
 
@@ -629,6 +629,9 @@ input {
   background: url(../images/sesitec.jpg);
   background-size: cover;
   background-position: 40% 0px; }
+
+nav .logo-fix {
+  margin-left: 35px; }
 
 .lessons-info-section {
   margin-top: -50px;
@@ -727,6 +730,9 @@ input {
   .logo p {
     font-size: 30px;
     margin-top: -35px; }
+
+  .info-section h3 {
+    margin-top: 0; }
 
   .navbar-toggle {
     margin-top: 30px; }
