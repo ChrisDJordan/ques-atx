@@ -281,8 +281,13 @@ li:last-of-type {
     margin-top: -10px;
     color: white;
     font-weight: 800;
+    -webkit-transform: rotate(-10deg);
+    /* Ch <36, Saf 5.1+, iOS, An =<4.4.4 */
+    -ms-transform: rotate(-10deg);
+    /* IE 9 */
     transform: rotate(-10deg);
-    font-size: 30px;
+    /* IE 10, Fx 16+, Op 12.1+ */
+    font-size: 20px;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.5); }
 
 /* Nav / Navbar Styles end
@@ -713,7 +718,16 @@ input {
     width: 60%; }
 
   .cable-section h3 {
-    margin-top: -4px; } }
+    margin-top: -4px; }
+
+  .lessons-price-section {
+    margin-top: 0;
+    background: #334d69;
+    border: 1px solid #334d69; }
+    .lessons-price-section h2 {
+      margin-bottom: 110px; }
+    .lessons-price-section li:first-of-type {
+      padding-top: 15px; } }
 @media screen and (min-width: 992px) {
   .navbar-toggle {
     margin-top: 30px; }

@@ -52,6 +52,20 @@
             margin-top: -4px;
         }
     }
+    .lessons-price-section {
+
+    margin-top: 0;
+    background: #334d69;
+    border: 1px solid #334d69;
+    h2 {
+        margin-bottom: 110px;
+    }
+    li{
+        &:first-of-type{
+            padding-top:15px;
+        }
+    }
+}
 }
 
 @media screen and (min-width: 992px) {
