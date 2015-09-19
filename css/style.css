@@ -608,6 +608,7 @@ input {
   margin: 20px auto;
   outline: 0;
   border: 0;
+  border: 1px solid lightgrey;
   padding: 10px 10px;
   font-size: 13px;
   width: 100%;
