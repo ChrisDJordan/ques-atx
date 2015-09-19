@@ -91,6 +91,27 @@
 
     }
 
+    .lessons-price-container {
+        margin-top:0;
+
+
+    }
+
+    .lessons-price-section {
+
+    margin-top: 0px;
+    background: #334d69;
+    border: 1px solid #334d69;
+    h2 {
+        margin-bottom: 110px;
+    }
+    li{
+        &:first-of-type{
+            padding-top:50px;
+        }
+    }
+}
+
 
     .navbar-toggle{
         margin-top:4px;

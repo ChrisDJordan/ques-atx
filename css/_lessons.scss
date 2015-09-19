@@ -28,7 +28,7 @@ nav{
 
 .lessons-price-section {
 
-    margin-top: 0;
+    margin-top: 0px;
     background: #334d69;
     border: 1px solid #334d69;
     h2 {
@@ -36,12 +36,17 @@ nav{
     }
     li{
         &:first-of-type{
-            padding-top:50px;
+            padding-top:20px;
         }
     }
 }
 
 .lessons-price-container {
+    margin-top:140px;
+
+    li{
+        margin-top:0;
+    }
 
     &:last-child {
         margin-bottom: 0;
@@ -49,6 +54,7 @@ nav{
     li {
         &:first-of-type {
             background: #9fa9b2;
+
         }
     }
     .prices-bar {
