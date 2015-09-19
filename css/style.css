@@ -724,16 +724,16 @@ nav .logo-fix {
     .lessons-price-section h2 {
       margin-bottom: 110px; }
     .lessons-price-section li:first-of-type {
-      padding-top: 15px; } }
+      padding-top: 15px; }
+
+  .lessons-price-container {
+    margin-top: 0; } }
 @media screen and (min-width: 992px) {
   .logo p {
     font-size: 30px;
     margin-top: -35px; }
 
   .info-section h3 {
-    margin-top: 0; }
-
-  .lessons-price-container {
     margin-top: 0; }
 
   .lessons-price-section {
