@@ -14,7 +14,7 @@ h2,
 
 .item {
   background-size: cover;
-  height: 468px; }
+  height: 400px; }
 
 .first {
   background-image: url(../images/girl-air.jpg);
@@ -198,8 +198,8 @@ li:last-of-type {
 /* Helpers for top position on internal page links
 ====================================================*/
 .all-padding {
-  padding-top: 120px;
-  padding-bottom: 120px; }
+  padding-top: 100px;
+  padding-bottom: 100px; }
 
 /* Carousel Styling
 ===================================*/
@@ -582,14 +582,15 @@ footer {
     margin-top: 0; } }
 .info-hero {
   background: url(../images/double-rail2.jpg);
-  background-position: 52% 0; }
+  background-position: 0% 0; }
 
 .info-section {
   margin-top: -50px;
   background: white;
   color: black; }
   .info-section h2 {
-    margin-bottom: 80px; }
+    margin-bottom: 40px;
+    font-size: 60px; }
   .info-section p, .info-section h2, .info-section h3 {
     color: black; }
   .info-section h3 {
