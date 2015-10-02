@@ -582,7 +582,7 @@ footer {
     margin-top: 0; } }
 .info-hero {
   background: url(../images/double-rail2.jpg);
-  background-position: 0% 0; }
+  background-position: 50% -30px; }
 
 .info-section {
   margin-top: -50px;
@@ -601,7 +601,8 @@ footer {
 .cable-section {
   background: #3fa6ad; }
   .cable-section h2 {
-    margin-bottom: 80px; }
+    margin-bottom: 40px;
+    font-size: 60px; }
   .cable-section .top-img:first-of-type p {
     margin-bottom: 120px; }
 
