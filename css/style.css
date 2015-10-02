@@ -581,8 +581,8 @@ footer {
   .questions-contain h3 {
     margin-top: 0; } }
 .info-hero {
-  background: url(../images/double-rail.jpg);
-  background-position: 50% 0; }
+  background: url(../images/double-rail2.jpg);
+  background-position: 52% 0; }
 
 .info-section {
   margin-top: -50px;
@@ -746,6 +746,10 @@ nav .logo-fix {
 
   .info-section h3 {
     margin-top: 0; }
+
+  .all-padding {
+    padding-top: 160px;
+    padding-bottom: 160px; }
 
   .lessons-price-section {
     margin-top: 0px;
