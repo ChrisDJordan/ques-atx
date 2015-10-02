@@ -14,7 +14,7 @@ h2,
 
 .item {
   background-size: cover;
-  height: 368px; }
+  height: 468px; }
 
 .first {
   background-image: url(../images/girl-air.jpg);
@@ -581,7 +581,7 @@ footer {
   .questions-contain h3 {
     margin-top: 0; } }
 .info-hero {
-  background: url(../images/double-rail3.jpg);
+  background: url(../images/double-rail2.jpg);
   background-position: 52% 0; }
 
 .info-section {
