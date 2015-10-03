@@ -26,6 +26,14 @@
     }
 }
 
+
+.first {
+    background-image: url(../images/girl-air-medium.jpg);
+    background-size: cover;
+    background-position: 0% -10px;
+    background-repeat: no-repeat;
+}
+
 }
 
 @media screen and (min-width: 768px) {
@@ -172,7 +180,7 @@
     }
     .item {
         background-size: cover;
-        height: 825px;
+        height: 625px;
     }
     .first {
         background-image: url(../images/girl-air.jpg);

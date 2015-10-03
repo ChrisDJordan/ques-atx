@@ -1,7 +1,8 @@
 .info-hero {
-   background:url(../images/double-rail2.jpg);
-  
-    background-position: 50% -30px;
+   background:url(../images/two-rail1.jpg);
+   background-repeat:no-repeat;
+    background-position: 40% -30px;
+    background-size:cover;
 
   
 }
@@ -11,8 +12,9 @@
     background: white;
     color: black;
     h2 {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         font-size:60px;
+
      
     }
     p, h2, h3 {
@@ -29,7 +31,7 @@
 .cable-section {
     background: $section-teal;
     h2 {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
           font-size:60px;
 
     }

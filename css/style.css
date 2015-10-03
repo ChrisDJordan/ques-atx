@@ -14,10 +14,10 @@ h2,
 
 .item {
   background-size: cover;
-  height: 400px; }
+  height: 468px; }
 
 .first {
-  background-image: url(../images/girl-air.jpg);
+  background-image: url(../images/girl-air-newer.jpg);
   background-size: cover;
   background-position: 0%;
   background-repeat: no-repeat; }
@@ -315,7 +315,7 @@ li:last-of-type {
   background-color: #373235;
   margin-top: -50px; }
   .about-section h2 {
-    margin-bottom: 50px; }
+    margin-bottom: 30px; }
 
 .read-btn {
   margin-bottom: 120px; }
@@ -327,7 +327,7 @@ li:last-of-type {
 .wavier-section {
   background: #5eadcb; }
   .wavier-section h2 {
-    margin-bottom: 30px; }
+    margin-bottom: 15px; }
   .wavier-section p {
     font-size: 15px;
     text-align: center; }
@@ -349,7 +349,7 @@ li:last-of-type {
   background: #334d69;
   border: 1px solid #334d69; }
   .prices-section h2 {
-    margin-bottom: 110px; }
+    margin-bottom: 90px; }
 
 .prices-container {
   margin-bottom: 180px; }
@@ -383,7 +383,7 @@ li:last-of-type {
   border: 1px solid #3fa6ad; }
   .rental-section h2 {
     text-align: center;
-    margin-bottom: 110px; }
+    margin-bottom: 90px; }
 
 .rental-bar {
   background: #1e2e41;
@@ -437,7 +437,7 @@ li:last-of-type {
 .location-section {
   background: #4c4c4c; }
   .location-section h2 {
-    margin-bottom: 50px; }
+    margin-bottom: 30px; }
   .location-section h3:first-of-type {
     margin-top: 40px; }
   .location-section a {
@@ -456,7 +456,7 @@ li:last-of-type {
   background: #96d59e; }
   .hours-section h2 {
     text-align: center;
-    margin-bottom: 110px; }
+    margin-bottom: 90px; }
   .hours-section .hours-bar {
     background: #1e2e41;
     height: 30px; }
@@ -483,14 +483,14 @@ li:last-of-type {
 .programs-section {
   background: #373235; }
   .programs-section h2 {
-    margin-bottom: 50px; }
+    margin-bottom: 30px; }
   .programs-section .program-marg {
     margin-bottom: 120px; }
 
 .events-section {
   background: #3fa6ad; }
   .events-section h2 {
-    margin-bottom: 50px; }
+    margin-bottom: 30px; }
   .events-section li {
     color: white;
     list-style-type: circle;
@@ -581,15 +581,17 @@ footer {
   .questions-contain h3 {
     margin-top: 0; } }
 .info-hero {
-  background: url(../images/double-rail2.jpg);
-  background-position: 50% -30px; }
+  background: url(../images/two-rail1.jpg);
+  background-repeat: no-repeat;
+  background-position: 40% -30px;
+  background-size: cover; }
 
 .info-section {
   margin-top: -50px;
   background: white;
   color: black; }
   .info-section h2 {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-size: 60px; }
   .info-section p, .info-section h2, .info-section h3 {
     color: black; }
@@ -601,7 +603,7 @@ footer {
 .cable-section {
   background: #3fa6ad; }
   .cable-section h2 {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-size: 60px; }
   .cable-section .top-img:first-of-type p {
     margin-bottom: 120px; }
@@ -706,7 +708,13 @@ nav .logo-fix {
     font-size: 22px; }
 
   .wavier-section .wavier-btn {
-    width: 40%; } }
+    width: 40%; }
+
+  .first {
+    background-image: url(../images/girl-air-medium.jpg);
+    background-size: cover;
+    background-position: 0% -10px;
+    background-repeat: no-repeat; } }
 @media screen and (min-width: 768px) {
   .menu {
     font-size: 26px;
@@ -800,7 +808,7 @@ nav .logo-fix {
 
   .item {
     background-size: cover;
-    height: 825px; }
+    height: 625px; }
 
   .first {
     background-image: url(../images/girl-air.jpg);
