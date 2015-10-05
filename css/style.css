@@ -17,7 +17,7 @@ h2,
   height: 468px; }
 
 .first {
-  background-image: url(../images/girl-air-newer.jpg);
+  background-image: url(../images/girl-air1.jpg);
   background-size: cover;
   background-position: 0%;
   background-repeat: no-repeat; }
@@ -708,13 +708,7 @@ nav .logo-fix {
     font-size: 22px; }
 
   .wavier-section .wavier-btn {
-    width: 40%; }
-
-  .first {
-    background-image: url(../images/girl-air-medium.jpg);
-    background-size: cover;
-    background-position: 0% -10px;
-    background-repeat: no-repeat; } }
+    width: 40%; } }
 @media screen and (min-width: 768px) {
   .menu {
     font-size: 26px;
