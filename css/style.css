@@ -8,7 +8,7 @@ h2,
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border: none; }
 
-.prices-section .col-md-4, .prices-section .col-md-6, .hours-section .col-md-4, .hours-section .col-md-6, .rental-section .col-md-4, .rental-section .col-md-6 {
+.prices-section .col-sm-4, .prices-section .col-md-4, .prices-section .col-md-6, .hours-section .col-sm-4, .hours-section .col-md-4, .hours-section .col-md-6, .rental-section .col-sm-4, .rental-section .col-md-4, .rental-section .col-md-6 {
   padding-right: 0;
   padding-left: 0; }
 
@@ -174,7 +174,7 @@ li:last-of-type {
   font-weight: 800;
   font-size: 22px;
   display: block;
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
   text-align: center;
   color: black;
   border-bottom: 4px solid rgba(0, 0, 0, 0.5); }
@@ -327,6 +327,11 @@ li:last-of-type {
 ===================================*/
 /* Wavier Section
 ===================================*/
+.btn-container {
+  background: red;
+  max-width: 310px;
+  margin: 0 auto; }
+
 .wavier-section {
   background: #5eadcb; }
   .wavier-section h2 {
@@ -336,7 +341,6 @@ li:last-of-type {
     text-align: center; }
   .wavier-section .wavier-btn {
     margin: 30px auto;
-    width: 90%;
     background: #96d59e;
     font-weight: 800;
     font-size: 22px;
@@ -344,7 +348,8 @@ li:last-of-type {
     padding: 15px;
     text-align: center;
     color: black;
-    border-bottom: 4px solid rgba(0, 0, 0, 0.5); }
+    border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px; }
 
 /* Prices section 
 ===================================*/
@@ -355,7 +360,7 @@ li:last-of-type {
     margin-bottom: 90px; }
 
 .prices-container {
-  margin-bottom: 180px; }
+  margin: 0  auto 180px auto; }
   .prices-container:last-child {
     margin-bottom: 0; }
   .prices-container li:first-of-type {
@@ -378,6 +383,18 @@ li:last-of-type {
     text-align: center;
     background-color: #eee;
     margin-bottom: 4px; }
+
+.member-btn {
+  margin: 30px auto;
+  background: #96d59e;
+  font-weight: 800;
+  font-size: 22px;
+  display: block;
+  padding: 15px;
+  text-align: center;
+  color: black;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px; }
 
 /* rentals section
 ===================================*/
@@ -712,14 +729,20 @@ nav .logo-fix {
     width: 80%; }
 
   .menu {
-    font-size: 22px; }
-
-  .wavier-section .wavier-btn {
-    width: 40%; } }
+    font-size: 22px; } }
 @media screen and (min-width: 768px) {
   .menu {
     font-size: 26px;
     margin-top: 80px; }
+
+  li {
+    box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5); }
+
+  .prices-container, .rental-prices, .hours-prices {
+    margin-right: .45%;
+    width: 33%; }
+    .prices-container:last-of-type, .rental-prices:last-of-type, .hours-prices:last-of-type {
+      margin-right: 0%; }
 
   .section-img {
     margin-top: -30px;
@@ -758,7 +781,10 @@ nav .logo-fix {
     margin-bottom: 80px;
     font-size: 80px; }
   .info-section .img-fix {
-    width: 75%; } }
+    width: 75%; }
+
+  .btn {
+    display: inline-block; } }
 @media screen and (min-width: 992px) {
   .logo p {
     font-size: 30px;
@@ -804,9 +830,6 @@ nav .logo-fix {
   .container {
     max-width: 100%; }
 
-  .btn {
-    width: 50%; }
-
   .navbar-collapse li {
     box-shadow: none; }
 
@@ -837,19 +860,6 @@ nav .logo-fix {
 
   .read-btn {
     margin-bottom: 0; }
-
-  .wavier-section .wavier-btn {
-    width: 30%;
-    margin: 30px auto; }
-
-  li {
-    box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5); }
-
-  .prices-container, .rental-prices, .hours-prices {
-    margin-right: .45%;
-    width: 33%; }
-    .prices-container:last-of-type, .rental-prices:last-of-type, .hours-prices:last-of-type {
-      margin-right: 0%; }
 
   .prices-section .prices-container {
     margin-bottom: 0; }

@@ -109,7 +109,7 @@ li {
     font-weight: 800;
     font-size: 22px;
     display: block;
-    padding: 10px;
+    padding:10px 20px 10px 20px;
     text-align: center;
     // border-radius: 0.3em;
     color: black;
@@ -306,6 +306,13 @@ li {
 /* Wavier Section
 ===================================*/
 
+    .btn-container{
+        background:red;
+        max-width:310px;
+
+        margin:0 auto;
+    }
+
 .wavier-section {
     background: #5eadcb;
     h2 {
@@ -315,10 +322,11 @@ li {
         font-size:15px;
         text-align: center;
     }
+
     .wavier-btn {
      
         margin: 30px auto;
-width:90%;
+
     background: #96d59e;
     font-weight: 800;
     font-size: 22px;
@@ -328,6 +336,7 @@ width:90%;
     // border-radius: 0.3em;
     color: black;
     border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+    border-radius:4px;
     }
 }
 
@@ -343,7 +352,9 @@ width:90%;
 }
 
 .prices-container {
-    margin-bottom: 180px;
+
+
+    margin:0  auto 180px auto;
     &:last-child {
         margin-bottom: 0;
     }
@@ -374,6 +385,21 @@ width:90%;
         margin-bottom: 4px;
     }
 }
+.member-btn{
+    margin: 30px auto;
+
+    background: #96d59e;
+    font-weight: 800;
+    font-size: 22px;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    // border-radius: 0.3em;
+    color: black;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+    border-radius:4px;
+    }
+
 
 /* rentals section
 ===================================*/

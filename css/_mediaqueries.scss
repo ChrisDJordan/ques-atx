@@ -20,11 +20,7 @@
     
    
 }
-.wavier-section{
-    .wavier-btn{
-        width:40%;
-    }
-}
+
 
 
 
@@ -39,6 +35,18 @@
    
 }
 
+   
+    li {
+        box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
+    }
+
+ .prices-container, .rental-prices, .hours-prices {
+        margin-right: .45%;
+        width: 33%;
+        &:last-of-type {
+            margin-right: 0%;
+        }
+    }
 
     .section-img {
         margin-top: -30px;
@@ -102,6 +110,10 @@
 
     }
 }
+    .btn {
+        display:inline-block;
+    }
+
 
 
 }
@@ -179,9 +191,7 @@
     .container {
         max-width: 100%;
     }
-    .btn {
-        width: 50%;
-    }
+
     .navbar-collapse {
         li {
             box-shadow: none;
@@ -216,22 +226,8 @@
     .read-btn {
         margin-bottom: 0;
     }
-    .wavier-section {
-        .wavier-btn {
-            width: 30%;
-            margin: 30px auto;
-        }
-    }
-    li {
-        box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
-    }
-    .prices-container, .rental-prices, .hours-prices {
-        margin-right: .45%;
-        width: 33%;
-        &:last-of-type {
-            margin-right: 0%;
-        }
-    }
+ 
+   
     .prices-section {
         .prices-container {
             margin-bottom: 0;
