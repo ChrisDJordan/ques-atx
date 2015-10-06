@@ -195,6 +195,9 @@ li:last-of-type {
   padding-bottom: 20px;
   display: inline-block; }
 
+.kern {
+  letter-spacing: -3px; }
+
 /* Helpers for top position on internal page links
 ====================================================*/
 .all-padding {
@@ -555,7 +558,8 @@ footer {
     margin-bottom: 0;
     text-shadow: none; }
   .navbar-scroll .logo p {
-    margin-top: -5px;
+    margin-top: -8px;
+    margin-right: -5px;
     margin-bottom: 0;
     font-size: 14px;
     color: black;
