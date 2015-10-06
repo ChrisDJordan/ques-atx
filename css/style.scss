@@ -109,7 +109,7 @@ li {
     font-weight: 800;
     font-size: 22px;
     display: block;
-    padding: 10px 20px 10px 20px;
+    padding:10px 20px 10px 20px;
     text-align: center;
     // border-radius: 0.3em;
     color: black;
@@ -135,8 +135,8 @@ li {
     display: inline-block;
 }
 
-.kern {
-    letter-spacing: -3px;
+.kern{
+     letter-spacing: -3px;
 }
 
 /* Helpers for top position on internal page links
@@ -241,6 +241,7 @@ li {
         margin-top: -15px;
         color: white;
         font-weight: 800;
+
         font-size: 16px;
         text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
     }
@@ -301,13 +302,16 @@ li {
 /* About us section ends
 ===================================*/
 
+
 /* Wavier Section
 ===================================*/
 
-.btn-container {
-    max-width: 342px;
-    margin: 0 auto;
-}
+    .btn-container{
+        background:red;
+        max-width:310px;
+
+        margin:0 auto;
+    }
 
 .wavier-section {
     background: #5eadcb;
@@ -315,21 +319,24 @@ li {
         margin-bottom: 15px;
     }
     p {
+        font-size:15px;
         text-align: center;
     }
+
     .wavier-btn {
-        display: block;
-        margin: 10px auto;
-        background: #96d59e;
-        font-weight: 800;
-        font-size: 22px;
-        display: block;
-        padding: 15px;
-        text-align: center;
-        // border-radius: 0.3em;
-        color: black;
-        border-bottom: 4px solid rgba(0, 0, 0, 0.5);
-        border-radius: 4px;
+     
+        margin: 30px auto;
+
+    background: #96d59e;
+    font-weight: 800;
+    font-size: 22px;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    // border-radius: 0.3em;
+    color: black;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+    border-radius:4px;
     }
 }
 
@@ -340,12 +347,14 @@ li {
     background: #334d69;
     border: 1px solid #334d69;
     h2 {
-        margin-bottom: 100px;
+        margin-bottom: 90px;
     }
 }
 
 .prices-container {
-    margin: 0  auto 180px auto;
+
+
+    margin:0  auto 180px auto;
     &:last-child {
         margin-bottom: 0;
     }
@@ -376,9 +385,9 @@ li {
         margin-bottom: 4px;
     }
 }
-
-.member-btn {
+.member-btn{
     margin: 30px auto;
+
     background: #96d59e;
     font-weight: 800;
     font-size: 22px;
@@ -388,8 +397,9 @@ li {
     // border-radius: 0.3em;
     color: black;
     border-bottom: 4px solid rgba(0, 0, 0, 0.5);
-    border-radius: 4px;
-}
+    border-radius:4px;
+    }
+
 
 /* rentals section
 ===================================*/
@@ -563,28 +573,30 @@ li {
 /* Footer Styles
 ===================================*/
 footer {
-    padding-top:220px;
-    padding-bottom:140px;
+    height: 400px;
     width: 100%;
-    background: #373235;
-    margin-top: -50px;
-    .social-container {
+    background:#373235;
+    margin-top:-50px;
+    .social-container{
         margin: 0 auto;
-        width: 210px;
-        .svg {
-            width: 50px;
-            display: inline-block;
-            float: left;
-            margin-right: 30px;
-            margin-bottom:30px;
-            &:last-of-type {
-                margin-right: 0;
-            }
-        }
+         width:210px;
+
+    .svg{
+
+        width:50px;
+       display:inline-block;
+       float:left;
+       margin-right: 30px;
+       &:last-of-type{
+        margin-right:0;
+
+       }
+      
     }
-    p{
-        text-align:center;
-    }
+}
+    
+
+ 
 }
 
 // /* To Top Button Styles
@@ -636,10 +648,10 @@ footer {
         }
         p {
             margin-top: -8px;
-            margin-right: -5px;
+            margin-right:-5px;
             margin-bottom: 0;
             font-size: 14px;
-            color: black;
+            color:black;
             text-shadow: none;
         }
     }

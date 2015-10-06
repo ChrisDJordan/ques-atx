@@ -23,6 +23,8 @@
 
 
 
+
+
 }
 
 @media screen and (min-width: 768px) {
@@ -32,24 +34,10 @@
     
    
 }
-// .wavier-section{
 
-// .wavier-btn{
-//     display:block;
-// max-width:245px;
-// margin:0 auto;
-// }
-// }
    
     li {
         box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
-    }
-
-     .events-section {
-       
-        li {
-            box-shadow: none;
-        }
     }
 
  .prices-container, .rental-prices, .hours-prices {
@@ -71,7 +59,7 @@
         }
     }
     .main-contain {
-        width: 97%;
+        width: 97.5%;
         margin: 0 auto;
     }
     input {
@@ -111,27 +99,22 @@
     }
 }
 
-.info-section,.cable-section {
+.info-section {
     h2{
          margin-bottom: 80px;
         font-size:80px;
     }
-
-    .img-fix{
-        width:80%;
-    }
     
-   }
+    .img-fix{
+        width:75%;
+
+    }
+}
     .btn {
         display:inline-block;
     }
 
-.lessons-info-section{
-     .img-fix{
-        width:80%;
-    }
 
-}
 
 }
 
@@ -139,10 +122,7 @@
     // .prices-section, .location-section, .programs-section {
     //     margin-top: -190px;
     // }
-  .main-contain {
-        width: 97.5%;
-        margin: 0 auto;
-    }
+
     .logo{
     p{
         font-size:30px;
@@ -152,7 +132,7 @@
 
 .info-section {
     h3{
-        margin-top:-4px;
+        margin-top:0;
     }
 
 
@@ -162,13 +142,6 @@
     padding-bottom: 160px;
 }
 
-    .events-section {
-        h3{
-            margin-top:-4px;
-
-        }
-        
-    }
   
 
     .lessons-price-section {
@@ -209,7 +182,7 @@
             margin-bottom: 80px;
         }
         h3 {
-            margin-top: -5px;
+            margin-top: 0;
         }
     }
     .section-img {
@@ -306,7 +279,15 @@
     .program-marg-large {
         margin-bottom: 160px;
     }
-   
+    .events-section {
+        h3{
+            margin-top:-4px;
+
+        }
+        li {
+            box-shadow: none;
+        }
+    }
     .calender-btn {
         width: 70%;
     }
