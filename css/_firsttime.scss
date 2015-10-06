@@ -12,13 +12,18 @@ background-position:top left;
    
    }
 
-   .questions-contain{
+   .first-time-section{
    	margin-top:-40px;
+   	background:white;
    	h2{
  
-   		margin-bottom:40px;
+   		margin-bottom:80px;
+   		color:black;
 
 
+   	}
+   	p,h3{
+   		color:black;
    	}
    }
 
@@ -26,41 +31,11 @@ background-position:top left;
 
 
 .q1-section {
-	background:$section-black;
-
-}
-
-.q2-section {
-	background:$section-teal;
-
-}
-
-
-.q3-section {
-	background:$section-darkgrey;
-
-}
-
-.q4-section {
-	background:$section-lightblue;
-
-}
-
-
-.q5-section {
-	background:$section-black;
+	background:white;
 
 }
 
 
 
-@media (min-width: 992px) {
 
-   .questions-contain{
-	h3{
-		margin-top:0;
 
-	}
-}
-
-}

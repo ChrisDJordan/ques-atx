@@ -547,6 +547,23 @@ footer {
     width: 100%;
     background:#373235;
     margin-top:-50px;
+    .social-container{
+        margin: 0 auto;
+         width:210px;
+
+    .svg{
+
+        width:50px;
+       display:inline-block;
+       float:left;
+       margin-right: 30px;
+       &:last-of-type{
+        margin-right:0;
+
+       }
+      
+    }
+}
     
 
  

@@ -46,6 +46,8 @@ $(function(){
 });
 
 
+
+
 //Smooth Scrolling For Internal Page Links
 $(function() {
   $('a[href*=#spy]:not([href=#])').click(function() {
@@ -61,6 +63,20 @@ $(function() {
 	}
   });
 });
+
+
+
+
+
+
+
+
+
+
+
+// instafeed
+
+
 
 
 

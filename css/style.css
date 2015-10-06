@@ -509,6 +509,16 @@ footer {
   width: 100%;
   background: #373235;
   margin-top: -50px; }
+  footer .social-container {
+    margin: 0 auto;
+    width: 210px; }
+    footer .social-container .svg {
+      width: 50px;
+      display: inline-block;
+      float: left;
+      margin-right: 30px; }
+      footer .social-container .svg:last-of-type {
+        margin-right: 0; }
 
 .top {
   display: none;
@@ -557,29 +567,18 @@ footer {
   background-image: url(../images/boots-change2.jpg);
   background-position: top left; }
 
-.questions-contain {
-  margin-top: -40px; }
-  .questions-contain h2 {
-    margin-bottom: 40px; }
+.first-time-section {
+  margin-top: -40px;
+  background: white; }
+  .first-time-section h2 {
+    margin-bottom: 80px;
+    color: black; }
+  .first-time-section p, .first-time-section h3 {
+    color: black; }
 
 .q1-section {
-  background: #373235; }
+  background: white; }
 
-.q2-section {
-  background: #3fa6ad; }
-
-.q3-section {
-  background: #4c4c4c; }
-
-.q4-section {
-  background: #5eadcb; }
-
-.q5-section {
-  background: #373235; }
-
-@media (min-width: 992px) {
-  .questions-contain h3 {
-    margin-top: 0; } }
 .info-hero {
   background: url(../images/two-rail1.jpg);
   background-repeat: no-repeat;
@@ -599,6 +598,10 @@ footer {
     margin-top: 30px; }
   .info-section .history-section {
     margin-top: 80px; }
+  .info-section .img-fix {
+    width: 80%;
+    margin: 0 auto;
+    display: block; }
 
 .cable-section {
   background: #3fa6ad; }
@@ -742,7 +745,16 @@ nav .logo-fix {
       padding-top: 15px; }
 
   .lessons-price-container {
-    margin-top: 0; } }
+    margin-top: 0; }
+
+  .first-time-section p:nth-child(odd) {
+    padding-bottom: 120px; }
+
+  .info-section h2 {
+    margin-bottom: 80px;
+    font-size: 80px; }
+  .info-section .img-fix {
+    width: 75%; } }
 @media screen and (min-width: 992px) {
   .logo p {
     font-size: 30px;
@@ -786,7 +798,7 @@ nav .logo-fix {
     margin-top: -30px; }
 
   .container {
-    max-width: 80%; }
+    max-width: 100%; }
 
   .btn {
     width: 50%; }
@@ -802,7 +814,7 @@ nav .logo-fix {
 
   .item {
     background-size: cover;
-    height: 625px; }
+    height: 550px; }
 
   .first {
     background-image: url(../images/girl-air.jpg);
@@ -886,7 +898,10 @@ nav .logo-fix {
     padding-left: 15px; }
 
   input {
-    width: 50%; } }
+    width: 50%; }
+
+  .info-section .img-fix {
+    margin: 0; } }
 @media screen and (min-width: 1200px) {
   .prices-container, .rental-prices {
     margin-right: .45%;
