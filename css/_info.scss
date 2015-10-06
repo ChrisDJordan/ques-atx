@@ -1,20 +1,19 @@
 .info-hero {
-   background:url(../images/two-rail.jpg);
+   background:url(../images/two-rail1.jpg);
    background-repeat:no-repeat;
-    background-position: 50% -40px;
+    background-position: 40% -30px;
     background-size:cover;
 
   
 }
 
 .info-section {
-    margin-top: -80px;
+    margin-top: -50px;
     background: white;
-   
+    color: black;
     h2 {
         margin-bottom: 30px;
         font-size:60px;
-    
 
      
     }
@@ -31,7 +30,6 @@
 
 .cable-section {
     background: $section-teal;
-    margin-bottom:80px;
     h2 {
         margin-bottom: 30px;
           font-size:60px;
@@ -45,16 +43,6 @@
         }
     }
 }
-
-.input-section{
-    h2{
-        color:black;
-        margin-bottom:15px;
-        font-size:60px;
-    }
-}
-
-
 
 input {
     font-size: 21px;
