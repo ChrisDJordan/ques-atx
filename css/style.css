@@ -356,7 +356,7 @@ li:last-of-type {
   background: #334d69;
   border: 1px solid #334d69; }
   .prices-section h2 {
-    margin-bottom: 90px; }
+    margin-bottom: 100px; }
 
 .prices-container {
   margin: 0  auto 180px auto; }
@@ -783,14 +783,17 @@ nav .logo-fix {
   .first-time-section p:nth-child(odd) {
     padding-bottom: 120px; }
 
-  .info-section h2 {
+  .info-section h2, .cable-section h2 {
     margin-bottom: 80px;
     font-size: 80px; }
-  .info-section .img-fix {
-    width: 75%; }
+  .info-section .img-fix, .cable-section .img-fix {
+    width: 80%; }
 
   .btn {
-    display: inline-block; } }
+    display: inline-block; }
+
+  .lessons-info-section .img-fix {
+    width: 80%; } }
 @media screen and (min-width: 992px) {
   .main-contain {
     width: 97.5%;

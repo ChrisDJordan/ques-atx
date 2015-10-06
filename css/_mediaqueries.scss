@@ -111,22 +111,27 @@
     }
 }
 
-.info-section {
+.info-section,.cable-section {
     h2{
          margin-bottom: 80px;
         font-size:80px;
     }
-    
-    .img-fix{
-        width:75%;
 
+    .img-fix{
+        width:80%;
     }
-}
+    
+   }
     .btn {
         display:inline-block;
     }
 
+.lessons-info-section{
+     .img-fix{
+        width:80%;
+    }
 
+}
 
 }
 
