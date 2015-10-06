@@ -23,8 +23,6 @@
 
 
 
-
-
 }
 
 @media screen and (min-width: 768px) {
@@ -34,10 +32,24 @@
     
    
 }
+// .wavier-section{
 
+// .wavier-btn{
+//     display:block;
+// max-width:245px;
+// margin:0 auto;
+// }
+// }
    
     li {
         box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
+    }
+
+     .events-section {
+       
+        li {
+            box-shadow: none;
+        }
     }
 
  .prices-container, .rental-prices, .hours-prices {
@@ -59,7 +71,7 @@
         }
     }
     .main-contain {
-        width: 97.5%;
+        width: 97%;
         margin: 0 auto;
     }
     input {
@@ -122,7 +134,10 @@
     // .prices-section, .location-section, .programs-section {
     //     margin-top: -190px;
     // }
-
+  .main-contain {
+        width: 97.5%;
+        margin: 0 auto;
+    }
     .logo{
     p{
         font-size:30px;
@@ -132,7 +147,7 @@
 
 .info-section {
     h3{
-        margin-top:0;
+        margin-top:-4px;
     }
 
 
@@ -142,6 +157,13 @@
     padding-bottom: 160px;
 }
 
+    .events-section {
+        h3{
+            margin-top:-4px;
+
+        }
+        
+    }
   
 
     .lessons-price-section {
@@ -182,7 +204,7 @@
             margin-bottom: 80px;
         }
         h3 {
-            margin-top: 0;
+            margin-top: -5px;
         }
     }
     .section-img {
@@ -279,15 +301,7 @@
     .program-marg-large {
         margin-bottom: 160px;
     }
-    .events-section {
-        h3{
-            margin-top:-4px;
-
-        }
-        li {
-            box-shadow: none;
-        }
-    }
+   
     .calender-btn {
         width: 70%;
     }
