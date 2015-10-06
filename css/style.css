@@ -328,7 +328,6 @@ li:last-of-type {
 /* Wavier Section
 ===================================*/
 .btn-container {
-  background: red;
   max-width: 310px;
   margin: 0 auto; }
 
@@ -340,7 +339,7 @@ li:last-of-type {
     font-size: 15px;
     text-align: center; }
   .wavier-section .wavier-btn {
-    margin: 30px auto;
+    margin: 0px auto;
     background: #96d59e;
     font-weight: 800;
     font-size: 22px;
@@ -357,7 +356,7 @@ li:last-of-type {
   background: #334d69;
   border: 1px solid #334d69; }
   .prices-section h2 {
-    margin-bottom: 90px; }
+    margin-bottom: 110px; }
 
 .prices-container {
   margin: 0  auto 180px auto; }
