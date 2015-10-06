@@ -1,3 +1,4 @@
+
 // @import url(http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic);
 
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
@@ -23,6 +24,10 @@ p, a {
     line-height: 1.8;
 }
 
+.row{
+    width:100%;
+    margin:0 auto;
+}
 .menu {
     font-size: 20px;
     font-weight: bold;
@@ -53,8 +58,9 @@ p {
 }
 
 .main-contain {
-    width: 93%;
+
     margin: 0 auto;
+    background:red;
 }
 
 li {

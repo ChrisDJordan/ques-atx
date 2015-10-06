@@ -15,31 +15,34 @@
     input {
         width: 80%;
     }
-        .menu{
-    font-size:22px;
-    
-   
-}
-.wavier-section{
-    .wavier-btn{
-        width:40%;
+    .menu {
+        font-size: 22px;
+    }
+    .wavier-section {
+        .wavier-btn {
+            width: 40%;
+        }
+    }
+    .lessons-info-section, .questions-contain {
+        h2 {
+            color: green;
+        }
     }
 }
 
 
 
 
-}
+
+
+
+
 
 @media screen and (min-width: 768px) {
-    .menu{
-    font-size:26px;
-    margin-top:80px;
-    
-   
-}
-
-
+    .menu {
+        font-size: 26px;
+        margin-top: 80px;
+    }
     .section-img {
         margin-top: -30px;
         min-height: 600px;
@@ -63,72 +66,76 @@
         }
     }
     .lessons-price-section {
-
-    margin-top: 0;
-    background: #334d69;
-    border: 1px solid #334d69;
-    h2 {
-        margin-bottom: 110px;
-    }
-    li{
-        &:first-of-type{
-            padding-top:15px;
+        margin-top: 0;
+        background: #334d69;
+        border: 1px solid #334d69;
+        h2 {
+            margin-bottom: 110px;
+        }
+        li {
+            &:first-of-type {
+                padding-top: 15px;
+            }
         }
     }
-}
-  .lessons-price-container {
-        margin-top:0;
-
-
+    .lessons-price-container {
+        margin-top: 0;
     }
-
-
-}
-
-@media screen and (min-width: 992px) {
-    // .prices-section, .location-section, .programs-section {
-    //     margin-top: -190px;
-    // }
-
-    .logo{
-    p{
-        font-size:30px;
-        margin-top:-35px;
+    .lessons-hero {
+        background-position: 40% -60px;
     }
-}
-
-.info-section {
-    h3{
-        margin-top:0;
+    .questions-hero {
+        background-position: 0% -50px;
     }
-
-
+    .lessons-info-section, .questions-contain {
+        h2 {
+            color: red;
+        }
     }
-.all-padding {
-    padding-top: 160px;
-    padding-bottom: 160px;
-}
+    .info-section {
+        h2 {
+            margin-bottom: 80px;
+            font-size: 80px;
+        }
+        h3 {
+            margin-top: -4px;
+        }
 
-  
+        .img-fix{
+            width:85%;
 
+        }
+    }
+    .cable-section {
+        h2 {
+            margin-bottom: 50px;
+            font-size: 80px;
+        }
+    }
+    .programs-section {
+        h3 {
+            margin-top: -5px;
+        }
+    }
+    .all-padding {
+        padding-top: 160px;
+        padding-bottom: 160px;
+    }
     .lessons-price-section {
-
-    margin-top: 0px;
-    background: #334d69;
-    border: 1px solid #334d69;
-    h2 {
-        margin-bottom: 110px;
-    }
-    li{
-        &:first-of-type{
-            padding-top:50px;
+        margin-top: 0px;
+        background: #334d69;
+        border: 1px solid #334d69;
+        h2 {
+            margin-bottom: 110px;
+        }
+        li {
+            &:first-of-type {
+                padding-top: 50px;
+            }
         }
     }
-}
-
-
-    .navbar-toggle{
-        margin-top:4px;
+    .navbar-toggle {
+        margin-top: 4px;
     }
     .top-img {
         img {
@@ -141,10 +148,8 @@
     .lessons-contain {
         width: 80%;
         margin: 0 auto;
-
     }
     .lessons-info-section {
-           
         h2 {
             margin-bottom: 80px;
         }
@@ -173,9 +178,9 @@
             margin-top: 35px;
         }
     }
-    .item {
+    .pages-hero {
         background-size: cover;
-        height: 625px;
+        height: 525px;
     }
     .first {
         background-image: url(../images/girl-air.jpg);
@@ -204,13 +209,13 @@
     li {
         box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
     }
-    .prices-container, .rental-prices, .hours-prices {
-        margin-right: .45%;
-        width: 33%;
-        &:last-of-type {
-            margin-right: 0%;
-        }
-    }
+    // .prices-container, .rental-prices, .hours-prices {
+    //     margin-right: .45%;
+    //     width: 33%;
+    //     &:last-of-type {
+    //         margin-right: 0%;
+    //     }
+    // }
     .prices-section {
         .prices-container {
             margin-bottom: 0;
@@ -241,8 +246,8 @@
         h3 {
             margin-top: 50px;
         }
-        a{
-            font-size:25px;
+        a {
+            font-size: 25px;
         }
     }
     .hours-section {
@@ -254,18 +259,12 @@
             }
         }
     }
-    .programs-section {
-        h3 {
-            margin-top: 0;
-        }
-    }
     .program-marg-large {
         margin-bottom: 160px;
     }
     .events-section {
-        h3{
-            margin-top:-4px;
-
+        h3 {
+            margin-top: -4px;
         }
         li {
             box-shadow: none;
@@ -283,17 +282,65 @@
     input {
         width: 50%;
     }
+    .lessons-info-section, .questions-contain {
+        h2 {
+            color: purple;
+        }
+        .questions-hero {
+            background-position: 0% -170px;
+        }
+    }
+    .lessons-hero {
+        background-position: 40% -120px;
+    }
+
+.input-section{
+    h2{
+        color:black;
+        margin-bottom:30px;
+        font-size:80px;
+    }
+}
+
 
 }
 
-@media screen and (min-width: 1200px) {
-    .prices-container, .rental-prices {
-        margin-right: .45%;
-        width: 33%;
-        &:last-of-type {
-            margin-right: 0%;
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) {
+    // .prices-section, .location-section, .programs-section {
+    //     margin-top: -190px;
+    // }
+    .logo {
+        p {
+            font-size: 30px;
+            margin-top: -35px;
         }
     }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+    // .prices-container, .rental-prices {
+    //     margin-right: .45%;
+    //     width: 33%;
+    //     &:last-of-type {
+    //         margin-right: 0%;
+    //     }
+    // }
     .prices-section, .location-section, .programs-section {
         margin-top: -190px;
     }
@@ -307,7 +354,26 @@
     .form-btn {
         width: 40%;
     }
+    .lessons-info-section, .questions-contain {
+        h2 {
+            color: pink;
+        }
+    }
+    .lessons-hero {
+        background-position: 40% -270px;
+    }
+    .questions-hero {
+        background-position: 0% -230px;
+    }
 }
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 1800px) {
     //   .prices-section, .location-section, .programs-section {

@@ -6,16 +6,27 @@ h2,
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border:none;
 }
-.prices-section, .hours-section, .rental-section {
+.prices-section, .hours-section, .rental-section, .about-section {
     .col-md-4, .col-md-6 {
         padding-right: 0;
         padding-left: 0;
+        background:green;
     }
+}
+
+  
+
+
+.pages-hero{
+     background-size: cover;
+    height: 468px;
+ 
+
 }
 
 .item {
     background-size: cover;
-    height: 468px;
+    height: 700px;
 }
 
 .first {
@@ -26,7 +37,7 @@ h2,
 }
 
 .second {
-    background-image: url(../images/teen-rider.jpg);
+    background-image: url(../images/teen-rider1.jpg);
     background-position: 50%;
 }
 
@@ -37,7 +48,7 @@ h2,
 // }
 
 .fourth {
-    background-image: url(../images/philip.jpg);
+    background-image: url(../images/rail-rider1.jpg);
     background-position: 80% 0px;
     background-size: cover;
 }
