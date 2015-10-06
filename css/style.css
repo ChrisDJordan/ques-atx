@@ -784,7 +784,10 @@ nav .logo-fix {
     width: 75%; }
 
   .btn {
-    display: inline-block; } }
+    display: inline-block; }
+
+  .lessons-info-section .img-fix {
+    width: 75%; } }
 @media screen and (min-width: 992px) {
   .logo p {
     font-size: 30px;
