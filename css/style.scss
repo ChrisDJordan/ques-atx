@@ -586,7 +586,9 @@ a{
 /* Footer Styles
 ===================================*/
 footer {
-    height: 400px;
+    padding-top:210px;
+    padding-bottom:120px;
+
     width: 100%;
     background:#373235;
     margin-top:-50px;
@@ -600,6 +602,7 @@ footer {
        display:inline-block;
        float:left;
        margin-right: 30px;
+       margin-bottom:30px;
        &:last-of-type{
         margin-right:0;
 
@@ -608,6 +611,13 @@ footer {
     }
 
 }
+  p{
+    display:block;
+    text-align:center;
+    font-size:18px;
+      
+ 
+    }
 
     
  
