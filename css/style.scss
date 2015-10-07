@@ -302,7 +302,10 @@ li {
 /* About us section
 ===================================*/
 
-
+.img-fix {
+    width: 100%;
+    outline: 1px solid transparent;
+}
 
 .about-section {
     background-color: #373235;
@@ -680,7 +683,6 @@ footer {
         color: black;
     }
 }
-
 
 @import "firsttime";
 @import "info";

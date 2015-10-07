@@ -323,6 +323,10 @@ li:last-of-type {
 
 /* About us section
 ===================================*/
+.img-fix {
+  width: 100%;
+  outline: 1px solid transparent; }
+
 .about-section {
   background-color: #373235;
   margin-top: -50px; }
