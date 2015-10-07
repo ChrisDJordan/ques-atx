@@ -566,7 +566,8 @@ footer {
   footer p {
     display: block;
     text-align: center;
-    font-size: 18px; }
+    font-size: 18px;
+    color: white; }
 
 .top {
   display: none;
