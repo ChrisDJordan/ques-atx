@@ -11,12 +11,22 @@ nav{
 }
 }
 
+.lessons-kern{
+   font-family: 'Pacifico', cursive;
+   letter-spacing: 1px;
+}
+
+
+
+
+
 .lessons-info-section {
     margin-top: -50px;
     background: white;
     color: black;
     h2 {
         margin-bottom: 50px;
+        font-size:70px;
     }
     p, h2, h3 {
         color: black;
@@ -24,6 +34,11 @@ nav{
  
     .history-section {
         margin-top: 80px;
+    }
+     .img-fix{
+        width:80%;
+        margin:0 auto;
+        display:block;
     }
 }
 
@@ -34,6 +49,7 @@ nav{
     border: 1px solid #334d69;
     h2 {
         margin-bottom: 110px;
+        font-size:70px;
     }
     li{
         &:first-of-type{

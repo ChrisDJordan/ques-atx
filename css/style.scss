@@ -11,33 +11,6 @@
 /* Main Styling
 ===================================*/
 
-.left-chev{
-    background:url(../images/left-chev1.png);
-    height:48px;
-    width:48px;
-
-    position: absolute;
-    top:50%;
- 
-    z-index: 99;
-    display: inline-block;
-    font-size:30px;
-}
-
-
-.right-chev{
-    background:url(../images/right-chev.png);
-    height:48px;
-    width:48px;
-
-    position: absolute;
-    top:50%;
- 
-    z-index: 99;
-    display: inline-block;
-    font-size:30px;
-}
-
 
 
 
@@ -329,16 +302,13 @@ li {
 /* About us section
 ===================================*/
 
-.img-fix {
-    width: 100%;
-    outline: 1px solid transparent;
-}
+
 
 .about-section {
     background-color: #373235;
     margin-top: -50px;
     h2 {
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
 }
 
@@ -360,7 +330,7 @@ li {
 .waiver-section {
     background: #5eadcb;
     h2 {
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
     p {
         text-align: center;
@@ -604,7 +574,7 @@ li {
 .events-section {
     background: #3fa6ad;
     h2 {
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
     li {
         color: white;
@@ -710,6 +680,7 @@ footer {
         color: black;
     }
 }
+
 
 @import "firsttime";
 @import "info";

@@ -105,26 +105,6 @@ li {
 
 /* Main Styling
 ===================================*/
-.left-chev {
-  background: url(../images/left-chev1.png);
-  height: 48px;
-  width: 48px;
-  position: absolute;
-  top: 50%;
-  z-index: 99;
-  display: inline-block;
-  font-size: 30px; }
-
-.right-chev {
-  background: url(../images/right-chev.png);
-  height: 48px;
-  width: 48px;
-  position: absolute;
-  top: 50%;
-  z-index: 99;
-  display: inline-block;
-  font-size: 30px; }
-
 html {
   -webkit-font-smoothing: antialiased; }
 
@@ -343,15 +323,11 @@ li:last-of-type {
 
 /* About us section
 ===================================*/
-.img-fix {
-  width: 100%;
-  outline: 1px solid transparent; }
-
 .about-section {
   background-color: #373235;
   margin-top: -50px; }
   .about-section h2 {
-    margin-bottom: 30px; }
+    margin-bottom: 40px; }
 
 .read-btn {
   margin-bottom: 120px; }
@@ -367,7 +343,7 @@ li:last-of-type {
 .waiver-section {
   background: #5eadcb; }
   .waiver-section h2 {
-    margin-bottom: 15px; }
+    margin-bottom: 25px; }
   .waiver-section p {
     text-align: center; }
   .waiver-section a {
@@ -552,7 +528,7 @@ li:last-of-type {
 .events-section {
   background: #3fa6ad; }
   .events-section h2 {
-    margin-bottom: 30px; }
+    margin-bottom: 40px; }
   .events-section li {
     color: white;
     list-style-type: circle;
@@ -641,8 +617,9 @@ footer {
   margin-top: -40px;
   background: white; }
   .first-time-section h2 {
-    margin-bottom: 80px;
-    color: black; }
+    margin-bottom: 40px;
+    color: black;
+    font-size: 60px; }
   .first-time-section p, .first-time-section h3 {
     color: black; }
   .first-time-section p {
@@ -662,7 +639,7 @@ footer {
   background: white;
   color: black; }
   .info-section h2 {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     font-size: 70px; }
   .info-section p, .info-section h2, .info-section h3 {
     color: black; }
@@ -678,7 +655,7 @@ footer {
 .cable-section {
   background: #3fa6ad; }
   .cable-section h2 {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     font-size: 70px; }
   .cable-section .top-img:first-of-type p {
     margin-bottom: 120px; }
@@ -728,23 +705,33 @@ input {
 nav .logo-fix {
   margin-left: 35px; }
 
+.lessons-kern {
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 1px; }
+
 .lessons-info-section {
   margin-top: -50px;
   background: white;
   color: black; }
   .lessons-info-section h2 {
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    font-size: 70px; }
   .lessons-info-section p, .lessons-info-section h2, .lessons-info-section h3 {
     color: black; }
   .lessons-info-section .history-section {
     margin-top: 80px; }
+  .lessons-info-section .img-fix {
+    width: 80%;
+    margin: 0 auto;
+    display: block; }
 
 .lessons-price-section {
   margin-top: 0px;
   background: #334d69;
   border: 1px solid #334d69; }
   .lessons-price-section h2 {
-    margin-bottom: 110px; }
+    margin-bottom: 110px;
+    font-size: 70px; }
   .lessons-price-section li:first-of-type {
     padding-top: 20px; }
 
@@ -848,21 +835,11 @@ nav .logo-fix {
     .first-time-section p:nth-child(odd) {
       padding-bottom: 120px; }
 
-  .info-section h2 {
-    margin-bottom: 80px;
-    font-size: 80px; }
-  .info-section .img-fix {
+  .info-section .img-fix, .lessons-info-section .img-fix, .lessons-price-section .img-fix {
     width: 75%; }
-
-  .cable-section h2 {
-    margin-bottom: 80px;
-    font-size: 80px; }
 
   .btn {
     display: inline-block; }
-
-  .lessons-info-section .img-fix {
-    width: 75%; }
 
   .events-section li {
     box-shadow: none; } }
@@ -870,7 +847,11 @@ nav .logo-fix {
   .lessons-hero {
     background: url(../images/sesitec.jpg);
     background-size: cover;
-    background-position: 40% -75px; } }
+    background-position: 40% -75px; }
+
+  .info-section h2, .cable-section h2, .form-section h2, .first-time-section h2,
+  .first-time-section h2, .lessons-info-section h2, .lessons-price-section h2 {
+    font-size: 80px; } }
 @media screen and (min-width: 992px) {
   .logo p {
     font-size: 30px;
@@ -893,7 +874,7 @@ nav .logo-fix {
     background: #334d69;
     border: 1px solid #334d69; }
     .lessons-price-section h2 {
-      margin-bottom: 110px; }
+      margin-bottom: 100px; }
     .lessons-price-section li:first-of-type {
       padding-top: 50px; }
 
@@ -910,8 +891,6 @@ nav .logo-fix {
     width: 80%;
     margin: 0 auto; }
 
-  .lessons-info-section h2 {
-    margin-bottom: 50px; }
   .lessons-info-section h3 {
     margin-top: 0; }
 
@@ -1005,12 +984,7 @@ nav .logo-fix {
 
   .questions-hero {
     background-image: url(../images/boots-change2.jpg);
-    background-position: 40% -80px; }
-
-  .form-section h2 {
-    color: black;
-    margin-bottom: 50px;
-    font-size: 80px; } }
+    background-position: 40% -80px; } }
 @media screen and (min-width: 1200px) {
   .prices-container, .rental-prices {
     margin-right: .45%;
@@ -1043,7 +1017,7 @@ nav .logo-fix {
   .lessons-hero {
     background: url(../images/sesitec.jpg);
     background-size: cover;
-    background-position: 40% -275px; }
+    background-position: 40% -305px; }
 
   .questions-hero {
     background-image: url(../images/boots-change2.jpg);

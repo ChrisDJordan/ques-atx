@@ -104,11 +104,11 @@
     }
 }
 
-.info-section, {
-    h2{
-         margin-bottom: 80px;
-        font-size:80px;
-    }
+.info-section, .lessons-info-section, .lessons-price-section  {
+    // h2{
+    //      margin-bottom: 80px;
+    //     font-size:80px;
+    // }
     
     .img-fix{
         width:75%;
@@ -117,22 +117,22 @@
 }
 
 .cable-section{
-     h2{
-         margin-bottom: 80px;
-        font-size:80px;
-    }
+    //  h2{
+    //      margin-bottom: 80px;
+    //     font-size:80px;
+    // }
 
 }
     .btn {
         display:inline-block;
     }
-.lessons-info-section{
-    .img-fix{
-        width:75%;
+// .lessons-info-section{
+//     .img-fix{
+//         width:75%;
 
-    }
+//     }
 
-}
+// }
  .events-section{
     li{
         box-shadow:none;
@@ -152,6 +152,12 @@
 }
 
 
+.info-section, .cable-section, .form-section, .first-time-section,
+.first-time-section, .lessons-info-section,.lessons-price-section{
+h2{
+    font-size:80px;
+}
+}
 
 
 }
@@ -205,7 +211,7 @@
     background: #334d69;
     border: 1px solid #334d69;
     h2 {
-        margin-bottom: 110px;
+        margin-bottom: 100px;
     }
     li{
         &:first-of-type{
@@ -233,9 +239,9 @@
     }
     .lessons-info-section {
            
-        h2 {
-            margin-bottom: 50px;
-        }
+        // h2 {
+        //     margin-bottom: 50px;
+        // }
         h3 {
             margin-top: 0;
         }
@@ -370,13 +376,13 @@ background-position:40% -80px;
    
    }
 
-.form-section{
-    h2{
-        color:black;
-        margin-bottom:50px;
-        font-size:80px;
-    }
-}
+// .form-section{
+//     h2{
+//         color:black;
+//         margin-bottom:50px;
+//         font-size:80px;
+//     }
+// }
 
 
 }
@@ -426,7 +432,7 @@ background-position:40% -130px;
     background: url(../images/sesitec.jpg);
     background-size: cover;
     // background-position: 40% -380px;
-       background-position: 40% -275px;
+       background-position: 40% -305px;
 }
 
 .questions-hero{
