@@ -24,7 +24,6 @@
 
 
 
-
 }
 
 @media screen and (min-width: 768px) {
@@ -35,7 +34,12 @@
    
 }
 
-   
+   .lessons-hero {
+    background: url(../images/sesitec.jpg);
+    background-size: cover;
+    // background-position: 40% -380px;
+       background-position: 40% -20px;
+}
     li {
         box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
     }
@@ -137,6 +141,22 @@
 
 }
 
+
+@media screen and (min-width: 810px) {
+   .lessons-hero {
+    background: url(../images/sesitec.jpg);
+    background-size: cover;
+    // background-position: 40% -380px;
+       background-position: 40% -75px;
+}
+
+
+
+
+}
+
+
+
 @media screen and (min-width: 992px) {
     // .prices-section, .location-section, .programs-section {
     //     margin-top: -190px;
@@ -149,10 +169,25 @@
     }
 }
 
+   .lessons-hero {
+    background: url(../images/sesitec.jpg);
+    background-size: cover;
+    // background-position: 40% -380px;
+       background-position: 40% -155px;
+}
+
 .info-section {
     h3{
         margin-top:0;
     }
+
+
+
+
+
+
+
+
 
 
     }
@@ -225,7 +260,7 @@
     }
     .item {
         background-size: cover;
-        height: 550px;
+        height: 700px;
     }
     .first {
         background-image: url(../images/girl-air.jpg);
@@ -327,6 +362,16 @@
 }
 
 
+.questions-hero{
+background-image: url(../images/boots-change2.jpg);
+background-position:40% -80px;
+
+   
+   }
+
+
+
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -350,7 +395,44 @@
     .form-btn {
         width: 40%;
     }
+
+       .lessons-hero {
+    background: url(../images/sesitec.jpg);
+    background-size: cover;
+    // background-position: 40% -380px;
+       background-position: 40% -300px;
 }
+
+
+.questions-hero{
+background-image: url(../images/boots-change2.jpg);
+background-position:40% -130px;
+
+   
+   }
+
+}
+
+
+@media screen and (min-width: 1400px) {
+       .lessons-hero {
+    background: url(../images/sesitec.jpg);
+    background-size: cover;
+    // background-position: 40% -380px;
+       background-position: 40% -275px;
+}
+
+.questions-hero{
+background-image: url(../images/boots-change2.jpg);
+background-position:40% -160px;
+
+   
+   }
+
+}
+
+
+
 
 @media screen and (min-width: 1800px) {
     //   .prices-section, .location-section, .programs-section {
