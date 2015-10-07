@@ -16,6 +16,10 @@ h2,
   background-size: cover;
   height: 468px; }
 
+.pages-hero {
+  background-size: cover;
+  height: 268px; }
+
 .first {
   background-image: url(../images/girl-air1.jpg);
   background-size: cover;
@@ -174,7 +178,7 @@ li:last-of-type {
   font-weight: 800;
   font-size: 22px;
   display: block;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 30px 10px 30px;
   text-align: center;
   color: black;
   border-bottom: 4px solid rgba(0, 0, 0, 0.5); }
@@ -328,7 +332,7 @@ li:last-of-type {
 /* Wavier Section
 ===================================*/
 .btn-container {
-  max-width: 310px;
+  max-width: 345px;
   margin: 0 auto; }
 
 .waiver-section {
@@ -336,12 +340,11 @@ li:last-of-type {
   .waiver-section h2 {
     margin-bottom: 15px; }
   .waiver-section p {
-    font-size: 15px;
     text-align: center; }
   .waiver-section a {
     line-height: 1; }
   .waiver-section .waiver-btn {
-    margin: 0px auto;
+    margin: 20px auto;
     background: #96d59e;
     font-weight: 800;
     font-size: 22px;
