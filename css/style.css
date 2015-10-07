@@ -525,7 +525,7 @@ li:last-of-type {
 .programs-section {
   background: #373235; }
   .programs-section h2 {
-    margin-bottom: 30px; }
+    margin-bottom: 40px; }
   .programs-section .program-marg {
     margin-bottom: 120px; }
 
@@ -625,6 +625,8 @@ footer {
     color: black; }
   .first-time-section p, .first-time-section h3 {
     color: black; }
+  .first-time-section p {
+    margin-bottom: 120px; }
 
 .q1-section {
   background: white; }
@@ -814,8 +816,10 @@ nav .logo-fix {
   .lessons-price-container {
     margin-top: 0; }
 
-  .first-time-section p:nth-child(odd) {
-    padding-bottom: 120px; }
+  .first-time-section p {
+    margin-bottom: 0; }
+    .first-time-section p:nth-child(odd) {
+      padding-bottom: 120px; }
 
   .info-section h2 {
     margin-bottom: 80px;
@@ -880,7 +884,7 @@ nav .logo-fix {
     margin: 0 auto; }
 
   .lessons-info-section h2 {
-    margin-bottom: 80px; }
+    margin-bottom: 50px; }
   .lessons-info-section h3 {
     margin-top: 0; }
 
@@ -954,7 +958,7 @@ nav .logo-fix {
       display: block; }
 
   .programs-section h3 {
-    margin-top: 0; }
+    margin-top: -5px; }
 
   .program-marg-large {
     margin-bottom: 160px; }

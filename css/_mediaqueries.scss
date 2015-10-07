@@ -97,6 +97,7 @@
 
 .first-time-section{
     p{
+        margin-bottom:0;
         &:nth-child(odd){
             padding-bottom:120px;
         }
@@ -233,7 +234,7 @@
     .lessons-info-section {
            
         h2 {
-            margin-bottom: 80px;
+            margin-bottom: 50px;
         }
         h3 {
             margin-top: 0;
@@ -327,7 +328,7 @@
     }
     .programs-section {
         h3 {
-            margin-top: 0;
+            margin-top: -5px;
         }
     }
     .program-marg-large {
