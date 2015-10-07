@@ -199,6 +199,13 @@ li:last-of-type {
   padding-bottom: 20px;
   display: inline-block; }
 
+.rent {
+  padding: 0 0 10px 0;
+  font-size: 15px; }
+
+.add-pad {
+  padding-bottom: 45px; }
+
 .kern {
   letter-spacing: -3px; }
 
@@ -818,7 +825,7 @@ nav .logo-fix {
   .lessons-info-section .img-fix {
     width: 75%; }
 
-  li {
+  .events-section li {
     box-shadow: none; } }
 @media screen and (min-width: 992px) {
   .logo p {
