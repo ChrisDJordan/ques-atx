@@ -105,6 +105,26 @@ li {
 
 /* Main Styling
 ===================================*/
+.left-chev {
+  background: url(../images/left-chev1.png);
+  height: 48px;
+  width: 48px;
+  position: absolute;
+  top: 50%;
+  z-index: 99;
+  display: inline-block;
+  font-size: 30px; }
+
+.right-chev {
+  background: url(../images/right-chev.png);
+  height: 48px;
+  width: 48px;
+  position: absolute;
+  top: 50%;
+  z-index: 99;
+  display: inline-block;
+  font-size: 30px; }
+
 html {
   -webkit-font-smoothing: antialiased; }
 
@@ -391,7 +411,7 @@ li:last-of-type {
     bottom: 60px;
     width: 80px;
     height: 80px;
-    background-color: #faba56;
+    background-color: #EE6B4D;
     background-image: url("../images/ticket2.png");
     background-repeat: no-repeat;
     background-position: 16px 16px;
@@ -438,7 +458,7 @@ li:last-of-type {
 .rental-circle {
   width: 80px;
   height: 80px;
-  background: #faba56;
+  background: #EE6B4D;
   border-radius: 50px;
   position: relative;
   bottom: 60px;
@@ -507,7 +527,7 @@ li:last-of-type {
   .hours-section .hours-circle {
     width: 80px;
     height: 80px;
-    background: #faba56;
+    background: #EE6B4D;
     border-radius: 50px;
     position: relative;
     bottom: 60px;
@@ -643,7 +663,7 @@ footer {
   color: black; }
   .info-section h2 {
     margin-bottom: 30px;
-    font-size: 60px; }
+    font-size: 70px; }
   .info-section p, .info-section h2, .info-section h3 {
     color: black; }
   .info-section h3 {
@@ -659,7 +679,7 @@ footer {
   background: #3fa6ad; }
   .cable-section h2 {
     margin-bottom: 30px;
-    font-size: 60px; }
+    font-size: 70px; }
   .cable-section .top-img:first-of-type p {
     margin-bottom: 120px; }
 
@@ -675,6 +695,13 @@ input {
   font-size: 13px;
   width: 100%;
   box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5); }
+
+.form-section {
+  background: white; }
+  .form-section h2 {
+    color: black;
+    margin-bottom: 15px;
+    font-size: 70px; }
 
 .form-btn {
   margin: 0px auto;
@@ -855,7 +882,7 @@ nav .logo-fix {
     background-position: 40% -155px; }
 
   .info-section h3 {
-    margin-top: 0; }
+    margin-top: -5px; }
 
   .all-padding {
     padding-top: 160px;
@@ -978,7 +1005,12 @@ nav .logo-fix {
 
   .questions-hero {
     background-image: url(../images/boots-change2.jpg);
-    background-position: 40% -80px; } }
+    background-position: 40% -80px; }
+
+  .form-section h2 {
+    color: black;
+    margin-bottom: 50px;
+    font-size: 80px; } }
 @media screen and (min-width: 1200px) {
   .prices-container, .rental-prices {
     margin-right: .45%;

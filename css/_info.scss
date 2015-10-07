@@ -13,7 +13,7 @@
     color: black;
     h2 {
         margin-bottom: 30px;
-        font-size:60px;
+        font-size:70px;
 
      
     }
@@ -38,7 +38,7 @@
     background: $section-teal;
     h2 {
         margin-bottom: 30px;
-          font-size:60px;
+          font-size:70px;
 
     }
     .top-img {
@@ -65,7 +65,14 @@ input {
 }
 
 
-
+.form-section{
+    background:white;
+    h2{
+        color:black;
+        margin-bottom:15px;
+        font-size:70px;
+    }
+}
 
 
 .form-btn{
