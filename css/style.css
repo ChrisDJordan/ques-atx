@@ -331,14 +331,16 @@ li:last-of-type {
   max-width: 310px;
   margin: 0 auto; }
 
-.wavier-section {
+.waiver-section {
   background: #5eadcb; }
-  .wavier-section h2 {
+  .waiver-section h2 {
     margin-bottom: 15px; }
-  .wavier-section p {
+  .waiver-section p {
     font-size: 15px;
     text-align: center; }
-  .wavier-section .wavier-btn {
+  .waiver-section a {
+    line-height: 1; }
+  .waiver-section .waiver-btn {
     margin: 0px auto;
     background: #96d59e;
     font-weight: 800;
@@ -349,6 +351,10 @@ li:last-of-type {
     color: black;
     border-bottom: 4px solid rgba(0, 0, 0, 0.5);
     border-radius: 4px; }
+  .waiver-section .waiver-btn:hover {
+    background-color: #69956F;
+    color: white;
+    text-decoration: none; }
 
 /* Prices section 
 ===================================*/
@@ -394,6 +400,11 @@ li:last-of-type {
   color: black;
   border-bottom: 4px solid rgba(0, 0, 0, 0.5);
   border-radius: 4px; }
+
+.member-btn:hover {
+  background-color: #69956F;
+  color: white;
+  text-decoration: none; }
 
 /* rentals section
 ===================================*/
@@ -644,16 +655,22 @@ input {
   width: 100%;
   box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5); }
 
-.button:hover {
-  border-top-color: #ffffff;
-  background: #ffffff;
-  color: #a7b828;
-  text-shadow: none;
-  cursor: pointer; }
+.form-btn {
+  margin: 0px auto;
+  background: #96d59e;
+  font-weight: 800;
+  font-size: 22px;
+  display: block;
+  padding: 15px;
+  text-align: center;
+  color: black;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px; }
 
-.button:active {
-  border-top-color: #ffffff;
-  background: #ffffff; }
+.form-btn:hover {
+  background-color: #69956F;
+  color: white;
+  text-decoration: none; }
 
 .lessons-hero {
   background: url(../images/sesitec.jpg);
@@ -781,6 +798,10 @@ nav .logo-fix {
     font-size: 80px; }
   .info-section .img-fix {
     width: 75%; }
+
+  .cable-section h2 {
+    margin-bottom: 80px;
+    font-size: 80px; }
 
   .btn {
     display: inline-block; }
