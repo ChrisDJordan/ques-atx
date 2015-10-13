@@ -120,7 +120,7 @@ p, a {
   background: transparent; }
 
 .container {
-  max-width: 90%; }
+  max-width: 1600px; }
 
 #navbar li a {
   color: white; }
