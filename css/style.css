@@ -120,10 +120,14 @@ p, a {
   background: transparent; }
 
 .container {
+<<<<<<< HEAD
   max-width: 1600px; }
+=======
+  max-width: 2000px; }
+>>>>>>> gh-pages
 
 #navbar li a {
-  color: white; }
+  color: red; }
 
 p {
   font-size: 17px; }

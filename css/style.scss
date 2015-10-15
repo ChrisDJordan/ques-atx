@@ -43,13 +43,16 @@ p, a {
 //     }
 // }
 .container {
-    max-width: 1600px;;
+
+    max-width:90%;
+ 
+
 }
 
 #navbar {
     li {
         a {
-            color: white;
+            color: red;
         }
     }
 }
