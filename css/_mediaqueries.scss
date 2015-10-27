@@ -262,7 +262,7 @@ h2{
         display: inline-block;
         h1 {
             font-size: 115px;
-            margin-top: 35px;
+       
         }
     }
     .item {
@@ -388,6 +388,25 @@ background-position:40% -80px;
 }
 
 @media screen and (min-width: 1200px) {
+
+      .logo {
+        display: inline-block;
+        h1 {
+            font-size: 115px;
+            margin-top:25px;
+       
+        }
+    }
+
+
+
+
+
+
+
+
+
+
     .prices-container, .rental-prices {
         margin-right: .45%;
         width: 33%;

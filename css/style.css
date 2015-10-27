@@ -911,8 +911,7 @@ nav .logo-fix {
   .logo {
     display: inline-block; }
     .logo h1 {
-      font-size: 115px;
-      margin-top: 35px; }
+      font-size: 115px; }
 
   .item {
     background-size: cover;
@@ -991,6 +990,12 @@ nav .logo-fix {
     background-image: url(../images/boots-change2.jpg);
     background-position: 40% -80px; } }
 @media screen and (min-width: 1200px) {
+  .logo {
+    display: inline-block; }
+    .logo h1 {
+      font-size: 115px;
+      margin-top: 25px; }
+
   .prices-container, .rental-prices {
     margin-right: .45%;
     width: 33%; }
