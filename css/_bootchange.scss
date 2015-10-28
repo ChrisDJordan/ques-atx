@@ -3,9 +3,11 @@ h2,
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border:none;
+    border: none;
 }
+
 .prices-section, .hours-section, .rental-section {
     .col-sm-4, .col-md-4, .col-md-6 {
         padding-right: 0;
@@ -18,10 +20,9 @@ h2,
     height: 468px;
 }
 
-.pages-hero{
+.pages-hero {
     background-size: cover;
     height: 500px;
-
 }
 
 .first {

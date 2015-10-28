@@ -15,43 +15,46 @@
     input {
         width: 80%;
     }
-        .menu{
-    font-size:22px;
-    
-   
-}
-
-
-
-
+    .menu {
+        font-size: 22px;
+    }
 }
 
 @media screen and (min-width: 768px) {
-    .menu{
-    font-size:26px;
-    margin-top:80px;
-    
-   
-}
-
-   .lessons-hero {
-    background: url(../images/sesitec.jpg);
-    background-size: cover;
-    // background-position: 40% -380px;
-       background-position: 40% -20px;
-}
+    .logo {
+        display: inline-block;
+        h1 {
+            font-size: 85px;
+        }
+        p {
+            font-size: 20px;
+            margin-top: -25px;
+        }
+    }
+    .menu {
+        font-size: 26px;
+        margin-top: 80px;
+    }
+    .lessons-hero {
+        background: url(../images/sesitec.jpg);
+        background-size: cover;
+        background-position: 40% -20px;
+    }
     li {
         box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
     }
-
- .prices-container, .rental-prices, .hours-prices {
+    .navbar-collapse {
+        li {
+            box-shadow: none;
+        }
+    }
+    .prices-container, .rental-prices, .hours-prices {
         margin-right: .45%;
         width: 33%;
         &:last-of-type {
             margin-right: 0%;
         }
     }
-
     .section-img {
         margin-top: -30px;
         min-height: 600px;
@@ -75,154 +78,102 @@
         }
     }
     .lessons-price-section {
-
-    margin-top: 0;
-    background: #334d69;
-    border: 1px solid #334d69;
-    h2 {
-        margin-bottom: 110px;
-    }
-    li{
-        &:first-of-type{
-            padding-top:15px;
+        margin-top: 0;
+        background: #334d69;
+        border: 1px solid #334d69;
+        h2 {
+            margin-bottom: 110px;
+        }
+        li {
+            &:first-of-type {
+                padding-top: 15px;
+            }
         }
     }
-}
-  .lessons-price-container {
-        margin-top:0;
-
-
+    .lessons-price-container {
+        margin-top: 0;
     }
-
-
-.first-time-section{
-    p{
-        margin-bottom:0;
-        &:nth-child(odd){
-            padding-bottom:120px;
+    .first-time-section {
+        p {
+            margin-bottom: 0;
+            &:nth-child(odd) {
+                padding-bottom: 120px;
+            }
         }
     }
-}
-
-.info-section, .lessons-info-section, .lessons-price-section  {
-    // h2{
-    //      margin-bottom: 80px;
-    //     font-size:80px;
-    // }
-    
-    .img-fix{
-        width:75%;
-
+    .info-section, .lessons-info-section, .lessons-price-section {
+        .img-fix {
+            width: 75%;
+        }
     }
-}
-
-.cable-section{
-    //  h2{
-    //      margin-bottom: 80px;
-    //     font-size:80px;
-    // }
-
-}
     .btn {
-        display:inline-block;
+        display: inline-block;
     }
-// .lessons-info-section{
-//     .img-fix{
-//         width:75%;
-
-//     }
-
-// }
- .events-section{
-    li{
-        box-shadow:none;
+    .events-section {
+        li {
+            box-shadow: none;
+        }
     }
- }
-
-
+    .circle-none {
+        display: none;
+    }
+    .navbar-right {
+        margin-right: -9px;
+    }
 }
-
 
 @media screen and (min-width: 810px) {
-   .lessons-hero {
-    background: url(../images/sesitec.jpg);
-    background-size: cover;
-    // background-position: 40% -380px;
-       background-position: 40% -75px;
-}
-
-
-.info-section, .cable-section, .form-section, .first-time-section,
-.first-time-section, .lessons-info-section,.lessons-price-section{
-h2{
-    font-size:80px;
-}
-}
-
-
-}
-
-
-
-@media screen and (min-width: 992px) {
-    // .prices-section, .location-section, .programs-section {
-    //     margin-top: -190px;
-    // }
-
-    .logo{
-    p{
-        font-size:30px;
-        margin-top:-35px;
+    .lessons-hero {
+        background: url(../images/sesitec.jpg);
+        background-size: cover;
+        background-position: 40% -75px;
     }
-}
-
-   .lessons-hero {
-    background: url(../images/sesitec.jpg);
-    background-size: cover;
-    // background-position: 40% -380px;
-       background-position: 40% -155px;
-}
-
-.info-section {
-    h3{
-        margin-top:-5px;
-    }
-
-
-
-
-
-
-
-
-
-
-    }
-.all-padding {
-    padding-top: 160px;
-    padding-bottom: 160px;
-}
-
-  
-
-    .lessons-price-section {
-
-    margin-top: 0px;
-    background: #334d69;
-    border: 1px solid #334d69;
-    h2 {
-        margin-bottom: 100px;
-    }
-    li{
-        &:first-of-type{
-            padding-top:50px;
+    .info-section, .cable-section, .form-section, .first-time-section,
+    .first-time-section, .lessons-info-section, .lessons-price-section {
+        h2 {
+            font-size: 80px;
         }
     }
 }
 
-
-    .navbar-toggle{
-        margin-top:4px;
+@media screen and (min-width: 992px) {
+    .logo {
+        display: inline-block;
+        h1 {
+            font-size: 115px;
+            margin-top: 20px;
+        }
+        p {
+            font-size: 30px;
+            margin-top: -35px;
+        }
+    }
+    .lessons-hero {
+        background: url(../images/sesitec.jpg);
+        background-size: cover;
+        background-position: 40% -155px;
+    }
+    .info-section {
+        h3 {
+            margin-top: -5px;
+        }
+    }
+    .all-padding {
+        padding-top: 160px;
+        padding-bottom: 160px;
+    }
+    .lessons-price-section {
+        margin-top: 0px;
+        background: #334d69;
+        border: 1px solid #334d69;
+        h2 {
+            margin-bottom: 100px;
+        }
+        li {
+            &:first-of-type {
+                padding-top: 50px;
+            }
+        }
     }
     .top-img {
         img {
@@ -235,13 +186,8 @@ h2{
     .lessons-contain {
         width: 80%;
         margin: 0 auto;
-
     }
     .lessons-info-section {
-           
-        // h2 {
-        //     margin-bottom: 50px;
-        // }
         h3 {
             margin-top: 0;
         }
@@ -250,20 +196,7 @@ h2{
         margin-top: -30px;
     }
     .container {
-        max-width: 100%;
-    }
-
-    .navbar-collapse {
-        li {
-            box-shadow: none;
-        }
-    }
-    .logo {
-        display: inline-block;
-        h1 {
-            font-size: 115px;
-       
-        }
+        width: 90%;
     }
     .item {
         background-size: cover;
@@ -287,8 +220,6 @@ h2{
     .read-btn {
         margin-bottom: 0;
     }
- 
-   
     .prices-section {
         .prices-container {
             margin-bottom: 0;
@@ -319,8 +250,8 @@ h2{
         h3 {
             margin-top: 50px;
         }
-        a{
-            font-size:25px;
+        a {
+            font-size: 25px;
         }
     }
     .hours-section {
@@ -341,13 +272,10 @@ h2{
         margin-bottom: 160px;
     }
     .events-section {
-        h3{
-            margin-top:-4px;
-
+        h3 {
+            margin-top: -4px;
         }
-       
     }
-  
     .lessons-section {
         .col-md-6 {
             padding-right: 15px;
@@ -357,56 +285,21 @@ h2{
     input {
         width: 50%;
     }
-
-
-.info-section {
-   
-    
-    .img-fix{
-        margin:0;
-        
+    .info-section {
+        .img-fix {
+            margin: 0;
+        }
     }
-}
-
-
-.questions-hero{
-background-image: url(../images/boots-change2.jpg);
-background-position:40% -80px;
-
-   
-   }
-
-// .form-section{
-//     h2{
-//         color:black;
-//         margin-bottom:50px;
-//         font-size:80px;
-//     }
-// }
-
-
+    .questions-hero {
+        background-image: url(../images/boots-change2.jpg);
+        background-position: 40% -80px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
-
-      .logo {
-        display: inline-block;
-        h1 {
-            font-size: 115px;
-            margin-top:25px;
-       
-        }
+    .container {
+        width: 85%;
     }
-
-
-
-
-
-
-
-
-
-
     .prices-container, .rental-prices {
         margin-right: .45%;
         width: 33%;
@@ -427,48 +320,27 @@ background-position:40% -80px;
     .form-btn {
         width: 40%;
     }
-
-       .lessons-hero {
-    background: url(../images/sesitec.jpg);
-    background-size: cover;
-    // background-position: 40% -380px;
-       background-position: 40% -300px;
+    .lessons-hero {
+        background: url(../images/sesitec.jpg);
+        background-size: cover;
+        background-position: 40% -300px;
+    }
+    .questions-hero {
+        background-image: url(../images/boots-change2.jpg);
+        background-position: 40% -130px;
+    }
 }
-
-
-.questions-hero{
-background-image: url(../images/boots-change2.jpg);
-background-position:40% -130px;
-
-   
-   }
-
-}
-
 
 @media screen and (min-width: 1400px) {
-       .lessons-hero {
-    background: url(../images/sesitec.jpg);
-    background-size: cover;
-    // background-position: 40% -380px;
-       background-position: 40% -305px;
+    .lessons-hero {
+        background: url(../images/sesitec.jpg);
+        background-size: cover;
+        background-position: 40% -305px;
+    }
+    .questions-hero {
+        background-image: url(../images/boots-change2.jpg);
+        background-position: 40% -160px;
+    }
 }
 
-.questions-hero{
-background-image: url(../images/boots-change2.jpg);
-background-position:40% -160px;
-
-   
-   }
-
-}
-
-
-
-
-@media screen and (min-width: 1800px) {
-    //   .prices-section, .location-section, .programs-section {
-    //     margin-top: -190px;
-    //     background:gold;
-    // }
-}
+@media screen and (min-width: 1800px) {}
