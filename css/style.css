@@ -30,7 +30,7 @@ h2,
   background-image: url(../images/teen-rider1.jpg);
   background-position: 50%; }
 
-.fourth {
+.third {
   background-image: url(../images/philip1.jpg);
   background-position: 80% 0px;
   background-size: cover; }
@@ -621,7 +621,7 @@ footer {
 
 .questions-hero {
   background-image: url(../images/boots-change3.jpg);
-  background-position: 40% 0; }
+  background-position: center center; }
 
 .first-time-section {
   padding-top: 160px;
@@ -642,7 +642,7 @@ footer {
 .info-hero {
   background: url(../images/two-rail1.jpg);
   background-repeat: no-repeat;
-  background-position: 50% 0px;
+  background-position: center bottom;
   background-size: cover; }
 
 .info-section {
@@ -711,7 +711,7 @@ input {
 .lessons-hero {
   background: url(../images/sesitec1.jpg);
   background-size: cover;
-  background-position: 40% 0px; }
+  background-position: center bottom; }
 
 nav .logo-fix {
   margin-left: 35px; }
@@ -805,11 +805,6 @@ nav .logo-fix {
     font-size: 26px;
     margin-top: 80px; }
 
-  .lessons-hero {
-    background: url(../images/sesitec.jpg);
-    background-size: cover;
-    background-position: 40% -20px; }
-
   li {
     box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5); }
 
@@ -872,11 +867,6 @@ nav .logo-fix {
   .navbar-right {
     margin-right: -9px; } }
 @media screen and (min-width: 810px) {
-  .lessons-hero {
-    background: url(../images/sesitec.jpg);
-    background-size: cover;
-    background-position: 40% -75px; }
-
   .info-section h2, .cable-section h2, .form-section h2, .first-time-section h2,
   .first-time-section h2, .lessons-info-section h2, .lessons-price-section h2 {
     font-size: 80px; } }
@@ -889,11 +879,6 @@ nav .logo-fix {
     .logo p {
       font-size: 30px;
       margin-top: -35px; }
-
-  .lessons-hero {
-    background: url(../images/sesitec.jpg);
-    background-size: cover;
-    background-position: 40% -155px; }
 
   .info-section h3 {
     margin-top: -5px; }
@@ -934,14 +919,9 @@ nav .logo-fix {
     background-size: cover;
     height: 700px; }
 
-  .first {
-    background-image: url(../images/girl-air.jpg);
-    background-position: 50% 0; }
-
   .second {
     background-image: url(../images/teen-rider.jpg);
-    background-position: 80%;
-    background-position: 50% 0; }
+    background-position: center bottom; }
 
   .lefty {
     padding-right: 40px; }
@@ -1001,14 +981,10 @@ nav .logo-fix {
     width: 50%; }
 
   .info-section .img-fix {
-    margin: 0; }
-
-  .questions-hero {
-    background-image: url(../images/boots-change2.jpg);
-    background-position: 40% -80px; } }
+    margin: 0; } }
 @media screen and (min-width: 1200px) {
   .container {
-    width: 85%; }
+    max-width: 1150px; }
 
   .prices-container, .rental-prices {
     margin-right: .45%;
@@ -1027,24 +1003,27 @@ nav .logo-fix {
     width: 40%; }
 
   .form-btn {
-    width: 40%; }
-
-  .lessons-hero {
-    background: url(../images/sesitec.jpg);
-    background-size: cover;
-    background-position: 40% -300px; }
-
-  .questions-hero {
-    background-image: url(../images/boots-change2.jpg);
-    background-position: 40% -130px; } }
+    width: 40%; } }
 @media screen and (min-width: 1400px) {
-  .lessons-hero {
-    background: url(../images/sesitec.jpg);
-    background-size: cover;
-    background-position: 40% -305px; }
+  .section-img {
+    margin-top: -60px; } }
+@media screen and (min-width: 1500px) {
+  .lessons-hero, .info-hero, .questions-hero {
+    min-height: 700px; }
 
-  .questions-hero {
-    background-image: url(../images/boots-change2.jpg);
-    background-position: 40% -160px; } }
+  .first {
+    background-position: top center; }
+
+  .third {
+    background-position: top center; }
+
+  .first, .second, .third {
+    min-height: 900px; }
+
+  .container {
+    max-width: 1250px; }
+
+  .section-img {
+    margin-top: -80px; } }
 
 /*# sourceMappingURL=style.css.map */

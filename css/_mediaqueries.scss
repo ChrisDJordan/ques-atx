@@ -35,11 +35,6 @@
         font-size: 26px;
         margin-top: 80px;
     }
-    .lessons-hero {
-        background: url(../images/sesitec.jpg);
-        background-size: cover;
-        background-position: 40% -20px;
-    }
     li {
         box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
     }
@@ -123,11 +118,6 @@
 }
 
 @media screen and (min-width: 810px) {
-    .lessons-hero {
-        background: url(../images/sesitec.jpg);
-        background-size: cover;
-        background-position: 40% -75px;
-    }
     .info-section, .cable-section, .form-section, .first-time-section,
     .first-time-section, .lessons-info-section, .lessons-price-section {
         h2 {
@@ -147,11 +137,6 @@
             font-size: 30px;
             margin-top: -35px;
         }
-    }
-    .lessons-hero {
-        background: url(../images/sesitec.jpg);
-        background-size: cover;
-        background-position: 40% -155px;
     }
     .info-section {
         h3 {
@@ -202,14 +187,11 @@
         background-size: cover;
         height: 700px;
     }
-    .first {
-        background-image: url(../images/girl-air.jpg);
-        background-position: 50% 0;
-    }
+   
     .second {
         background-image: url(../images/teen-rider.jpg);
-        background-position: 80%;
-        background-position: 50% 0;
+        background-position: center bottom;
+  
     }
     .lefty {
         padding-right: 40px;
@@ -290,15 +272,12 @@
             margin: 0;
         }
     }
-    .questions-hero {
-        background-image: url(../images/boots-change2.jpg);
-        background-position: 40% -80px;
-    }
+  
 }
 
 @media screen and (min-width: 1200px) {
     .container {
-        width: 85%;
+        max-width: 1150px;
     }
     .prices-container, .rental-prices {
         margin-right: .45%;
@@ -320,27 +299,39 @@
     .form-btn {
         width: 40%;
     }
-    .lessons-hero {
-        background: url(../images/sesitec.jpg);
-        background-size: cover;
-        background-position: 40% -300px;
-    }
-    .questions-hero {
-        background-image: url(../images/boots-change2.jpg);
-        background-position: 40% -130px;
-    }
+   
 }
 
 @media screen and (min-width: 1400px) {
-    .lessons-hero {
-        background: url(../images/sesitec.jpg);
-        background-size: cover;
-        background-position: 40% -305px;
+    .section-img{
+        margin-top:-60px;
     }
-    .questions-hero {
-        background-image: url(../images/boots-change2.jpg);
-        background-position: 40% -160px;
-    }
+
+    
 }
 
-@media screen and (min-width: 1800px) {}
+@media screen and (min-width: 1500px) {
+    .lessons-hero, .info-hero,.questions-hero{
+        min-height: 700px;
+    }
+     .first {
+        
+        background-position: top center;
+    }
+
+    .third{
+        background-position: top center;
+
+    }
+
+    .first, .second, .third{
+        min-height:900px;
+    }
+      .container {
+        max-width: 1250px;
+    }
+
+    .section-img{
+        margin-top:-80px;
+    }
+}
