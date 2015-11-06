@@ -1,0 +1,1029 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+h2,
+.h2 {
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: none; }
+
+.prices-section .col-sm-4, .prices-section .col-md-4, .prices-section .col-md-6, .hours-section .col-sm-4, .hours-section .col-md-4, .hours-section .col-md-6, .rental-section .col-sm-4, .rental-section .col-md-4, .rental-section .col-md-6 {
+  padding-right: 0;
+  padding-left: 0; }
+
+.item {
+  background-size: cover;
+  height: 468px; }
+
+.pages-hero {
+  background-size: cover;
+  height: 500px; }
+
+.first {
+  background-image: url(../images/girl-air1.jpg);
+  background-size: cover;
+  background-position: 0%;
+  background-repeat: no-repeat; }
+
+.second {
+  background-image: url(../images/teen-rider1.jpg);
+  background-position: 50%; }
+
+.third {
+  background-image: url(../images/philip1.jpg);
+  background-position: 80% 0px;
+  background-size: cover; }
+
+ul {
+  padding-left: 0;
+  margin-right: 0; }
+
+li {
+  list-style-type: none; }
+
+@media (max-width: 1200px) {
+  .navbar-header {
+    float: none; }
+
+  .navbar-left, .navbar-right {
+    float: none !important; }
+
+  .navbar-toggle {
+    display: block; }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px; }
+
+  .navbar-collapse.collapse {
+    display: none !important; }
+
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px; }
+
+  .navbar-nav > li {
+    float: none; }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+  .collapse.in {
+    display: block !important; } }
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; }
+
+body {
+  line-height: 1.8; }
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: 70px;
+  color: white; }
+
+h3, p {
+  color: white; }
+
+h3 {
+  font-weight: 800;
+  font-size: 28px; }
+
+h4 {
+  color: white;
+  font-weight: bold; }
+
+li {
+  font-weight: 800; }
+
+/* Main Styling
+===================================*/
+html {
+  -webkit-font-smoothing: antialiased; }
+
+body {
+  line-height: 1; }
+
+p, a {
+  line-height: 1.8; }
+
+.menu {
+  font-size: 20px;
+  font-weight: bold;
+  background: transparent; }
+
+.container {
+  max-width: 90%; }
+
+#navbar li a {
+  color: white; }
+
+p {
+  font-size: 17px; }
+
+.main-contain {
+  width: 93%;
+  margin: 0 auto; }
+
+li:last-of-type {
+  box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5); }
+
+.clear {
+  clear: both; }
+
+.skew {
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -o-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+  transform: skewY(-3deg);
+  -webkit-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  outline: 1px solid transparent;
+  padding: 2px;
+  /* IE8+ */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand')";
+  /* IE6 and 7 */
+  filter: progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand'); }
+
+.skew-fix {
+  -webkit-transform: skewY(3deg);
+  -moz-transform: skewY(3deg);
+  -o-transform: skewY(3deg);
+  -ms-transform: skewY(3deg);
+  transform: skewY(3deg);
+  -webkit-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  outline: 1px solid transparent;
+  padding: 2px;
+  /* IE8+ */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand')";
+  /* IE6 and 7 */
+  filter: progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0.28674538575880865, M21=0, M22=1, SizingMethod='auto expand'); }
+
+.btn {
+  margin-top: 30px;
+  background: #96d59e;
+  font-weight: 800;
+  font-size: 22px;
+  display: block;
+  padding: 10px 30px 10px 30px;
+  text-align: center;
+  color: black;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.5); }
+
+.btn:hover {
+  background-color: #69956F;
+  color: white;
+  text-decoration: none; }
+
+.small-ul {
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 20px 0 15px 0; }
+
+.big-ul {
+  font-size: 40px;
+  padding-bottom: 20px;
+  display: inline-block; }
+
+.rent {
+  padding: 0 0 10px 0;
+  font-size: 15px;
+  display: block;
+  font-weight: 500; }
+
+.add-pad {
+  padding-bottom: 45px; }
+
+.kern {
+  letter-spacing: -3px; }
+
+/* Helpers for top position on internal page links
+====================================================*/
+.all-padding {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+/* Carousel Styling
+===================================*/
+.carousel-control.left, .carousel-control.right {
+  background: none; }
+
+/* Nav / Navbar Styles
+===================================*/
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  margin-right: 0;
+  background: none; }
+
+.navbar {
+  background: none;
+  border-bottom: none;
+  padding: 10px 0 10px 0;
+  transition-duration: 0.6s;
+  z-index: 1; }
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  font-weight: 800; }
+
+.navbar-default .navbar-nav > li {
+  margin-right: 8px; }
+
+.navbar-default .navbar-nav > li:last-of-type {
+  margin-right: 0;
+  box-shadow: none; }
+
+.dropdown-menu,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background: #faba56; }
+
+.dropdown-menu {
+  padding: 48px;
+  box-shadow: none;
+  border: none; }
+
+.nav-dropdown-scroll {
+  background: #e7eaea; }
+
+.navbar-toggle,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background: transparent;
+  color: white; }
+
+.navbar-toggle {
+  margin-top: 10px; }
+
+.logo {
+  display: inline-block; }
+  .logo h1 {
+    font-size: 45px;
+    font-family: 'Pacifico', cursive;
+    display: inline-block;
+    margin-top: 10px;
+    -webkit-transform: rotate(-6deg);
+    /* Ch <36, Saf 5.1+, iOS, An =<4.4.4 */
+    -ms-transform: rotate(-6deg);
+    /* IE 9 */
+    transform: rotate(-6deg);
+    /* IE 10, Fx 16+, Op 12.1+ */
+    color: #faba56;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5); }
+  .logo p {
+    text-align: right;
+    margin-top: -15px;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5); }
+
+/* Nav / Navbar Styles end
+===================================*/
+/* Section Images
+===================================*/
+.prices-section, .location-section, .programs-section {
+  margin-top: -70px; }
+
+.section-img {
+  margin-top: -10px;
+  min-height: 300px; }
+
+.park-img {
+  background: url(../images/park.jpg);
+  background-size: cover;
+  background-position: 55%; }
+
+.store-img {
+  background: url(../images/inside.jpg);
+  background-size: cover;
+  background-position: 35% -60px; }
+
+.outside-img {
+  background: url(../images/mountains.jpg);
+  background-size: cover;
+  background-position: 55%; }
+
+/* About us section
+===================================*/
+.img-fix {
+  width: 100%;
+  outline: 1px solid transparent; }
+
+.about-section {
+  background-color: #373235;
+  margin-top: -50px; }
+  .about-section h2 {
+    margin-bottom: 40px; }
+
+.read-btn {
+  margin-bottom: 120px; }
+
+/* About us section ends
+===================================*/
+/* Wavier Section
+===================================*/
+.btn-container {
+  max-width: 345px;
+  margin: 0 auto; }
+
+.waiver-section {
+  background: #5eadcb; }
+  .waiver-section h2 {
+    margin-bottom: 25px; }
+  .waiver-section p {
+    text-align: center; }
+  .waiver-section a {
+    line-height: 1; }
+  .waiver-section .waiver-btn {
+    margin: 20px auto;
+    background: #96d59e;
+    font-weight: 800;
+    font-size: 22px;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px; }
+  .waiver-section .waiver-btn:hover {
+    background-color: #69956F;
+    color: white;
+    text-decoration: none; }
+
+/* Prices section 
+===================================*/
+.prices-section {
+  background: #334d69;
+  border: 1px solid #334d69; }
+  .prices-section h2 {
+    margin-bottom: 110px; }
+
+.prices-container {
+  margin: 0  auto 180px auto; }
+  .prices-container:last-child {
+    margin-bottom: 0; }
+  .prices-container li:first-of-type {
+    background: #9fa9b2; }
+  .prices-container .prices-bar {
+    background: #1e2e41;
+    height: 30px; }
+  .prices-container .prices-circle {
+    margin: 0 auto;
+    position: relative;
+    bottom: 60px;
+    width: 80px;
+    height: 80px;
+    background-color: #EE6B4D;
+    background-image: url("../images/ticket2.png");
+    background-repeat: no-repeat;
+    background-position: 16px 16px;
+    border-radius: 40px; }
+  .prices-container li {
+    text-align: center;
+    background-color: #eee;
+    margin-bottom: 4px; }
+
+.member-btn {
+  margin: 30px auto;
+  background: #96d59e;
+  font-weight: 800;
+  font-size: 22px;
+  display: block;
+  padding: 15px;
+  text-align: center;
+  color: black;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px; }
+
+.member-btn:hover {
+  background-color: #69956F;
+  color: white;
+  text-decoration: none; }
+
+/* rentals section
+===================================*/
+.rental-section {
+  background: #3fa6ad;
+  border: 1px solid #3fa6ad; }
+  .rental-section h2 {
+    text-align: center;
+    margin-bottom: 90px; }
+
+.rental-bar {
+  background: #1e2e41;
+  height: 30px;
+  display: block; }
+
+.rental-bar-large .none {
+  display: none; }
+
+.rental-circle {
+  width: 80px;
+  height: 80px;
+  background: #EE6B4D;
+  border-radius: 50px;
+  position: relative;
+  bottom: 60px;
+  margin: 0 auto;
+  background-image: url("../images/helmet.png");
+  background-repeat: no-repeat;
+  background-position: 16px 16px; }
+
+.rental-prices {
+  background-color: #eee;
+  text-align: center;
+  margin-bottom: 4px; }
+
+/* Location Section
+===================================*
+*/
+.embed-container {
+  position: relative;
+  min-height: 200px;
+  overflow: hidden;
+  max-width: 100%; }
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+.map-contain {
+  width: 100%; }
+
+.directions-marg {
+  margin-bottom: 100px; }
+
+.location-section {
+  background: #4c4c4c; }
+  .location-section h2 {
+    margin-bottom: 30px; }
+  .location-section h3:first-of-type {
+    margin-top: 40px; }
+  .location-section a {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    text-decoration: underline; }
+    .location-section a:last-of-type {
+      margin-bottom: 40px; }
+
+/* Hours Section
+===================================*
+*/
+.hours-section {
+  background: #96d59e; }
+  .hours-section h2 {
+    text-align: center;
+    margin-bottom: 90px; }
+  .hours-section .hours-bar {
+    background: #1e2e41;
+    height: 30px; }
+  .hours-section .hours-bar-large .none {
+    display: none; }
+  .hours-section .hours-circle {
+    width: 80px;
+    height: 80px;
+    background: #EE6B4D;
+    border-radius: 50px;
+    position: relative;
+    bottom: 60px;
+    margin: 0 auto;
+    background-image: url("../images/clock.png");
+    background-repeat: no-repeat;
+    background-position: 16px 16px; }
+    .hours-section .hours-circle .none {
+      display: none; }
+  .hours-section .hours-prices {
+    background-color: #eee;
+    text-align: center;
+    margin-bottom: 4px; }
+
+/* Programs Section
+ ===================================*/
+.programs-section {
+  background: #373235; }
+  .programs-section h2 {
+    margin-bottom: 40px; }
+  .programs-section .program-marg {
+    margin-bottom: 120px; }
+
+/* Events Section
+===================================*/
+.events-section {
+  background: #3fa6ad; }
+  .events-section h2 {
+    margin-bottom: 40px; }
+  .events-section li {
+    color: white;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.6; }
+    .events-section li:last-of-type {
+      box-shadow: none; }
+  .events-section .calender-btn {
+    min-width: 60%; }
+
+/* Footer Styles
+===================================*/
+footer {
+  padding-top: 210px;
+  padding-bottom: 120px;
+  width: 100%;
+  background: #373235;
+  margin-top: -50px; }
+  footer .social-container {
+    margin: 0 auto;
+    width: 210px; }
+    footer .social-container .svg {
+      width: 50px;
+      display: inline-block;
+      float: left;
+      margin-right: 30px;
+      margin-bottom: 30px; }
+      footer .social-container .svg:last-of-type {
+        margin-right: 0; }
+  footer p {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: white; }
+
+/* To Top Button Styles
+===================================*/
+.top {
+  display: none;
+  background-color: #faba56;
+  bottom: 2em;
+  color: #FFF;
+  opacity: 0.9;
+  padding: 1.2em;
+  position: fixed;
+  right: 1.5em;
+  text-decoration: none;
+  transition-duration: 1s; }
+
+.top:hover {
+  opacity: 1;
+  transition: 1s;
+  text-decoration: none;
+  color: #fff; }
+
+/* jQuery Styles
+===================================*/
+.navbar-scroll {
+  background: white;
+  padding: 20px 0 10px 0;
+  box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.1s; }
+  .navbar-scroll .navbar-toggle {
+    border-color: black;
+    margin-top: 0; }
+  .navbar-scroll #navbar li a {
+    color: black; }
+  .navbar-scroll .logo h1 {
+    font-size: 33px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-shadow: none; }
+  .navbar-scroll .logo p {
+    margin-top: -8px;
+    margin-right: -5px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: black;
+    text-shadow: none; }
+  .navbar-scroll .menu {
+    color: black; }
+
+.questions-hero {
+  background-image: url(../images/boots-change3.jpg);
+  background-position: center center; }
+
+.first-time-section {
+  padding-top: 160px;
+  margin-top: -40px;
+  background: white; }
+  .first-time-section h2 {
+    margin-bottom: 40px;
+    color: black;
+    font-size: 60px; }
+  .first-time-section p, .first-time-section h3 {
+    color: black; }
+  .first-time-section p {
+    margin-bottom: 120px; }
+
+.q1-section {
+  background: white; }
+
+.info-hero {
+  background: url(../images/two-rail1.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover; }
+
+.info-section {
+  margin-top: -50px;
+  background: white;
+  color: black; }
+  .info-section h2 {
+    margin-bottom: 40px;
+    font-size: 70px; }
+  .info-section p, .info-section h2, .info-section h3 {
+    color: black; }
+  .info-section h3 {
+    margin-top: 30px; }
+  .info-section .history-section {
+    margin-top: 80px; }
+  .info-section .img-fix {
+    width: 80%;
+    margin: 0 auto;
+    display: block; }
+
+.cable-section {
+  background: #3fa6ad; }
+  .cable-section h2 {
+    margin-bottom: 40px;
+    font-size: 70px; }
+  .cable-section .top-img:first-of-type p {
+    margin-bottom: 120px; }
+
+input {
+  font-size: 21px;
+  font-weight: bold;
+  display: block;
+  margin: 20px auto;
+  outline: 0;
+  border: 0;
+  border: 1px solid lightgrey;
+  padding: 10px 10px;
+  font-size: 13px;
+  width: 100%;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5); }
+
+.form-section {
+  background: white; }
+  .form-section h2 {
+    color: black;
+    margin-bottom: 15px;
+    font-size: 70px; }
+
+.form-btn {
+  margin: 0px auto;
+  background: #96d59e;
+  font-weight: 800;
+  font-size: 22px;
+  display: block;
+  padding: 15px;
+  text-align: center;
+  color: black;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px; }
+
+.form-btn:hover {
+  background-color: #69956F;
+  color: white;
+  text-decoration: none; }
+
+.lessons-hero {
+  background: url(../images/sesitec1.jpg);
+  background-size: cover;
+  background-position: center bottom; }
+
+nav .logo-fix {
+  margin-left: 35px; }
+
+.lessons-kern {
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 1px; }
+
+.lessons-info-section {
+  margin-top: -50px;
+  background: white;
+  color: black; }
+  .lessons-info-section h2 {
+    margin-bottom: 50px;
+    font-size: 70px; }
+  .lessons-info-section p, .lessons-info-section h2, .lessons-info-section h3 {
+    color: black; }
+  .lessons-info-section .history-section {
+    margin-top: 80px; }
+  .lessons-info-section .img-fix {
+    width: 80%;
+    margin: 0 auto;
+    display: block; }
+
+.lessons-price-section {
+  margin-top: 0px;
+  background: #334d69;
+  border: 1px solid #334d69; }
+  .lessons-price-section h2 {
+    margin-bottom: 110px;
+    font-size: 70px; }
+  .lessons-price-section li:first-of-type {
+    padding-top: 20px; }
+
+.lessons-price-container {
+  margin-top: 140px; }
+  .lessons-price-container li {
+    margin-top: 0; }
+  .lessons-price-container:last-child {
+    margin-bottom: 0; }
+  .lessons-price-container li:first-of-type {
+    background: #9fa9b2; }
+  .lessons-price-container .prices-bar {
+    background: #1e2e41;
+    height: 30px; }
+  .lessons-price-container .prices-circle {
+    margin: 0 auto;
+    position: relative;
+    bottom: 60px;
+    width: 80px;
+    height: 80px;
+    background-color: #EE6B4D;
+    background-image: url("../images/ticket2.png");
+    background-repeat: no-repeat;
+    background-position: 16px 16px;
+    border-radius: 40px; }
+  .lessons-price-container li {
+    text-align: center;
+    background: #ebebeb;
+    margin-bottom: 4px; }
+
+@media (min-width: 480px) {
+  .prices-section, .location-section, .programs-section {
+    margin-top: -90px; }
+
+  .section-img {
+    margin-top: -20px;
+    min-height: 500px; }
+
+  .embed-container {
+    min-height: 300px; }
+
+  h2 {
+    font-size: 80px; }
+
+  input {
+    width: 80%; }
+
+  .menu {
+    font-size: 22px; } }
+@media screen and (min-width: 768px) {
+  .logo {
+    display: inline-block; }
+    .logo h1 {
+      font-size: 85px; }
+    .logo p {
+      font-size: 20px;
+      margin-top: -25px; }
+
+  .menu {
+    font-size: 26px;
+    margin-top: 80px; }
+
+  li {
+    box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.5); }
+
+  .navbar-collapse li {
+    box-shadow: none; }
+
+  .prices-container, .rental-prices, .hours-prices {
+    margin-right: .45%;
+    width: 33%; }
+    .prices-container:last-of-type, .rental-prices:last-of-type, .hours-prices:last-of-type {
+      margin-right: 0%; }
+
+  .section-img {
+    margin-top: -30px;
+    min-height: 600px; }
+
+  nav .container {
+    padding-left: 0;
+    padding-right: 0; }
+
+  .main-contain {
+    width: 97.5%;
+    margin: 0 auto; }
+
+  input {
+    width: 60%; }
+
+  .cable-section h3 {
+    margin-top: -4px; }
+
+  .lessons-price-section {
+    margin-top: 0;
+    background: #334d69;
+    border: 1px solid #334d69; }
+    .lessons-price-section h2 {
+      margin-bottom: 110px; }
+    .lessons-price-section li:first-of-type {
+      padding-top: 15px; }
+
+  .lessons-price-container {
+    margin-top: 0; }
+
+  .first-time-section p {
+    margin-bottom: 0; }
+    .first-time-section p:nth-child(odd) {
+      padding-bottom: 120px; }
+
+  .info-section .img-fix, .lessons-info-section .img-fix, .lessons-price-section .img-fix {
+    width: 75%; }
+
+  .btn {
+    display: inline-block; }
+
+  .events-section li {
+    box-shadow: none; }
+
+  .circle-none {
+    display: none; }
+
+  .navbar-right {
+    margin-right: -9px; } }
+@media screen and (min-width: 810px) {
+  .info-section h2, .cable-section h2, .form-section h2, .first-time-section h2,
+  .first-time-section h2, .lessons-info-section h2, .lessons-price-section h2 {
+    font-size: 80px; } }
+@media screen and (min-width: 992px) {
+  .logo {
+    display: inline-block; }
+    .logo h1 {
+      font-size: 115px;
+      margin-top: 20px; }
+    .logo p {
+      font-size: 30px;
+      margin-top: -35px; }
+
+  .info-section h3 {
+    margin-top: -5px; }
+
+  .all-padding {
+    padding-top: 160px;
+    padding-bottom: 160px; }
+
+  .lessons-price-section {
+    margin-top: 0px;
+    background: #334d69;
+    border: 1px solid #334d69; }
+    .lessons-price-section h2 {
+      margin-bottom: 100px; }
+    .lessons-price-section li:first-of-type {
+      padding-top: 50px; }
+
+  .top-img img {
+    margin-bottom: 120px; }
+
+  .directions-marg {
+    margin-bottom: 0; }
+
+  .lessons-contain {
+    width: 80%;
+    margin: 0 auto; }
+
+  .lessons-info-section h3 {
+    margin-top: 0; }
+
+  .section-img {
+    margin-top: -30px; }
+
+  .container {
+    width: 90%; }
+
+  .item {
+    background-size: cover;
+    height: 700px; }
+
+  .second {
+    background-image: url(../images/teen-rider.jpg);
+    background-position: center bottom; }
+
+  .lefty {
+    padding-right: 40px; }
+
+  .righty {
+    padding-left: 40px; }
+
+  .read-btn {
+    margin-bottom: 0; }
+
+  .prices-section .prices-container {
+    margin-bottom: 0; }
+  .prices-section .location-section {
+    margin-top: -200px; }
+  .prices-section .member-btn {
+    margin: 30px auto;
+    width: 33%; }
+
+  .embed-container {
+    min-height: 400px; }
+
+  .rental-bar, .hours-bar {
+    display: none; }
+
+  .rental-bar-large {
+    height: 30px;
+    background: #1e2e41; }
+    .rental-bar-large .none {
+      display: block;
+      margin-bottom: 0; }
+
+  .location-section h3 {
+    margin-top: 50px; }
+  .location-section a {
+    font-size: 25px; }
+
+  .hours-section .hours-bar-large {
+    height: 30px;
+    background: #1e2e41; }
+    .hours-section .hours-bar-large .none {
+      display: block; }
+
+  .programs-section h3 {
+    margin-top: -5px; }
+
+  .program-marg-large {
+    margin-bottom: 160px; }
+
+  .events-section h3 {
+    margin-top: -4px; }
+
+  .lessons-section .col-md-6 {
+    padding-right: 15px;
+    padding-left: 15px; }
+
+  input {
+    width: 50%; }
+
+  .info-section .img-fix {
+    margin: 0; } }
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1150px; }
+
+  .prices-container, .rental-prices {
+    margin-right: .45%;
+    width: 33%; }
+    .prices-container:last-of-type, .rental-prices:last-of-type {
+      margin-right: 0%; }
+
+  .prices-section, .location-section, .programs-section {
+    margin-top: -190px; }
+
+  .section-img {
+    margin-top: -40px;
+    min-height: 700px; }
+
+  input {
+    width: 40%; }
+
+  .form-btn {
+    width: 40%; } }
+@media screen and (min-width: 1400px) {
+  .section-img {
+    margin-top: -60px; } }
+@media screen and (min-width: 1500px) {
+  .lessons-hero, .info-hero, .questions-hero {
+    min-height: 700px; }
+
+  .first {
+    background-position: top center; }
+
+  .third {
+    background-position: top center; }
+
+  .first, .second, .third {
+    min-height: 900px; }
+
+  .container {
+    max-width: 1250px; }
+
+  .section-img {
+    margin-top: -80px; } }
+
+/*# sourceMappingURL=style.css.map */
